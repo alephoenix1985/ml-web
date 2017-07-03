@@ -1,0 +1,2484 @@
+.loader
+  height: 4px
+  width: 100%
+  position: absolute
+  overflow: hidden
+  background-color: #ddd
+  z-index: 1000
+  &:before
+    display: block
+    position: absolute
+    content: ""
+    left: -200px
+    width: 200px
+    height: 4px
+    background-color: #2980b9
+    animation: loading 2s linear infinite
+
+@keyframes loading
+  from
+    left: -200px
+    width: 30%
+  50%
+    width: 30%
+  70%
+    width: 70%
+  80%
+    left: 50%
+  95%
+    left: 120%
+  to
+    left: 100%
+
+.u-hide-text
+  line-height: 0
+  font-size: 0
+  color: transparent
+
+.u-link--disabled
+  pointer-events: none
+  cursor: default
+
+.u-accesibility-hidden
+  position: absolute !important
+  left: (-9999px) !important
+  width: 1px !important
+  height: 1px !important
+  overflow: hidden !important
+
+.u-align-left
+  text-align: left
+
+.u-align-right
+  text-align: right
+
+.u-align-center
+  text-align: center
+
+.u-bg-color--yellow
+  background-color: #ffea78 !important
+
+.u-bg-color--white
+  background-color: #fff !important
+
+.u-bg-color--red
+  background-color: #b00 !important
+
+.u-bg-color--green
+  background-color: #64c574 !important
+
+.u-bg-color--orange
+  background-color: #ffa15a !important
+
+.u-bg-color--blue
+  background-color: #3483fa !important
+
+.u-button-reset
+  padding: 0
+  background: 0
+  -webkit-box-shadow: none
+  box-shadow: none
+  border: 0
+  outline: 0 !important
+  width: auto
+  font-size: inherit
+  font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,"Roboto",Arial,sans-serif
+
+.u-clearfix
+  &:after, &:before
+    display: table
+    content: ''
+  &:after
+    clear: both
+
+.u-display-b
+  display: block !important
+
+.u-display-ib
+  display: inline-block !important
+
+.u-display-i
+  display: inline !important
+
+.u-fullscreen-display-table
+  width: 100%
+  height: 100%
+  display: table-cell
+  vertical-align: middle
+
+.u-fullscreen-position-absolute
+  width: 100% !important
+  min-height: 100% !important
+  position: absolute !important
+  top: 0 !important
+  left: 0 !important
+  z-index: 1020 !important
+
+.u-float-left
+  float: left !important
+
+.u-float-right
+  float: right !important
+
+.u-center-v
+  position: absolute
+  left: 50%
+  top: 50%
+  -webkit-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%)
+
+.u-center-h
+  position: absolute
+  bottom: 0
+  left: 50%
+  -webkit-transform: translateX(-50%)
+  -ms-transform: translateX(-50%)
+  transform: translateX(-50%)
+
+.u-position-rt
+  position: absolute
+  right: 0
+  top: 0
+
+.u-position-lt
+  position: absolute
+  left: 0
+  top: 0
+
+.u-position-rb
+  position: absolute
+  right: 0
+  bottom: 0
+
+.u-position-lb
+  position: absolute
+  left: 0
+  bottom: 0
+
+.u-clear-right
+  clear: right !important
+
+.u-clear-left
+  clear: left !important
+
+.u-clear-both
+  clear: both !important
+
+.u-line--one
+  display: -webkit-box
+  line-height: 1
+  -webkit-line-clamp: 1
+  -webkit-box-orient: vertical
+  overflow-y: hidden
+  line-height: inherit
+
+.u-line--two
+  display: -webkit-box
+  line-height: 1
+  -webkit-line-clamp: 2
+  -webkit-box-orient: vertical
+  overflow-y: hidden
+  line-height: inherit
+
+.u-line--three
+  display: -webkit-box
+  line-height: 1
+  -webkit-line-clamp: 3
+  -webkit-box-orient: vertical
+  overflow-y: hidden
+  line-height: inherit
+
+.u-link
+  color: #3483fa
+  cursor: pointer
+
+.u-link-no-visited:visited
+  color: #3483fa !important
+
+.u-media-object
+  &:before
+    display: table
+    content: ''
+  &:after
+    display: table
+    content: ''
+    clear: both
+
+.u-media-object__fit
+  float: left
+
+.u-media-object__fit--inverse
+  float: right
+
+.u-media-object__fill
+  overflow: hidden
+  _overflow: visible
+  zoom: 1
+
+.u-fixed
+  -webkit-transform: translate3d(0, 0, 0)
+  transform: translate3d(0, 0, 0)
+
+.u-animated
+  -webkit-backface-visibility: hidden
+  backface-visibility: hidden
+  -webkit-transform: translate3d(0, 0, 0)
+  transform: translate3d(0, 0, 0)
+
+.u-animated--size
+  will-change: width,height
+
+.u-animated--position
+  will-change: top,right,bottom,left
+
+.u-reflect
+  -webkit-transform: scaleX(-1)
+  -ms-transform: scaleX(-1)
+  transform: scaleX(-1)
+  -webkit-filter: FlipH
+  filter: FlipH
+
+.u-rotate--90
+  -webkit-transform: rotate(90deg)
+  -ms-transform: rotate(90deg)
+  transform: rotate(90deg)
+
+.u-rotate--180
+  -webkit-transform: rotate(180deg)
+  -ms-transform: rotate(180deg)
+  transform: rotate(180deg)
+
+.u-rotate--270
+  -webkit-transform: rotate(270deg)
+  -ms-transform: rotate(270deg)
+  transform: rotate(270deg)
+
+.u-text--100
+  font-weight: 100
+
+.u-text--300
+  font-weight: 300
+
+.u-text--400
+  font-weight: 400
+
+.u-text--600
+  font-weight: 600
+
+.u-text--700
+  font-weight: 700
+
+.u-text--900
+  font-weight: 900
+
+.u-text--italic
+  font-style: italic
+
+.u-text--truncate
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+
+.u-text--green
+  color: #39b54a
+
+.u-text--red
+  color: #ff5a5f
+
+.ui-badge
+  width: 80px
+  height: 80px
+  background-color: #fff
+  -webkit-border-radius: 50%
+  border-radius: 50%
+  display: inline-block
+  position: relative
+
+.ui-badge__icon
+  position: absolute
+  left: 50%
+  top: 50%
+  -webkit-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%)
+  margin: auto
+  position: absolute
+  img, svg
+    display: block
+    max-width: 100%
+
+.ui-badge__complementary
+  img, svg
+    display: block
+    max-width: 100%
+  position: absolute
+  bottom: 0
+  right: 0
+  display: table
+  text-align: center
+  -webkit-transform: translateX(50%)
+  -ms-transform: translateX(50%)
+  transform: translateX(50%)
+
+.ui-badge__complementary-info
+  display: table-cell
+  color: #fff
+  font-size: 14px
+  vertical-align: middle
+
+.ui-badge--xsmall
+  width: 34px
+  height: 34px
+
+.ui-badge--small
+  width: 48px
+  height: 48px
+  .ui-badge__icon
+    max-width: 24px
+  .ui-badge__complementary
+    width: 24px
+    height: 24px
+
+.ui-badge--medium
+  width: 80px
+  height: 80px
+  .ui-badge__icon
+    max-width: 46px
+  .ui-badge__complementary
+    width: 34px
+    height: 34px
+
+.ui-badge--large
+  width: 90px
+  height: 90px
+  .ui-badge__icon
+    max-width: 46px
+  .ui-badge__complementary
+    width: 34px
+    height: 34px
+
+.ui-breadcrumb
+  font-size: 14px
+  color: #333
+  margin: 12px 0
+
+.ui-breadcrumb__link
+  color: inherit
+  &:link
+    color: inherit
+
+.ui-breadcrumb__indicator .ui-icon
+  stroke: #333
+  stroke-width: 5px
+  width: 11px
+  position: relative
+  top: -1px
+
+.ui-button
+  font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,"Roboto",Arial,sans-serif
+  -webkit-border-radius: 4px
+  border-radius: 4px
+  border: 0
+  cursor: pointer
+  display: block
+  font-size: 18px
+  font-weight: 300
+  margin: 0
+  padding: 12px
+  text-align: center
+  width: 100%
+  -webkit-appearance: none
+  -moz-appearance: none
+  appearance: none
+
+.ui-button--primary
+  background: #3483fa
+  color: #fff
+  &:link, &:visited
+    color: #fff
+
+.ui-button--secondary
+  background: 0
+  color: #3483fa
+  &:link, &:visited
+    color: #3483fa
+
+.ui-button--tertiary
+  background: 0
+  color: #333
+  &:link, &:visited
+    color: #333
+
+.ui-button--modal
+  text-transform: uppercase
+  font-size: 12px
+  color: #3483fa
+  background: 0
+  padding: 8px
+
+.ui-button--disabled
+  background-color: #ddd
+  color: #fff
+  cursor: not-allowed
+
+.ui-modal-bg
+  width: 100%
+  height: 100%
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 1020
+  background-color: #ffdb15
+  opacity: .9
+
+.ui-modal-dialog__button-close
+  position: relative
+  width: 16px
+  height: 16px
+  cursor: pointer
+  padding: 24px
+  position: absolute
+  top: 20px
+  left: 20px
+  z-index: 1021
+  &:after
+    position: absolute
+    left: 8px
+    top: 0
+    content: ''
+    height: 16px
+    width: 2px
+    background-color: #000
+    cursor: pointer
+  &:before
+    position: absolute
+    left: 8px
+    top: 0
+    content: ''
+    height: 16px
+    width: 2px
+    background-color: #000
+    cursor: pointer
+    -webkit-transform: rotate(45deg) translateX(20px)
+    -ms-transform: rotate(45deg) translateX(20px)
+    transform: rotate(45deg) translateX(20px)
+  &:after
+    -webkit-transform: rotate(-45deg) translateY(20px)
+    -ms-transform: rotate(-45deg) translateY(20px)
+    transform: rotate(-45deg) translateY(20px)
+    opacity: .5
+  &:before
+    opacity: .5
+
+.ui-modal-dialog
+  width: 100%
+  height: 100%
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 1021
+  display: table
+  font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,"Roboto",Arial,sans-serif
+  .ui-modal-link
+    display: block
+    font-size: 18px
+    font-weight: 300
+    text-align: center
+    color: #333
+    width: 100%
+    margin-top: 30px
+
+.ui-modal-dialog__content-wrapper
+  display: table-cell
+  vertical-align: middle
+  text-align: center
+
+.ui-modal-dialog__container
+  margin: 0 auto
+  width: 80%
+  max-width: 360px
+  max-height: 600px
+  min-height: 80px
+
+.ui-modal-dialog__content-footer
+  position: absolute
+  left: 0
+  right: 0
+
+.ui-modal-dialog--is-open
+  overflow: hidden
+  header[role='banner'], main[role='main']
+    -webkit-filter: blur(5px)
+    filter: blur(5px)
+
+.ui-list
+  position: relative
+  width: 100%
+  background: #fff
+
+.ui-list__content
+  margin: 0
+  padding: 0
+  position: relative
+
+.ui-list__sub-title, .ui-list__title
+  font-weight: 300
+  text-align: center
+
+.ui-list__header-title
+  text-align: center
+  font-size: 22px
+  font-weight: 300
+  color: #666
+
+.ui-list__header-subtitle
+  text-align: center
+  font-size: 16px
+  color: #999
+  font-weight: 300
+
+.ui-list__header, .ui-list__item
+  display: block
+  margin: 0
+  padding: 0
+  list-style: none
+  text-align: left
+
+.ui-list__header
+  border-bottom: 1px solid #d8d8d8
+
+.ui-list__item
+  border-top: 1px solid #d8d8d8
+  &:first-child
+    border-top: 0
+  &:last-child
+    border-bottom: 1px solid #d8d8d8
+
+.ui-list__item--selected
+  position: relative
+  &:before
+    border-left: 5px solid #3483fa
+    content: ''
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+
+.ui-list__header
+  padding: 30px 0
+
+.ui-list__item-option
+  font-size: 18px
+  padding: 18px 15px
+  display: block
+  cursor: pointer
+  margin: 0
+  border: 0
+  width: 100%
+  text-align: left
+  background: 0
+  color: #333
+  font-weight: 300
+  line-height: 1.25
+
+input.ui-list__item-option:focus
+  outline: 0
+
+.ui-list__item-option-subtitle
+  display: block
+  font-size: 15px
+  font-weight: 300
+  color: #999
+
+.ui-list__item--disabled .ui-list__item-option
+  color: #ccc
+
+.ui-list__form
+  position: relative
+  display: block
+  padding: 18px 15px
+
+.ui-list__button--continue
+  margin-top: 32px
+
+.u-align-center
+  .ui-list__item, .ui-list__item-option
+    text-align: center
+
+.ui-list--modal
+  -webkit-border-radius: 4px
+  border-radius: 4px
+  .ui-list__header
+    background-color: #eee
+    -webkit-border-radius: 4px 4px 0 0
+    border-radius: 4px 4px 0 0
+    border-bottom: 0
+  .ui-list__content
+    max-height: 500px
+    max-height: 50vh
+    overflow-y: auto
+  .ui-list__item:last-child
+    border-bottom: 0
+
+.ui-loading--inline
+  position: relative
+
+.ui-loading--block
+  position: absolute
+  z-index: 7
+  .ui-loading__container
+    z-index: 8
+
+.ui-loading--fullscreen
+  position: fixed
+  z-index: 1022
+  .ui-loading__container
+    z-index: 1023
+
+.ui-loading--block, .ui-loading--fullscreen, .ui-loading__mask
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+
+.ui-loading--block .ui-loading__container, .ui-loading--fullscreen .ui-loading__container
+  position: absolute
+  top: 50%
+  left: 50%
+  -webkit-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%)
+
+.ui-loading__mask
+  position: absolute
+  background-color: rgba(255, 255, 255, 0.9)
+
+.ui-loading--inline .ui-loading__mask
+  display: none
+
+.ui-loading__spinner
+  width: 32px
+  height: 32px
+  -webkit-animation: loading-rotate 2s linear infinite
+  animation: loading-rotate 2s linear infinite
+  -webkit-transform-origin: center center
+  -ms-transform-origin: center center
+  transform-origin: center center
+  position: relative
+
+.ui-loading__spinner--small
+  width: 32px
+  height: 32px
+
+.ui-loading__spinner--large
+  width: 64px
+  height: 64px
+
+.ui-loading__spinner-path
+  stroke-dasharray: 1,200
+  stroke-dashoffset: 0
+  -webkit-animation: loading-dash 1.5s ease-in-out infinite,loading-color 6s ease-in-out infinite
+  animation: loading-dash 1.5s ease-in-out infinite,loading-color 6s ease-in-out infinite
+  stroke-linecap: round
+
+@-webkit-keyframes loading-rotate
+  100%
+    -webkit-transform: rotate(360deg)
+    transform: rotate(360deg)
+
+
+@keyframes loading-rotate
+  100%
+    -webkit-transform: rotate(360deg)
+    transform: rotate(360deg)
+
+
+@-webkit-keyframes loading-dash
+  0%
+    stroke-dasharray: 1,200
+    stroke-dashoffset: 0
+
+  50%
+    stroke-dasharray: 89,200
+    stroke-dashoffset: -35px
+
+  100%
+    stroke-dasharray: 89,200
+    stroke-dashoffset: -124px
+
+
+@keyframes loading-dash
+  0%
+    stroke-dasharray: 1,200
+    stroke-dashoffset: 0
+
+  50%
+    stroke-dasharray: 89,200
+    stroke-dashoffset: -35px
+
+  100%
+    stroke-dasharray: 89,200
+    stroke-dashoffset: -124px
+
+
+@-webkit-keyframes loading-color
+  100%,0%
+    stroke: #3483fa
+
+
+@keyframes loading-color
+  100%,0%
+    stroke: #3483fa
+
+
+@font-face
+  font-family: 'Proxima Nova'
+  font-weight: 300
+  font-style: normal
+  src: url("https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff2") format("woff2"), url("https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff") format("woff"), url("https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.ttf") format("truetype")
+
+
+@font-face
+  font-family: 'Proxima Nova'
+  font-weight: 400
+  font-style: normal
+  src: url("https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff2") format("woff2"), url("https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff") format("woff"), url("https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.ttf") format("truetype")
+
+
+@font-face
+  font-family: 'Proxima Nova'
+  font-weight: 600
+  font-style: normal
+  src: url("https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff2") format("woff2"), url("https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff") format("woff"), url("https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.ttf") format("truetype")
+
+
+@font-face
+  font-family: 'search-icons'
+  src: url("https://http2.mlstatic.com/resources/search-fonts/search-icons-v16.eot")
+  src: url("https://http2.mlstatic.com/resources/search-fonts/search-icons-v16.eot?#iefix") format("embedded-opentype"), url("https://http2.mlstatic.com/resources/search-fonts/search-icons-v16.woff") format("woff"), url("https://http2.mlstatic.com/resources/search-fonts/search-icons-v16.ttf") format("truetype"), url("https://http2.mlstatic.com/resources/search-fonts/search-icons-v16.svg?#icons") format("svg")
+  font-weight: normal
+  font-style: normal
+
+
+a
+  text-decoration: none
+  color: #3483fa
+
+.hidden, .ch-hide
+  display: none
+
+.clearfix:after
+  content: ""
+  display: block
+  clear: both
+
+body
+  &.modal-open
+    overflow: hidden
+    &.modal-win
+      overflow: auto
+  &.ipad.modal-open
+    overflow: scroll
+
+.no-js .has-tooltip
+  position: relative
+  &::before
+    margin-top: 10px
+    position: absolute
+    background-color: #fff
+    -webkit-border-radius: 2px
+    border-radius: 2px
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 rgba(0, 0, 0, 0.05)
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 rgba(0, 0, 0, 0.05)
+    top: 100%
+    left: 50%
+    min-width: 65px
+    padding: 6px 8px
+    position: absolute
+    -webkit-transform: translate(-50%, 0)
+    -ms-transform: translate(-50%, 0)
+    transform: translate(-50%, 0)
+    text-align: center
+    font-size: 12px
+    color: #333
+    content: attr(aria-label)
+    z-index: 999
+    line-height: 1.5
+  &::after
+    border: 5px solid transparent
+    border-bottom-color: #fff
+    top: 100%
+    content: ''
+    left: 50%
+    position: absolute
+    -webkit-transform: translate(-50%, 0)
+    -ms-transform: translate(-50%, 0)
+    transform: translate(-50%, 0)
+    z-index: 999
+  &::before, &::after
+    display: none
+    pointer-events: none
+  &:focus
+    &::before, &::after
+      display: block
+  &:hover
+    &::before, &::after
+      display: block
+
+a
+  &.qcat-truncate.has-tooltip:hover .ui-tooltip__data, &.qcat.has-tooltip:hover .ui-tooltip__data
+    display: block
+    -webkit-transform: translate(-50%, 45%)
+    -ms-transform: translate(-50%, 45%)
+    transform: translate(-50%, 45%)
+    line-height: 1.2
+
+.filters__official_store a.qcat.has-tooltip:hover .ui-tooltip__data
+  -webkit-transform: translate(-50%, 42px)
+  -ms-transform: translate(-50%, 42px)
+  transform: translate(-50%, 42px)
+
+html
+  -ms-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%
+
+body
+  margin: 0
+  font: 16px/1 sans-serif
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+
+h1, h2, h3, h4, p, blockquote, figure, ol, ul
+  margin: 0
+  padding: 0
+
+main, li
+  display: block
+
+h1, h2, h3, h4
+  font-size: inherit
+
+strong
+  font-weight: bold
+
+a, button
+  color: inherit
+
+a
+  text-decoration: none
+
+button
+  overflow: visible
+  border: 0
+  font: inherit
+  -webkit-font-smoothing: inherit
+  letter-spacing: inherit
+  background: 0
+  cursor: pointer
+
+\::-moz-focus-inner
+  padding: 0
+  border: 0
+
+\:focus
+  outline: 0
+
+img
+  max-width: 100%
+  border: 0
+
+body.modal-open.modal-win
+  .nav-header.nav-header-sticky
+    padding-right: 17px
+  .nav-main-content
+    padding-right: 20px
+
+.dropdown-trigger:checked ~
+.ui-dropdown__link > .ui-dropdown__indicator
+  -webkit-transform: rotate(-90deg)
+  -ms-transform: rotate(-90deg)
+  transform: rotate(-90deg)
+  .ui-dropdown__content
+    display: block !important
+
+.ui-dropdown__indicator
+  width: 16px
+  height: 16px
+  -webkit-transform: rotate(90deg)
+  -ms-transform: rotate(90deg)
+  transform: rotate(90deg)
+  color: #3483fa
+  -webkit-transition: -webkit-transform .3s ease-out
+  transition: transform .3s ease-out
+  &:after
+    content: '\e904'
+    font-family: "search-icons"
+    position: relative
+
+.sort-by.range-filter
+  .ui-dropdown
+    float: left
+    width: auto
+    .ui-dropdown__indicator
+      height: 16px
+      margin-left: 4px
+      margin-right: -2px
+      left: 0
+      top: 1px
+    .ui-dropdown__indicator-up
+      -webkit-transform: rotate(-90deg)
+      -ms-transform: rotate(-90deg)
+      transform: rotate(-90deg)
+  &:first-child:after
+    color: #999
+    content: "\2014"
+    float: left
+    font-size: 12px
+    line-height: 2px
+    margin: 0 8px
+    padding: 7px 0
+  .ui-dropdown__content
+    min-width: 80px
+    height: 167px
+    overflow-x: hidden
+  .ui-list
+    width: 80px
+
+.filters .filters__group
+  .see-more-filter
+    &[for="years-modal"], &[for="VEHICLE_YEAR-modal"]
+      margin-bottom: 25px
+  &.variation-filter .ui-tooltip__data
+    margin-top: 10px
+
+.chs-modal.is-loading
+  background-image: none
+
+.installments-disclaimer
+  text-align: center
+  font-size: 12px
+  margin-top: 24px
+  color: #999
+
+.related-searches
+  color: #999
+  font-size: 11px
+  overflow: hidden
+  line-height: 1.38
+  a
+    color: #999
+  p
+    display: block
+  ul
+    display: block
+    li
+      display: block
+
+p.deep-links
+  display: none
+
+.search-results
+  list-style: none
+  .item
+    background-color: #fff
+    color: #333
+    -webkit-border-radius: 4px
+    border-radius: 4px
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 -1px 2px 0 rgba(0, 0, 0, 0.1)
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 -1px 2px 0 rgba(0, 0, 0, 0.1)
+    position: relative
+    .item__info
+      position: relative
+    .item__discount
+      color: #39b54a
+    .item__shipping
+      background-color: #fff
+      border: solid 1px #333
+      border: solid 1px rgba(51, 51, 51, 0.1)
+      -webkit-border-radius: 50%
+      border-radius: 50%
+      position: absolute
+    .item__bookmark
+      background-color: #fff
+      background-color: rgba(255, 255, 255, 0.7)
+      -webkit-border-radius: 50%
+      border-radius: 50%
+      display: none
+    .item__title a
+      text-decoration: none
+    img
+      color: transparent
+    .item__bookmark-form .favorite.selected .item__bookmark
+      display: block
+
+.quantity-results
+  color: #333
+  font-size: 14px
+  line-height: 1.29
+  font-weight: 300
+
+.pagination
+  display: table
+  text-align: center
+
+.pagination__back, .pagination__next, .pagination__page
+  background-color: #fff
+  -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1)
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1)
+  display: inline-block
+  float: left
+  height: 36px
+  line-height: 36px
+  margin: 0 1px
+  min-width: 36px
+  position: relative
+
+.pagination__back:hover, .pagination__next:hover, .pagination__page:hover
+  background-color: #eee
+
+.pagination__back, .pagination__next
+  width: 36px
+
+.pagination__back
+  -webkit-border-radius: 4px 0 0 4px
+  border-radius: 4px 0 0 4px
+
+.pagination__next
+  -webkit-border-radius: 0 4px 4px 0
+  border-radius: 0 4px 4px 0
+
+.pagination__back::before
+  display: block
+  -webkit-transform: rotate(180deg)
+  -ms-transform: rotate(180deg)
+  transform: rotate(180deg)
+
+.pagination__next a, .pagination__back a
+  display: block
+  height: 36px
+  line-height: 36px
+  text-decoration: none
+
+.pagination__page a
+  display: block
+  height: 36px
+  line-height: 36px
+  text-decoration: none
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  color: #999
+  min-width: 36px
+  padding: 0 8px
+
+.pagination__next a, .pagination__back a
+  left: 0
+  overflow: hidden
+  position: absolute
+  top: 0
+  width: 36px
+
+.pagination__next a:after, .pagination__back a:after
+  content: "\e904"
+  color: #666
+  display: block
+  font-family: "search-icons"
+  font-size: 12px
+  left: 0
+
+.pagination__next.pagination--disabled a:after
+  color: #ccc
+
+.pagination__back
+  &.pagination--disabled a:after
+    color: #ccc
+  a:after
+    -webkit-transform: rotate(180deg)
+    -ms-transform: rotate(180deg)
+    transform: rotate(180deg)
+
+.pagination__page--current a
+  color: #333
+  pointer-events: none
+
+.pagination--disabled
+  opacity: .6
+  pointer-events: none
+
+.sort-by-options-trigger, .dropdown-trigger
+  display: none
+
+.sort-by
+  .sort-by__link
+    color: #333
+    font-size: 14px
+    display: inline-block
+    cursor: pointer
+  .ui-list__item-option
+    padding: 12px 20px
+    font-size: 14px
+    color: #333
+  .ui-list__item--selected .ui-list__item-option
+    cursor: default
+
+.applied-filters dl
+  dt
+    font-weight: 700
+    font-size: 14px
+  dd
+    padding: 0 8px
+    background: white
+    -webkit-border-radius: 2px
+    border-radius: 2px
+    h2
+      font-size: 13px
+      color: #666
+
+.box_51993, .box_91993, .box_82026
+  background-color: #f00
+
+.box_51994, .box_91994, .box_82027
+  background-color: #f4cccc
+
+.box_51995
+  background-color: #ea9999
+
+.box_51996, .box_91995, .box_82028
+  background-color: #e06666
+
+.box_51997
+  background-color: #c00
+
+.box_51998, .box_91996, .box_82029
+  background-color: #900
+
+.box_51999
+  background-color: #600
+
+.box_52000, .box_91997, .box_82030
+  background-color: #f90
+
+.box_52001, .box_91998, .box_82031
+  background-color: #fce5cd
+
+.box_52002
+  background-color: #f9cb9c
+
+.box_52003, .box_91999, .box_82032
+  background-color: #f6b26b
+
+.box_52004
+  background-color: #e69138
+
+.box_52005, .box_92000, .box_82033
+  background-color: #b45f06
+
+.box_52006
+  background-color: #783f04
+
+.box_52007, .box_92001, .box_82034
+  background-color: #ff0
+
+.box_52008, .box_92002, .box_82035
+  background-color: #fff2cc
+
+.box_52009
+  background-color: #ffe599
+
+.box_52010, .box_92003, .box_82036
+  background-color: #ffd966
+
+.box_52011
+  background-color: #f1c232
+
+.box_52012, .box_92004, .box_82037
+  background-color: #bf9000
+
+.box_52013
+  background-color: #7f6000
+
+.box_52014, .box_92005, .box_82038
+  background-color: #0c9800
+
+.box_52015, .box_92006, .box_82039
+  background-color: #d9ead3
+
+.box_52016
+  background-color: #b6d7a8
+
+.box_52017, .box_92007, .box_82040
+  background-color: #93c47d
+
+.box_52018
+  background-color: #6aa84f
+
+.box_52019, .box_92008, .box_82041
+  background-color: #38761d
+
+.box_52020
+  background-color: #274e13
+
+.box_52021, .box_92009, .box_82042
+  background-color: #83ddff
+
+.box_52022, .box_92010, .box_82043
+  background-color: #d0e0e3
+
+.box_52023
+  background-color: #a2c4c9
+
+.box_52024, .box_92011, .box_82044
+  background-color: #76a5af
+
+.box_52025
+  background-color: #45818e
+
+.box_52026, .box_92012, .box_82045
+  background-color: #134f5c
+
+.box_52027
+  background-color: #0c343d
+
+.box_52028, .box_92013, .box_82046
+  background-color: #1717ff
+
+.box_52029, .box_92014, .box_82047
+  background-color: #cfe2f3
+
+.box_52030
+  background-color: #9fc5e8
+
+.box_52031, .box_92015, .box_82048
+  background-color: #6fa8dc
+
+.box_52032
+  background-color: #3d85c6
+
+.box_52033, .box_92016, .box_82049
+  background-color: #0b5394
+
+.box_52034
+  background-color: #073763
+
+.box_52035, .box_92017, .box_82050
+  background-color: #7600ff
+
+.box_52036, .box_92018, .box_82051
+  background-color: #d9d2e9
+
+.box_52037
+  background-color: #b4a7d6
+
+.box_52038, .box_92019, .box_82052
+  background-color: #8e7cc3
+
+.box_52039
+  background-color: #674ea7
+
+.box_52040, .box_92020, .box_82053, .box_a78316c
+  background-color: #351c75
+
+.box_52041
+  background-color: #20124d
+
+.box_52042, .box_92021, .box_82054
+  background-color: #e828ff
+
+.box_52043, .box_92022, .box_82055
+  background-color: #ead1dc
+
+.box_52044
+  background-color: #d5a6bd
+
+.box_52045, .box_92023, .box_82056
+  background-color: #c27ba0
+
+.box_52046
+  background-color: #a64d79
+
+.box_52047, .box_92024, .box_82057
+  background-color: #741b47
+
+.box_52048
+  background-color: #4c1130
+
+.box_52049, .box_92025, .box_82058
+  background-color: #000
+
+.box_52050
+  background-color: #444
+
+.box_52051, .box_92027, .box_82060
+  background-color: #666
+
+.box_52052
+  background-color: #999
+
+.box_52053, .box_92026, .box_82059
+  background-color: #ccc
+
+.box_52054
+  background-color: #e7e7e7
+
+.box_52055, .box_92028, .box_82061
+  background-color: #fff
+
+.box_52056
+  background-color: white
+
+.box_52057
+  background-color: #f00
+
+.box_52058
+  background-color: #f4cccc
+
+.box_52059
+  background-color: #ea9999
+
+.box_52060
+  background-color: #e06666
+
+.box_52061
+  background-color: #c00
+
+.box_52062
+  background-color: #900
+
+.box_52063
+  background-color: #600
+
+.box_52064
+  background-color: #f90
+
+.box_52065
+  background-color: #fce5cd
+
+.box_52066
+  background-color: #f9cb9c
+
+.box_52067
+  background-color: #f6b26b
+
+.box_52068
+  background-color: #e69138
+
+.box_52069
+  background-color: #b45f06
+
+.box_52070
+  background-color: #783f04
+
+.box_52071
+  background-color: #ff0
+
+.box_52072
+  background-color: #fff2cc
+
+.box_52073
+  background-color: #ffe599
+
+.box_52074
+  background-color: #ffd966
+
+.box_52075
+  background-color: #f1c232
+
+.box_52076
+  background-color: #bf9000
+
+.box_52077
+  background-color: #7f6000
+
+.box_52078
+  background-color: #0c9800
+
+.box_52079
+  background-color: #d9ead3
+
+.box_52080
+  background-color: #b6d7a8
+
+.box_52081
+  background-color: #93c47d
+
+.box_52082
+  background-color: #6aa84f
+
+.box_52083
+  background-color: #38761d
+
+.box_52084
+  background-color: #274e13
+
+.box_52085
+  background-color: #83ddff
+
+.box_52086
+  background-color: #d0e0e3
+
+.box_52087
+  background-color: #a2c4c9
+
+.box_52088
+  background-color: #76a5af
+
+.box_52089
+  background-color: #45818e
+
+.box_52090
+  background-color: #134f5c
+
+.box_52091
+  background-color: #0c343d
+
+.box_52092
+  background-color: #1717ff
+
+.box_52093
+  background-color: #cfe2f3
+
+.box_52094
+  background-color: #9fc5e8
+
+.box_52095
+  background-color: #6fa8dc
+
+.box_52096
+  background-color: #3d85c6
+
+.box_52097
+  background-color: #0b5394
+
+.box_52098
+  background-color: #073763
+
+.box_52099
+  background-color: #7600ff
+
+.box_52100
+  background-color: #d9d2e9
+
+.box_52101
+  background-color: #b4a7d6
+
+.box_52102
+  background-color: #8e7cc3
+
+.box_52103
+  background-color: #674ea7
+
+.box_52104
+  background-color: #351c75
+
+.box_52105
+  background-color: #20124d
+
+.box_52106
+  background-color: #e828ff
+
+.box_52107
+  background-color: #ead1dc
+
+.box_52108
+  background-color: #d5a6bd
+
+.box_52109
+  background-color: #c27ba0
+
+.box_52110
+  background-color: #a64d79
+
+.box_52111
+  background-color: #741b47
+
+.box_52112
+  background-color: #4c1130
+
+.box_52113
+  background-color: #000
+
+.box_52114
+  background-color: #444
+
+.box_52115
+  background-color: #666
+
+.box_52116
+  background-color: #999
+
+.box_52117
+  background-color: #ccc
+
+.box_52118
+  background-color: #e7e7e7
+
+.box_52119
+  background-color: #fff
+
+.box_52120
+  background-color: white
+
+.box_fb82e1f
+  background-color: #f00
+
+.box_7bd6fac
+  background-color: #f4cccc
+
+.box_f91a6c4
+  background-color: #e06666
+
+.box_af6dc0b
+  background-color: #900
+
+.box_32fdc72
+  background-color: #f90
+
+.box_fb4ed8e
+  background-color: #fce5cd
+
+.box_611f27d
+  background-color: #f6b26b
+
+.box_175dec5
+  background-color: #b45f06
+
+.box_2f3a3b5
+  background-color: #ff0
+
+.box_e0759ec
+  background-color: #fff2cc
+
+.box_a9914eb
+  background-color: #ffd966
+
+.box_1102908
+  background-color: #bf9000
+
+.box_fcc9d4e
+  background-color: #0c9800
+
+.box_9606f8d
+  background-color: #d9ead3
+
+.box_fd874ee
+  background-color: #93c47d
+
+.box_9e6069e
+  background-color: #38761d
+
+.box_714d9f3
+  background-color: #83ddff
+
+.box_b499a5e
+  background-color: #d0e0e3
+
+.box_64fd06b
+  background-color: #76a5af
+
+.box_8f5cf0a
+  background-color: #134f5c
+
+.box_ef2c011
+  background-color: #1717ff
+
+.box_8d09d06
+  background-color: #cfe2f3
+
+.box_b754f26
+  background-color: #9fc5e8
+
+.box_00bf0b1
+  background-color: #0b5394
+
+.box_475bbd2
+  background-color: #7600ff
+
+.box_aa981c2
+  background-color: #d9d2e9
+
+.box_7e6afac
+  background-color: #8e7cc3
+
+.box_3389f10
+  background-color: #e828ff
+
+.box_3786593
+  background-color: #ead1dc
+
+.box_0cac501
+  background-color: #c27ba0
+
+.box_0b40e2d
+  background-color: #741b47
+
+.box_2105d8e
+  background-color: black
+
+.box_02bb186
+  background-color: #666
+
+.box_8a61dfa
+  background-color: #ccc
+
+.box_8af212a
+  background-color: #fff
+
+.box_11000-Rojo
+  background-color: #f00
+
+.box_11000-Rosa
+  background-color: #f4cccc
+
+.box_11000-Terracota
+  background-color: #e06666
+
+.box_11000-Vino
+  background-color: #900
+
+.box_11000-Naranja
+  background-color: #f90
+
+.box_11000-Beige
+  background-color: #fce5cd
+
+.box_11000-Piel
+  background-color: #f6b26b
+
+.box_11000-Cafe
+  background-color: #b45f06
+
+.box_11000-Amarillo
+  background-color: #ff0
+
+.box_11000-Crema
+  background-color: #fff2cc
+
+.box_11000-Ocre
+  background-color: #ffd966
+
+.box_11000-Dorado
+  background-color: #bf9000
+
+.box_11000-Verde
+  background-color: #0c9800
+
+.box_11000-VerdeClaro
+  background-color: #d9ead3
+
+.box_11000-Esmeralda
+  background-color: #93c47d
+
+.box_11000-VerdeOscuro
+  background-color: #38761d
+
+.box_11000-Agua
+  background-color: #83ddff
+
+.box_11000-AzulCielo
+  background-color: #d0e0e3
+
+.box_11000-AzulPetroleo
+  background-color: #134f5c
+
+.box_11000-AzulMarino
+  background-color: #120a8f
+
+.box_11000-Azul
+  background-color: #1717ff
+
+.box_11000-Celeste
+  background-color: #cfe2f3
+
+.box_11000-AzulAcero
+  background-color: #6fa8dc
+
+.box_11000-AzulOscuro
+  background-color: #0b5394
+
+.box_11000-VioletaOscuro
+  background-color: #7600ff
+
+.box_11000-Lavanda
+  background-color: #d9d2e9
+
+.box_11000-Lila
+  background-color: #8e7cc3
+
+.box_11000-Violeta
+  background-color: #351c75
+
+.box_11000-Fucsia
+  background-color: #e828ff
+
+.box_11000-Salmon
+  background-color: #ead1dc
+
+.box_11000-FucsiaOscuro
+  background-color: #c27ba0
+
+.box_11000-Purpura
+  background-color: #741b47
+
+.box_11000-Negro
+  background-color: #000
+
+.box_11000-Plateado
+  background-color: #ccc
+
+.box_11000-Gris
+  background-color: #666
+
+.box_11000-Blanco
+  background-color: #fff
+
+.box_069ea81
+  background-color: white
+
+.box_4b4a968
+  background-color: #e828ff
+
+.box_5ca665e
+  background-color: black
+
+.box_227dee1
+  background-color: #f4cccc
+
+.box_9b3294d
+  background-color: #1717ff
+
+.box_ee2fde8
+  background-color: #666
+
+.box_a0d820c
+  background-color: #351c75
+
+.box_bca95f6
+  background-color: #f00
+
+.box_4afc38c
+  background-color: #ccc
+
+.box_9518026
+  background-color: #e06666
+
+.box_39d4abf
+  background-color: #f90
+
+.box_ff4ec68
+  background-color: #fff2cc
+
+.box_3b78fc7
+  background-color: #0b5394
+
+.box_4691b74
+  background-color: #c27ba0
+
+.box_766f5b5
+  background-color: #ff0
+
+.box_8affb30
+  background-color: #643200
+
+.box_5d94916
+  background-color: #d0e0e3
+
+.box_9119583
+  background-color: #741b47
+
+.box_dbd2203
+  background-color: #93c47d
+
+.box_f83ff3c
+  background-color: #d9ead3
+
+.box_fceb8f5
+  background-color: #8e7cc3
+
+.box_10295e4
+  background-color: #120a8f
+
+.box_24b1258
+  background-color: #cfe2f3
+
+.box_315ad5e
+  background-color: #0c9800
+
+.box_558e1df
+  background-color: #50021b
+
+.box_6d7c130
+  background-color: #7600ff
+
+.box_75231a3
+  background-color: #d9d2e9
+
+.box_7a41f13
+  background-color: #134f5c
+
+.box_beb18d4
+  background-color: #6fa8dc
+
+.box_c639833
+  background-color: #bf9000
+
+.box_97eb811
+  background-color: #83ddff
+
+.box_902be5b
+  background-color: #fce5cd
+
+.box_342528c
+  background-color: #ffd966
+
+.box_17c2e56
+  background-color: #f6b26b
+
+.box_0081517
+  background-color: #ead1dc
+
+.box_2558516
+  background-color: #38761d
+
+.box_9e5d70b
+  background-color: black
+
+.box_64926b5
+  background-color: white
+
+.box_535b836
+  background-color: #1717ff
+
+.box_48bab54
+  background-color: #666
+
+.box_cc7580e
+  background-color: #f00
+
+.box_a27816f
+  background-color: #ff0
+
+.box_6e09ad8
+  background-color: #0c9800
+
+.box_9c20328
+  background-color: #0b5394
+
+.box_47cfc86
+  background-color: #f90
+
+.box_ffe7bdc
+  background-color: #a52a2a
+
+.box_18b8342
+  background-color: #ccc
+
+.box_1d020b3
+  background-color: #83ddff
+
+.box_e1965bb
+  background-color: #e828ff
+
+.box_2779117
+  background-color: #7600ff
+
+.box_d0a6b31
+  background-color: #6fa8dc
+
+.box_ee2c094
+  background-color: #93c47d
+
+.box_ff9612a
+  background-color: #50021b
+
+.box_161b4d8
+  background-color: #fce5cd
+
+.box_ef5b0b0
+  background-color: #38761d
+
+.box_338982b
+  background-color: #fff2cc
+
+.box_1aa4904
+  background-color: #134f5c
+
+.box_ad32ad0
+  background-color: #e06666
+
+.box_040b51a
+  background-color: #741b47
+
+.box_1980ced
+  background-color: #f6b26b
+
+.box_5299c90
+  background-color: #120a8f
+
+.box_7729846
+  background-color: #cfe2f3
+
+.box_c8d33b6
+  background-color: #d9ead3
+
+.box_6514216
+  background-color: #ffd966
+
+.box_6de1c94
+  background-color: #f4cccc
+
+.box_5b231d4
+  background-color: #bf9000
+
+.box_0f61b44
+  background-color: #d0e0e3
+
+.box_1e65b29
+  background-color: #8e7cc3
+
+.box_af37c69
+  background-color: #d9d2e9
+
+.box_49d56b8
+  background-color: #ead1dc
+
+.box_ed0195c
+  background-color: #c27ba0
+
+.mclics-bottom
+  color: #666
+  position: relative
+  a
+    color: #666
+    text-decoration: none
+
+.price-filter__value
+  -webkit-border-radius: 2px
+  border-radius: 2px
+  border: solid 1px #999
+  text-align: center
+  font-size: 13px
+  -webkit-border-radius: 4px
+  border-radius: 4px
+  &:focus
+    border-color: #3483fa
+    margin: 0
+    padding: 0
+  margin: 0
+  padding: 0
+
+.no-js .price-filter__action-link
+  display: none
+
+.filters__price .currency-filter
+  input
+    display: none
+  label
+    color: #bbb
+
+.modal-size-filter .qcat-filter, .filters .size-filter .filters__group__option
+  display: inline-block
+  margin-right: 10px
+  padding: 0
+
+.modal-size-filter .qcat-filter
+  .ui-tooltip, a.qcat-truncate
+    -webkit-border-radius: 12px
+    border-radius: 12px
+    cursor: pointer
+
+.filters .size-filter .filters__group__option
+  .ui-tooltip
+    -webkit-border-radius: 12px
+    border-radius: 12px
+    cursor: pointer
+  a.qcat-truncate
+    -webkit-border-radius: 12px
+    border-radius: 12px
+    cursor: pointer
+    &.qcat
+      border: 1px solid #999
+      -webkit-box-sizing: border-box
+      box-sizing: border-box
+      display: block
+      height: 24px
+      min-width: 24px
+      padding: 0 8px
+      text-align: center
+      line-height: 22px
+
+.modal-size-filter .qcat-truncate
+  -webkit-border-radius: 12px
+  border-radius: 12px
+  color: #666
+  display: block
+  font-size: 12px
+  font-weight: 500
+  text-decoration: none
+  width: auto
+
+.filters .size-filter
+  dd a.qcat-truncate
+    -webkit-border-radius: 12px
+    border-radius: 12px
+    color: #666
+    display: block
+    font-size: 12px
+    font-weight: 500
+    text-decoration: none
+    width: auto
+  .modal-size-filter dd a.qcat-truncate
+    pointer-events: all
+
+.filters__group.size-filter.variation-filter
+  max-width: 100%
+
+.filters__color
+  .ui-tooltip
+    cursor: pointer
+  .modal-color-filter dd a.qcat-truncate
+    pointer-events: all
+
+.modal-overlay, .modal-label
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  align-items: center
+  -webkit-box-pack: center
+  -webkit-justify-content: center
+  -ms-flex-pack: center
+  justify-content: center
+  z-index: -1
+  visibility: hidden
+  opacity: 0
+
+.modal-overlay
+  .modal-label
+    background: rgba(0, 0, 0, 0.6)
+    z-index: 1050
+  .modal-container
+    background: #fff
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -webkit-flex-direction: column
+    -ms-flex-direction: column
+    flex-direction: column
+    -webkit-justify-content: space-around
+    -ms-flex-pack: distribute
+    justify-content: space-around
+    -webkit-box-align: center
+    -webkit-align-items: center
+    -ms-flex-align: center
+    align-items: center
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    max-height: 95%
+    width: 100%
+    z-index: 1060
+  .modal-content
+    width: 100%
+
+.modal-trigger
+  &:checked
+    + .modal-overlay
+      z-index: 1024
+    ~ .modal-close
+      display: block
+    + .modal-overlay
+      visibility: visible
+      opacity: 1
+      .modal-label
+        visibility: visible
+        opacity: 1
+  display: none
+
+body
+  &[class*='ie-'] .modal-overlay .modal-container
+    overflow: hidden
+  &.hasProductHeader ol.item-list.list-items.mosaic
+    padding-top: 0
+
+.product-header-section
+  position: relative
+  min-height: 156px
+  padding: 0
+  background: #f0f0f0
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  a.product-header-container
+    cursor: cursor
+  .product-header-container
+    text-decoration: none
+    padding: 24px 16px
+    display: block
+    &:active, &:hover, &:visited
+      text-decoration: none
+  .product-image
+    display: inline-block
+    height: 105px
+    width: 105px
+    vertical-align: middle
+    padding: 10px
+    background: #fff
+    -webkit-border-radius: 4px
+    border-radius: 4px
+    overflow: hidden
+    img
+      max-width: 105px
+  .product-info-container
+    display: inline-block
+    vertical-align: middle
+    height: 125px
+    padding-left: 141px
+    .product-brand
+      line-height: 17px
+      font-weight: 600
+      font-size: 16px
+      color: #333
+      text-transform: uppercase
+    .product-name
+      display: -webkit-box
+      color: #333
+      font-size: 24px
+      line-height: 26px
+      margin-bottom: 9px
+      -webkit-line-clamp: 2
+      -webkit-box-orient: vertical
+      overflow: hidden
+      max-height: 48px
+      font-weight: 300
+    .reviews
+      line-height: 14px
+      &:hover, .review-average:hover
+        text-decoration: none
+      .review-stars .star-icon
+        position: relative
+        width: auto
+        height: auto
+        margin: 0
+      .review-average, .review-number
+        font-size: 18px
+        line-height: 17px
+        font-weight: 300
+        color: #333
+      .review-average
+        margin-left: 5px
+        vertical-align: middle
+      .review-number, .review-number-no-link
+        font-weight: 300
+        display: block
+        pointer-events: none
+  .product-header_line-container
+    display: none
+
+.billboards .billboard
+  .item__bookmark
+    background-color: #fff
+    background-color: rgba(255, 255, 255, 0.7)
+    -webkit-border-radius: 50%
+    border-radius: 50%
+    display: none
+  .item__bookmark-form .favorite.selected .item__bookmark
+    display: block
+
+.images-viewer
+  &:hover
+    .ch-carousel-prev, .ch-carousel-next
+      visibility: visible
+  .carousel
+    position: relative
+  .ch-carousel
+    overflow: auto
+    position: relative
+    -webkit-transform: translateZ(0)
+    transform: translateZ(0)
+  .ch-carousel-mask
+    overflow: hidden
+    position: relative
+    margin: 0
+  .ch-carousel > ul, .ch-carousel-list
+    -webkit-box-align: center
+    -webkit-align-items: center
+    -ms-flex-align: center
+    align-items: center
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    height: 100%
+    overflow: hidden
+    -webkit-transition: all .8s ease
+    transition: all .8s ease
+    width: -webkit-max-content
+    width: -moz-max-content
+    width: max-content
+    margin: 0
+    padding: 0
+    list-style: none
+    will-change: transform
+  .ch-carousel
+    ul.ch-carousel-nofx
+      -webkit-transition: none
+      transition: none
+    > ul > li
+      display: inline-block
+      float: left
+      -webkit-box-sizing: border-box
+      box-sizing: border-box
+      width: 284px
+  .ch-carousel-item
+    display: inline-block
+    float: left
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
+    width: 284px
+  .ch-carousel > ul > li img, .ch-carousel-item img
+    margin: 0 auto
+  .ch-carousel-prev, .ch-carousel-next
+    visibility: hidden
+    cursor: pointer
+    position: absolute
+    z-index: 2
+    width: 47px
+    height: 80px
+    font-size: 2em
+    line-height: 3.3em
+    color: #eee
+    top: 45%
+    margin: -40px 0 0 0
+    background: transparent
+  .ch-carousel-prev
+    left: 0
+  .ch-carousel-next
+    right: 0
+  .ch-carousel-prev:after, .ch-carousel-next:after, .ch-carousel-prev:before, .ch-carousel-next:before
+    font-family: 'search-icons'
+    content: "\e902"
+    font-size: 24px
+    position: absolute
+    width: 12px
+  .ch-carousel-prev
+    &:after
+      left: 17px
+    &:before
+      left: 17px
+      top: 1px
+  .ch-carousel-next:before, .ch-carousel-prev:before
+    color: #fff
+  .ch-carousel-next:after, .ch-carousel-prev:after
+    color: #3483fa
+  .ch-carousel-next:hover:after, .ch-carousel-prev:hover:after
+    color: #1259c3
+  .ch-carousel-next
+    &:after
+      right: 17px
+    &:before
+      right: 17px
+      top: 1px
+  .ch-carousel-prev
+    &:before, &:after
+      -webkit-transform: rotate(180deg)
+      -ms-transform: rotate(180deg)
+      transform: rotate(180deg)
+    &:hover
+      visibility: visible
+  .ch-carousel-next:hover
+    visibility: visible
+  .ch-carousel-disabled, .ch-carousel-prev:hover .ch-carousel-disabled, .ch-carousel-next:hover .ch-carousel-disabled
+    display: inline
+    opacity: 0 !important
+  .ch-carousel-pages
+    font-size: 0
+    line-height: 0
+    margin: 0 auto
+    text-align: center
+    width: 100%
+    position: absolute
+    bottom: 0
+    background: rgba(0, 0, 255, 0.5)
+    display: none
+    span
+      -webkit-border-radius: 100%
+      border-radius: 100%
+      cursor: pointer
+      display: inline-block
+      height: 10px
+      margin: 10px 5px
+      overflow: hidden
+      text-indent: -99px
+      width: 10px
+      border: 0
+      -webkit-box-shadow: none
+      box-shadow: none
+      background-color: #d1d1d1
+    .ch-carousel-selected
+      background-color: #999
+
+@media (min-width: 1024px) and (max-width: 1164px), (min-width: 720px) and (max-width: 861px)
+  .images-viewer
+    .ch-carousel > ul > li, .ch-carousel-item
+      width: 240px
+
+.aps-is-hidden
+  display: none !important
+
+.aps-is-visible
+  display: block !important
+
+.aps-container
+  background: #f0f0f0
+  -webkit-border-radius: 4px
+  border-radius: 4px
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  .ui-loading__mask
+    -webkit-border-radius: 4px
+    border-radius: 4px
+
+.reviews-filter__stars
+  display: block
+
+.reviews-filter__star
+  display: inline-block
+  margin-right: -2px
+  position: relative
+  &:after, &.star-icon-half:before
+    font-family: "search-icons"
+    height: 14px
+    width: 14px
+  &:after
+    content: "\e90a"
+    color: #ddd
+    font-size: 14px
+  &.star-icon-full:after
+    color: #3483fa
+  &.star-icon-half:before
+    color: #3483fa
+    content: "\e907"
+    font-size: 13px
+    left: 0
+    position: absolute
+    top: 0
+
+.images-viewer
+  -webkit-border-top-left-radius: 4px
+  border-top-left-radius: 4px
+  -webkit-border-top-right-radius: 4px
+  border-top-right-radius: 4px
+  overflow: hidden
+
+.item-loading__status-bar
+  display: block
+  position: relative
+  margin-bottom: -1px
+  margin-top: -1px
+  height: 1px
+  width: 100%
+  &:before
+    content: ''
+    height: 1px
+    position: absolute
+    -webkit-animation: animation-indeterminate
+    animation: animation-indeterminate
+    -webkit-animation-duration: 1s
+    animation-duration: 1s
+    -webkit-animation-iteration-count: infinite
+    animation-iteration-count: infinite
+    -webkit-animation-timing-function: linear
+    animation-timing-function: linear
+    -webkit-transform: scaleX(1)
+    -ms-transform: scaleX(1)
+    transform: scaleX(1)
+  &:after
+    content: ''
+    height: 1px
+    position: absolute
+    -webkit-animation: animation-indeterminate
+    animation: animation-indeterminate
+    -webkit-animation-duration: 1s
+    animation-duration: 1s
+    -webkit-animation-iteration-count: infinite
+    animation-iteration-count: infinite
+    -webkit-animation-timing-function: linear
+    animation-timing-function: linear
+    -webkit-transform: scaleX(1)
+    -ms-transform: scaleX(1)
+    transform: scaleX(1)
+    background-color: #999
+  &:before
+    background-color: rgba(255, 255, 255, 0.6)
+    top: -1px
+
+.item-loading__hide
+  opacity: 0
+  -webkit-transition: all .15s
+  transition: all .15s
+  -webkit-animation-play-state: paused
+  animation-play-state: paused
+  &:before, &:after
+    opacity: 0
+    -webkit-transition: all .15s
+    transition: all .15s
+    -webkit-animation-play-state: paused
+    animation-play-state: paused
+
+@-webkit-keyframes animation-indeterminate
+  0%
+    left: 0
+    width: 5%
+
+  50%
+    left: 15%
+    width: 60%
+
+  100%
+    left: 101%
+    width: 0
+
+
+@keyframes animation-indeterminate
+  0%
+    left: 0
+    width: 5%
+
+  50%
+    left: 15%
+    width: 60%
+
+  100%
+    left: 101%
+    width: 0
+
+
+body
+  background-color: #f5f5f5
+
+main
+  font-family: "Proxima Nova",Helvetica,Arial,sans-serif
+
+.item-list
+  background-color: #eee
+  overflow: hidden
+
+noscript
+  position: absolute
+  margin: 0
+  left: 0
+  right: 0
+  height: 100%
+  z-index: 9

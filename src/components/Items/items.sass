@@ -1,0 +1,6965 @@
+.u-hide-text
+  line-height: 0
+  font-size: 0
+  color: transparent
+
+.u-link--disabled
+  pointer-events: none
+  cursor: default
+
+.u-accesibility-hidden
+  position: absolute !important
+  left: (-9999px) !important
+  width: 1px !important
+  height: 1px !important
+  overflow: hidden !important
+
+.u-align-left
+  text-align: left
+
+.u-align-right
+  text-align: right
+
+.u-align-center
+  text-align: center
+
+.u-bg-color--yellow
+  background-color: #ffea78 !important
+
+.u-bg-color--white
+  background-color: #fff !important
+
+.u-bg-color--red
+  background-color: #b00 !important
+
+.u-bg-color--green
+  background-color: #64c574 !important
+
+.u-bg-color--orange
+  background-color: #ffa15a !important
+
+.u-bg-color--blue
+  background-color: #3483fa !important
+
+.u-button-reset
+  padding: 0
+  background: 0
+  -webkit-box-shadow: none
+  box-shadow: none
+  border: 0
+  outline: 0 !important
+  width: auto
+  font-size: inherit
+  font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,"Roboto",Arial,sans-serif
+
+.u-clearfix
+  &:after, &:before
+    display: table
+    content: ''
+  &:after
+    clear: both
+
+.u-display-b
+  display: block !important
+
+.u-display-ib
+  display: inline-block !important
+
+.u-display-i
+  display: inline !important
+
+.u-fullscreen-display-table
+  width: 100%
+  height: 100%
+  display: table-cell
+  vertical-align: middle
+
+.u-fullscreen-position-absolute
+  width: 100% !important
+  min-height: 100% !important
+  position: absolute !important
+  top: 0 !important
+  left: 0 !important
+  z-index: 1020 !important
+
+.u-float-left
+  float: left !important
+
+.u-float-right
+  float: right !important
+
+.u-center-v
+  position: absolute
+  left: 50%
+  top: 50%
+  -webkit-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%)
+
+.u-center-h
+  position: absolute
+  bottom: 0
+  left: 50%
+  -webkit-transform: translateX(-50%)
+  -ms-transform: translateX(-50%)
+  transform: translateX(-50%)
+
+.u-position-rt
+  position: absolute
+  right: 0
+  top: 0
+
+.u-position-lt
+  position: absolute
+  left: 0
+  top: 0
+
+.u-position-rb
+  position: absolute
+  right: 0
+  bottom: 0
+
+.u-position-lb
+  position: absolute
+  left: 0
+  bottom: 0
+
+.u-clear-right
+  clear: right !important
+
+.u-clear-left
+  clear: left !important
+
+.u-clear-both
+  clear: both !important
+
+.u-line--one
+  display: -webkit-box
+  line-height: 1
+  -webkit-line-clamp: 1
+  -webkit-box-orient: vertical
+  overflow-y: hidden
+  line-height: inherit
+
+.u-line--two
+  display: -webkit-box
+  line-height: 1
+  -webkit-line-clamp: 2
+  -webkit-box-orient: vertical
+  overflow-y: hidden
+  line-height: inherit
+
+.u-line--three
+  display: -webkit-box
+  line-height: 1
+  -webkit-line-clamp: 3
+  -webkit-box-orient: vertical
+  overflow-y: hidden
+  line-height: inherit
+
+.u-link
+  color: #3483fa
+  cursor: pointer
+
+.u-link-no-visited:visited
+  color: #3483fa !important
+
+.u-media-object
+  &:before
+    display: table
+    content: ''
+  &:after
+    display: table
+    content: ''
+    clear: both
+
+.u-media-object__fit
+  float: left
+
+.u-media-object__fit--inverse
+  float: right
+
+.u-media-object__fill
+  overflow: hidden
+  _overflow: visible
+  zoom: 1
+
+.u-fixed
+  -webkit-transform: translate3d(0, 0, 0)
+  transform: translate3d(0, 0, 0)
+
+.u-animated
+  -webkit-backface-visibility: hidden
+  backface-visibility: hidden
+  -webkit-transform: translate3d(0, 0, 0)
+  transform: translate3d(0, 0, 0)
+
+.u-animated--size
+  will-change: width,height
+
+.u-animated--position
+  will-change: top,right,bottom,left
+
+.u-reflect
+  -webkit-transform: scaleX(-1)
+  -ms-transform: scaleX(-1)
+  transform: scaleX(-1)
+  -webkit-filter: FlipH
+  filter: FlipH
+
+.u-rotate--90
+  -webkit-transform: rotate(90deg)
+  -ms-transform: rotate(90deg)
+  transform: rotate(90deg)
+
+.u-rotate--180
+  -webkit-transform: rotate(180deg)
+  -ms-transform: rotate(180deg)
+  transform: rotate(180deg)
+
+.u-rotate--270
+  -webkit-transform: rotate(270deg)
+  -ms-transform: rotate(270deg)
+  transform: rotate(270deg)
+
+.u-text--100
+  font-weight: 100
+
+.u-text--300
+  font-weight: 300
+
+.u-text--400
+  font-weight: 400
+
+.u-text--600
+  font-weight: 600
+
+.u-text--700
+  font-weight: 700
+
+.u-text--900
+  font-weight: 900
+
+.u-text--italic
+  font-style: italic
+
+.u-text--truncate
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+
+.u-text--green
+  color: #39b54a
+
+.u-text--red
+  color: #ff5a5f
+
+.ui-badge
+  width: 80px
+  height: 80px
+  background-color: #fff
+  -webkit-border-radius: 50%
+  border-radius: 50%
+  display: inline-block
+  position: relative
+
+.ui-badge__icon
+  position: absolute
+  left: 50%
+  top: 50%
+  -webkit-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%)
+  margin: auto
+  position: absolute
+  img, svg
+    display: block
+    max-width: 100%
+
+.ui-badge__complementary
+  img, svg
+    display: block
+    max-width: 100%
+  position: absolute
+  bottom: 0
+  right: 0
+  display: table
+  text-align: center
+  -webkit-transform: translateX(50%)
+  -ms-transform: translateX(50%)
+  transform: translateX(50%)
+
+.ui-badge__complementary-info
+  display: table-cell
+  color: #fff
+  font-size: 14px
+  vertical-align: middle
+
+.ui-badge--xsmall
+  width: 34px
+  height: 34px
+
+.ui-badge--small
+  width: 48px
+  height: 48px
+  .ui-badge__icon
+    max-width: 24px
+  .ui-badge__complementary
+    width: 24px
+    height: 24px
+
+.ui-badge--medium
+  width: 80px
+  height: 80px
+  .ui-badge__icon
+    max-width: 46px
+  .ui-badge__complementary
+    width: 34px
+    height: 34px
+
+.ui-badge--large
+  width: 90px
+  height: 90px
+  .ui-badge__icon
+    max-width: 46px
+  .ui-badge__complementary
+    width: 34px
+    height: 34px
+
+.ui-breadcrumb
+  font-size: 14px
+  color: #333
+  margin: 12px 0
+
+.ui-breadcrumb__link
+  color: inherit
+  &:link
+    color: inherit
+
+.ui-breadcrumb__indicator .ui-icon
+  stroke: #333
+  stroke-width: 5px
+  width: 11px
+  position: relative
+  top: -1px
+
+.ui-button
+  font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,"Roboto",Arial,sans-serif
+  -webkit-border-radius: 4px
+  border-radius: 4px
+  border: 0
+  cursor: pointer
+  display: block
+  font-size: 18px
+  font-weight: 300
+  margin: 0
+  padding: 12px
+  text-align: center
+  width: 100%
+  -webkit-appearance: none
+  -moz-appearance: none
+  appearance: none
+
+.ui-button--primary
+  background: #3483fa
+  color: #fff
+  &:link, &:visited
+    color: #fff
+
+.ui-button--secondary
+  background: 0
+  color: #3483fa
+  &:link, &:visited
+    color: #3483fa
+
+.ui-button--tertiary
+  background: 0
+  color: #333
+  &:link, &:visited
+    color: #333
+
+.ui-button--modal
+  text-transform: uppercase
+  font-size: 12px
+  color: #3483fa
+  background: 0
+  padding: 8px
+
+.ui-button--disabled
+  background-color: #ddd
+  color: #fff
+  cursor: not-allowed
+
+.ui-modal-bg
+  width: 100%
+  height: 100%
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 1020
+  background-color: #ffdb15
+  opacity: .9
+
+.ui-modal-dialog__button-close
+  position: relative
+  width: 16px
+  height: 16px
+  cursor: pointer
+  padding: 24px
+  position: absolute
+  top: 20px
+  left: 20px
+  z-index: 1021
+  &:after
+    position: absolute
+    left: 8px
+    top: 0
+    content: ''
+    height: 16px
+    width: 2px
+    background-color: #000
+    cursor: pointer
+  &:before
+    position: absolute
+    left: 8px
+    top: 0
+    content: ''
+    height: 16px
+    width: 2px
+    background-color: #000
+    cursor: pointer
+    -webkit-transform: rotate(45deg) translateX(20px)
+    -ms-transform: rotate(45deg) translateX(20px)
+    transform: rotate(45deg) translateX(20px)
+  &:after
+    -webkit-transform: rotate(-45deg) translateY(20px)
+    -ms-transform: rotate(-45deg) translateY(20px)
+    transform: rotate(-45deg) translateY(20px)
+    opacity: .5
+  &:before
+    opacity: .5
+
+.ui-modal-dialog
+  width: 100%
+  height: 100%
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 1021
+  display: table
+  font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,"Roboto",Arial,sans-serif
+  .ui-modal-link
+    display: block
+    font-size: 18px
+    font-weight: 300
+    text-align: center
+    color: #333
+    width: 100%
+    margin-top: 30px
+
+.ui-modal-dialog__content-wrapper
+  display: table-cell
+  vertical-align: middle
+  text-align: center
+
+.ui-modal-dialog__container
+  margin: 0 auto
+  width: 80%
+  max-width: 360px
+  max-height: 600px
+  min-height: 80px
+
+.ui-modal-dialog__content-footer
+  position: absolute
+  left: 0
+  right: 0
+
+.ui-modal-dialog--is-open
+  overflow: hidden
+  header[role='banner'], main[role='main']
+    -webkit-filter: blur(5px)
+    filter: blur(5px)
+
+.ui-list
+  position: relative
+  width: 100%
+  background: #fff
+
+.ui-list__content
+  margin: 0
+  padding: 0
+  position: relative
+
+.ui-list__sub-title, .ui-list__title
+  font-weight: 300
+  text-align: center
+
+.ui-list__header-title
+  text-align: center
+  font-size: 22px
+  font-weight: 300
+  color: #666
+
+.ui-list__header-subtitle
+  text-align: center
+  font-size: 16px
+  color: #999
+  font-weight: 300
+
+.ui-list__header, .ui-list__item
+  display: block
+  margin: 0
+  padding: 0
+  list-style: none
+  text-align: left
+
+.ui-list__header
+  border-bottom: 1px solid #d8d8d8
+
+.ui-list__item
+  border-top: 1px solid #d8d8d8
+  &:first-child
+    border-top: 0
+  &:last-child
+    border-bottom: 1px solid #d8d8d8
+
+.ui-list__item--selected
+  position: relative
+  &:before
+    border-left: 5px solid #3483fa
+    content: ''
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+
+.ui-list__header
+  padding: 30px 0
+
+.ui-list__item-option
+  font-size: 18px
+  padding: 18px 15px
+  display: block
+  cursor: pointer
+  margin: 0
+  border: 0
+  width: 100%
+  text-align: left
+  background: 0
+  color: #333
+  font-weight: 300
+  line-height: 1.25
+
+input.ui-list__item-option:focus
+  outline: 0
+
+.ui-list__item-option-subtitle
+  display: block
+  font-size: 15px
+  font-weight: 300
+  color: #999
+
+.ui-list__item--disabled .ui-list__item-option
+  color: #ccc
+
+.ui-list__form
+  position: relative
+  display: block
+  padding: 18px 15px
+
+.ui-list__button--continue
+  margin-top: 32px
+
+.u-align-center
+  .ui-list__item, .ui-list__item-option
+    text-align: center
+
+.ui-list--modal
+  -webkit-border-radius: 4px
+  border-radius: 4px
+  .ui-list__header
+    background-color: #eee
+    -webkit-border-radius: 4px 4px 0 0
+    border-radius: 4px 4px 0 0
+    border-bottom: 0
+  .ui-list__content
+    max-height: 500px
+    max-height: 50vh
+    overflow-y: auto
+  .ui-list__item:last-child
+    border-bottom: 0
+
+.ui-loading--inline
+  position: relative
+
+.ui-loading--block
+  position: absolute
+  z-index: 7
+  .ui-loading__container
+    z-index: 8
+
+.ui-loading--fullscreen
+  position: fixed
+  z-index: 1022
+  .ui-loading__container
+    z-index: 1023
+
+.ui-loading--block, .ui-loading--fullscreen, .ui-loading__mask
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+
+.ui-loading--block .ui-loading__container, .ui-loading--fullscreen .ui-loading__container
+  position: absolute
+  top: 50%
+  left: 50%
+  -webkit-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%)
+
+.ui-loading__mask
+  position: absolute
+  background-color: rgba(255, 255, 255, 0.9)
+
+.ui-loading--inline .ui-loading__mask
+  display: none
+
+.ui-loading__spinner
+  width: 32px
+  height: 32px
+  -webkit-animation: loading-rotate 2s linear infinite
+  animation: loading-rotate 2s linear infinite
+  -webkit-transform-origin: center center
+  -ms-transform-origin: center center
+  transform-origin: center center
+  position: relative
+
+.ui-loading__spinner--small
+  width: 32px
+  height: 32px
+
+.ui-loading__spinner--large
+  width: 64px
+  height: 64px
+
+.ui-loading__spinner-path
+  stroke-dasharray: 1,200
+  stroke-dashoffset: 0
+  -webkit-animation: loading-dash 1.5s ease-in-out infinite,loading-color 6s ease-in-out infinite
+  animation: loading-dash 1.5s ease-in-out infinite,loading-color 6s ease-in-out infinite
+  stroke-linecap: round
+
+@-webkit-keyframes loading-rotate
+  100%
+    -webkit-transform: rotate(360deg)
+    transform: rotate(360deg)
+
+
+@keyframes loading-rotate
+  100%
+    -webkit-transform: rotate(360deg)
+    transform: rotate(360deg)
+
+
+@-webkit-keyframes loading-dash
+  0%
+    stroke-dasharray: 1,200
+    stroke-dashoffset: 0
+
+  50%
+    stroke-dasharray: 89,200
+    stroke-dashoffset: -35px
+
+  100%
+    stroke-dasharray: 89,200
+    stroke-dashoffset: -124px
+
+
+@keyframes loading-dash
+  0%
+    stroke-dasharray: 1,200
+    stroke-dashoffset: 0
+
+  50%
+    stroke-dasharray: 89,200
+    stroke-dashoffset: -35px
+
+  100%
+    stroke-dasharray: 89,200
+    stroke-dashoffset: -124px
+
+
+@-webkit-keyframes loading-color
+  100%,0%
+    stroke: #3483fa
+
+
+@keyframes loading-color
+  100%,0%
+    stroke: #3483fa
+
+
+@font-face
+  font-family: 'Proxima Nova'
+  font-weight: 300
+  font-style: normal
+  src: url("https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff2") format("woff2"), url("https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff") format("woff"), url("https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.ttf") format("truetype")
+
+
+@font-face
+  font-family: 'Proxima Nova'
+  font-weight: 400
+  font-style: normal
+  src: url("https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff2") format("woff2"), url("https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff") format("woff"), url("https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.ttf") format("truetype")
+
+
+@font-face
+  font-family: 'Proxima Nova'
+  font-weight: 600
+  font-style: normal
+  src: url("https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff2") format("woff2"), url("https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff") format("woff"), url("https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.ttf") format("truetype")
+
+
+@font-face
+  font-family: 'search-icons'
+  src: url("https://http2.mlstatic.com/resources/search-fonts/search-icons-v16.eot")
+  src: url("https://http2.mlstatic.com/resources/search-fonts/search-icons-v16.eot?#iefix") format("embedded-opentype"), url("https://http2.mlstatic.com/resources/search-fonts/search-icons-v16.woff") format("woff"), url("https://http2.mlstatic.com/resources/search-fonts/search-icons-v16.ttf") format("truetype"), url("https://http2.mlstatic.com/resources/search-fonts/search-icons-v16.svg?#icons") format("svg")
+  font-weight: normal
+  font-style: normal
+
+
+a
+  text-decoration: none
+  color: #3483fa
+
+.hidden, .ch-hide
+  display: none
+
+.clearfix:after
+  content: ""
+  display: block
+  clear: both
+
+body
+  &.modal-open
+    overflow: hidden
+    &.modal-win
+      overflow: auto
+  &.ipad.modal-open
+    overflow: scroll
+
+.no-js .has-tooltip
+  position: relative
+  &::before
+    margin-top: 10px
+    position: absolute
+    background-color: #fff
+    -webkit-border-radius: 2px
+    border-radius: 2px
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 rgba(0, 0, 0, 0.05)
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 rgba(0, 0, 0, 0.05)
+    top: 100%
+    left: 50%
+    min-width: 65px
+    padding: 6px 8px
+    position: absolute
+    -webkit-transform: translate(-50%, 0)
+    -ms-transform: translate(-50%, 0)
+    transform: translate(-50%, 0)
+    text-align: center
+    font-size: 12px
+    color: #333
+    content: attr(aria-label)
+    z-index: 999
+    line-height: 1.5
+  &::after
+    border: 5px solid transparent
+    border-bottom-color: #fff
+    border-style: solid
+    border-width: 5px
+    top: 100%
+    content: ''
+    left: 50%
+    position: absolute
+    -webkit-transform: translate(-50%, 0)
+    -ms-transform: translate(-50%, 0)
+    transform: translate(-50%, 0)
+    z-index: 999
+  &::before, &::after
+    display: none
+    pointer-events: none
+  &:focus
+    &::before, &::after
+      display: block
+  &:hover
+    &::before, &::after
+      display: block
+
+a
+  &.qcat-truncate.has-tooltip:hover .ui-tooltip__data, &.qcat.has-tooltip:hover .ui-tooltip__data
+    display: block
+    -webkit-transform: translate(-50%, 45%)
+    -ms-transform: translate(-50%, 45%)
+    transform: translate(-50%, 45%)
+    line-height: 1.2
+
+.filters__official_store a.qcat.has-tooltip:hover .ui-tooltip__data
+  -webkit-transform: translate(-50%, 42px)
+  -ms-transform: translate(-50%, 42px)
+  transform: translate(-50%, 42px)
+
+html
+  -ms-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%
+
+body
+  margin: 0
+  font: 16px/1 sans-serif
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+
+h1, h2, h3, h4, p, blockquote, figure, ol, ul
+  margin: 0
+  padding: 0
+
+main, li
+  display: block
+
+h1, h2, h3, h4
+  font-size: inherit
+
+strong
+  font-weight: bold
+
+a, button
+  color: inherit
+
+a
+  text-decoration: none
+
+button
+  overflow: visible
+  border: 0
+  font: inherit
+  -webkit-font-smoothing: inherit
+  letter-spacing: inherit
+  background: 0
+  cursor: pointer
+
+\::-moz-focus-inner
+  padding: 0
+  border: 0
+
+\:focus
+  outline: 0
+
+img
+  max-width: 100%
+  border: 0
+
+body.modal-open.modal-win
+  .nav-header.nav-header-sticky
+    padding-right: 17px
+  .nav-main-content
+    padding-right: 20px
+
+.dropdown-trigger:checked ~
+.ui-dropdown__link > .ui-dropdown__indicator
+  -webkit-transform: rotate(-90deg)
+  -ms-transform: rotate(-90deg)
+  transform: rotate(-90deg)
+  .ui-dropdown__content
+    display: block !important
+
+.ui-dropdown__indicator
+  width: 16px
+  height: 16px
+  -webkit-transform: rotate(90deg)
+  -ms-transform: rotate(90deg)
+  transform: rotate(90deg)
+  color: #3483fa
+  -webkit-transition: -webkit-transform .3s ease-out
+  transition: transform .3s ease-out
+  &:after
+    content: '\e904'
+    font-family: "search-icons"
+    position: relative
+
+.sort-by.range-filter
+  .ui-dropdown
+    float: left
+    width: auto
+    .ui-dropdown__indicator
+      height: 16px
+      margin-left: 4px
+      margin-right: -2px
+      left: 0
+      top: 1px
+    .ui-dropdown__indicator-up
+      -webkit-transform: rotate(-90deg)
+      -ms-transform: rotate(-90deg)
+      transform: rotate(-90deg)
+  &:first-child:after
+    color: #999
+    content: "\2014"
+    float: left
+    font-size: 12px
+    line-height: 2px
+    margin: 0 8px
+    padding: 7px 0
+  .ui-dropdown__content
+    min-width: 80px
+    height: 167px
+    overflow-x: hidden
+  .ui-list
+    width: 80px
+
+.filters .filters__group
+  .see-more-filter
+    &[for="years-modal"], &[for="VEHICLE_YEAR-modal"]
+      margin-bottom: 25px
+  &.variation-filter .ui-tooltip__data
+    margin-top: 10px
+
+.chs-modal.is-loading
+  background-image: none
+
+.installments-disclaimer
+  text-align: center
+  font-size: 12px
+  margin-top: 24px
+  color: #999
+
+.related-searches
+  color: #999
+  font-size: 11px
+  overflow: hidden
+  line-height: 1.38
+  a
+    color: #999
+  p
+    display: block
+  ul
+    display: block
+    li
+      display: block
+
+p.deep-links
+  display: none
+
+.search-results
+  list-style: none
+  .item
+    background-color: #fff
+    color: #333
+    -webkit-border-radius: 4px
+    border-radius: 4px
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 -1px 2px 0 rgba(0, 0, 0, 0.1)
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 -1px 2px 0 rgba(0, 0, 0, 0.1)
+    position: relative
+    .item__info
+      position: relative
+    .item__discount
+      color: #39b54a
+    .item__shipping
+      background-color: #fff
+      border: solid 1px #333
+      border: solid 1px rgba(51, 51, 51, 0.1)
+      -webkit-border-radius: 50%
+      border-radius: 50%
+      position: absolute
+    .item__bookmark
+      background-color: #fff
+      background-color: rgba(255, 255, 255, 0.7)
+      -webkit-border-radius: 50%
+      border-radius: 50%
+      display: none
+    .item__title a
+      text-decoration: none
+    img
+      color: transparent
+    .item__bookmark-form .favorite.selected .item__bookmark
+      display: block
+
+.quantity-results
+  color: #333
+  font-size: 14px
+  line-height: 1.29
+  font-weight: 300
+
+.pagination
+  display: table
+  text-align: center
+
+.pagination__back, .pagination__next, .pagination__page
+  background-color: #fff
+  -webkit-box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1)
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1)
+  display: inline-block
+  float: left
+  height: 36px
+  line-height: 36px
+  margin: 0 1px
+  min-width: 36px
+  position: relative
+
+.pagination__back:hover, .pagination__next:hover, .pagination__page:hover
+  background-color: #eee
+
+.pagination__back, .pagination__next
+  width: 36px
+
+.pagination__back
+  -webkit-border-radius: 4px 0 0 4px
+  border-radius: 4px 0 0 4px
+
+.pagination__next
+  -webkit-border-radius: 0 4px 4px 0
+  border-radius: 0 4px 4px 0
+
+.pagination__back::before
+  display: block
+  -webkit-transform: rotate(180deg)
+  -ms-transform: rotate(180deg)
+  transform: rotate(180deg)
+
+.pagination__next a, .pagination__back a
+  display: block
+  height: 36px
+  line-height: 36px
+  text-decoration: none
+
+.pagination__page a
+  display: block
+  height: 36px
+  line-height: 36px
+  text-decoration: none
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  color: #999
+  min-width: 36px
+  padding: 0 8px
+
+.pagination__next a, .pagination__back a
+  left: 0
+  overflow: hidden
+  position: absolute
+  top: 0
+  width: 36px
+
+.pagination__next a:after, .pagination__back a:after
+  content: "\e904"
+  color: #666
+  display: block
+  font-family: "search-icons"
+  font-size: 12px
+  left: 0
+
+.pagination__next.pagination--disabled a:after
+  color: #ccc
+
+.pagination__back
+  &.pagination--disabled a:after
+    color: #ccc
+  a:after
+    -webkit-transform: rotate(180deg)
+    -ms-transform: rotate(180deg)
+    transform: rotate(180deg)
+
+.pagination__page--current a
+  color: #333
+  pointer-events: none
+
+.pagination--disabled
+  opacity: .6
+  pointer-events: none
+
+.sort-by-options-trigger, .dropdown-trigger
+  display: none
+
+.sort-by
+  .sort-by__link
+    color: #333
+    font-size: 14px
+    display: inline-block
+    cursor: pointer
+  .ui-list__item-option
+    padding: 12px 20px
+    font-size: 14px
+    color: #333
+  .ui-list__item--selected .ui-list__item-option
+    cursor: default
+
+.applied-filters dl
+  dt
+    font-weight: 700
+    font-size: 14px
+  dd
+    padding: 0 8px
+    background: white
+    -webkit-border-radius: 2px
+    border-radius: 2px
+    h2
+      font-size: 13px
+      color: #666
+
+.box_51993, .box_91993, .box_82026
+  background-color: #f00
+
+.box_51994, .box_91994, .box_82027
+  background-color: #f4cccc
+
+.box_51995
+  background-color: #ea9999
+
+.box_51996, .box_91995, .box_82028
+  background-color: #e06666
+
+.box_51997
+  background-color: #c00
+
+.box_51998, .box_91996, .box_82029
+  background-color: #900
+
+.box_51999
+  background-color: #600
+
+.box_52000, .box_91997, .box_82030
+  background-color: #f90
+
+.box_52001, .box_91998, .box_82031
+  background-color: #fce5cd
+
+.box_52002
+  background-color: #f9cb9c
+
+.box_52003, .box_91999, .box_82032
+  background-color: #f6b26b
+
+.box_52004
+  background-color: #e69138
+
+.box_52005, .box_92000, .box_82033
+  background-color: #b45f06
+
+.box_52006
+  background-color: #783f04
+
+.box_52007, .box_92001, .box_82034
+  background-color: #ff0
+
+.box_52008, .box_92002, .box_82035
+  background-color: #fff2cc
+
+.box_52009
+  background-color: #ffe599
+
+.box_52010, .box_92003, .box_82036
+  background-color: #ffd966
+
+.box_52011
+  background-color: #f1c232
+
+.box_52012, .box_92004, .box_82037
+  background-color: #bf9000
+
+.box_52013
+  background-color: #7f6000
+
+.box_52014, .box_92005, .box_82038
+  background-color: #0c9800
+
+.box_52015, .box_92006, .box_82039
+  background-color: #d9ead3
+
+.box_52016
+  background-color: #b6d7a8
+
+.box_52017, .box_92007, .box_82040
+  background-color: #93c47d
+
+.box_52018
+  background-color: #6aa84f
+
+.box_52019, .box_92008, .box_82041
+  background-color: #38761d
+
+.box_52020
+  background-color: #274e13
+
+.box_52021, .box_92009, .box_82042
+  background-color: #83ddff
+
+.box_52022, .box_92010, .box_82043
+  background-color: #d0e0e3
+
+.box_52023
+  background-color: #a2c4c9
+
+.box_52024, .box_92011, .box_82044
+  background-color: #76a5af
+
+.box_52025
+  background-color: #45818e
+
+.box_52026, .box_92012, .box_82045
+  background-color: #134f5c
+
+.box_52027
+  background-color: #0c343d
+
+.box_52028, .box_92013, .box_82046
+  background-color: #1717ff
+
+.box_52029, .box_92014, .box_82047
+  background-color: #cfe2f3
+
+.box_52030
+  background-color: #9fc5e8
+
+.box_52031, .box_92015, .box_82048
+  background-color: #6fa8dc
+
+.box_52032
+  background-color: #3d85c6
+
+.box_52033, .box_92016, .box_82049
+  background-color: #0b5394
+
+.box_52034
+  background-color: #073763
+
+.box_52035, .box_92017, .box_82050
+  background-color: #7600ff
+
+.box_52036, .box_92018, .box_82051
+  background-color: #d9d2e9
+
+.box_52037
+  background-color: #b4a7d6
+
+.box_52038, .box_92019, .box_82052
+  background-color: #8e7cc3
+
+.box_52039
+  background-color: #674ea7
+
+.box_52040, .box_92020, .box_82053, .box_a78316c
+  background-color: #351c75
+
+.box_52041
+  background-color: #20124d
+
+.box_52042, .box_92021, .box_82054
+  background-color: #e828ff
+
+.box_52043, .box_92022, .box_82055
+  background-color: #ead1dc
+
+.box_52044
+  background-color: #d5a6bd
+
+.box_52045, .box_92023, .box_82056
+  background-color: #c27ba0
+
+.box_52046
+  background-color: #a64d79
+
+.box_52047, .box_92024, .box_82057
+  background-color: #741b47
+
+.box_52048
+  background-color: #4c1130
+
+.box_52049, .box_92025, .box_82058
+  background-color: #000
+
+.box_52050
+  background-color: #444
+
+.box_52051, .box_92027, .box_82060
+  background-color: #666
+
+.box_52052
+  background-color: #999
+
+.box_52053, .box_92026, .box_82059
+  background-color: #ccc
+
+.box_52054
+  background-color: #e7e7e7
+
+.box_52055, .box_92028, .box_82061
+  background-color: #fff
+
+.box_52056
+  background-color: white
+
+.box_52057
+  background-color: #f00
+
+.box_52058
+  background-color: #f4cccc
+
+.box_52059
+  background-color: #ea9999
+
+.box_52060
+  background-color: #e06666
+
+.box_52061
+  background-color: #c00
+
+.box_52062
+  background-color: #900
+
+.box_52063
+  background-color: #600
+
+.box_52064
+  background-color: #f90
+
+.box_52065
+  background-color: #fce5cd
+
+.box_52066
+  background-color: #f9cb9c
+
+.box_52067
+  background-color: #f6b26b
+
+.box_52068
+  background-color: #e69138
+
+.box_52069
+  background-color: #b45f06
+
+.box_52070
+  background-color: #783f04
+
+.box_52071
+  background-color: #ff0
+
+.box_52072
+  background-color: #fff2cc
+
+.box_52073
+  background-color: #ffe599
+
+.box_52074
+  background-color: #ffd966
+
+.box_52075
+  background-color: #f1c232
+
+.box_52076
+  background-color: #bf9000
+
+.box_52077
+  background-color: #7f6000
+
+.box_52078
+  background-color: #0c9800
+
+.box_52079
+  background-color: #d9ead3
+
+.box_52080
+  background-color: #b6d7a8
+
+.box_52081
+  background-color: #93c47d
+
+.box_52082
+  background-color: #6aa84f
+
+.box_52083
+  background-color: #38761d
+
+.box_52084
+  background-color: #274e13
+
+.box_52085
+  background-color: #83ddff
+
+.box_52086
+  background-color: #d0e0e3
+
+.box_52087
+  background-color: #a2c4c9
+
+.box_52088
+  background-color: #76a5af
+
+.box_52089
+  background-color: #45818e
+
+.box_52090
+  background-color: #134f5c
+
+.box_52091
+  background-color: #0c343d
+
+.box_52092
+  background-color: #1717ff
+
+.box_52093
+  background-color: #cfe2f3
+
+.box_52094
+  background-color: #9fc5e8
+
+.box_52095
+  background-color: #6fa8dc
+
+.box_52096
+  background-color: #3d85c6
+
+.box_52097
+  background-color: #0b5394
+
+.box_52098
+  background-color: #073763
+
+.box_52099
+  background-color: #7600ff
+
+.box_52100
+  background-color: #d9d2e9
+
+.box_52101
+  background-color: #b4a7d6
+
+.box_52102
+  background-color: #8e7cc3
+
+.box_52103
+  background-color: #674ea7
+
+.box_52104
+  background-color: #351c75
+
+.box_52105
+  background-color: #20124d
+
+.box_52106
+  background-color: #e828ff
+
+.box_52107
+  background-color: #ead1dc
+
+.box_52108
+  background-color: #d5a6bd
+
+.box_52109
+  background-color: #c27ba0
+
+.box_52110
+  background-color: #a64d79
+
+.box_52111
+  background-color: #741b47
+
+.box_52112
+  background-color: #4c1130
+
+.box_52113
+  background-color: #000
+
+.box_52114
+  background-color: #444
+
+.box_52115
+  background-color: #666
+
+.box_52116
+  background-color: #999
+
+.box_52117
+  background-color: #ccc
+
+.box_52118
+  background-color: #e7e7e7
+
+.box_52119
+  background-color: #fff
+
+.box_52120
+  background-color: white
+
+.box_fb82e1f
+  background-color: #f00
+
+.box_7bd6fac
+  background-color: #f4cccc
+
+.box_f91a6c4
+  background-color: #e06666
+
+.box_af6dc0b
+  background-color: #900
+
+.box_32fdc72
+  background-color: #f90
+
+.box_fb4ed8e
+  background-color: #fce5cd
+
+.box_611f27d
+  background-color: #f6b26b
+
+.box_175dec5
+  background-color: #b45f06
+
+.box_2f3a3b5
+  background-color: #ff0
+
+.box_e0759ec
+  background-color: #fff2cc
+
+.box_a9914eb
+  background-color: #ffd966
+
+.box_1102908
+  background-color: #bf9000
+
+.box_fcc9d4e
+  background-color: #0c9800
+
+.box_9606f8d
+  background-color: #d9ead3
+
+.box_fd874ee
+  background-color: #93c47d
+
+.box_9e6069e
+  background-color: #38761d
+
+.box_714d9f3
+  background-color: #83ddff
+
+.box_b499a5e
+  background-color: #d0e0e3
+
+.box_64fd06b
+  background-color: #76a5af
+
+.box_8f5cf0a
+  background-color: #134f5c
+
+.box_ef2c011
+  background-color: #1717ff
+
+.box_8d09d06
+  background-color: #cfe2f3
+
+.box_b754f26
+  background-color: #9fc5e8
+
+.box_00bf0b1
+  background-color: #0b5394
+
+.box_475bbd2
+  background-color: #7600ff
+
+.box_aa981c2
+  background-color: #d9d2e9
+
+.box_7e6afac
+  background-color: #8e7cc3
+
+.box_3389f10
+  background-color: #e828ff
+
+.box_3786593
+  background-color: #ead1dc
+
+.box_0cac501
+  background-color: #c27ba0
+
+.box_0b40e2d
+  background-color: #741b47
+
+.box_2105d8e
+  background-color: black
+
+.box_02bb186
+  background-color: #666
+
+.box_8a61dfa
+  background-color: #ccc
+
+.box_8af212a
+  background-color: #fff
+
+.box_11000-Rojo
+  background-color: #f00
+
+.box_11000-Rosa
+  background-color: #f4cccc
+
+.box_11000-Terracota
+  background-color: #e06666
+
+.box_11000-Vino
+  background-color: #900
+
+.box_11000-Naranja
+  background-color: #f90
+
+.box_11000-Beige
+  background-color: #fce5cd
+
+.box_11000-Piel
+  background-color: #f6b26b
+
+.box_11000-Cafe
+  background-color: #b45f06
+
+.box_11000-Amarillo
+  background-color: #ff0
+
+.box_11000-Crema
+  background-color: #fff2cc
+
+.box_11000-Ocre
+  background-color: #ffd966
+
+.box_11000-Dorado
+  background-color: #bf9000
+
+.box_11000-Verde
+  background-color: #0c9800
+
+.box_11000-VerdeClaro
+  background-color: #d9ead3
+
+.box_11000-Esmeralda
+  background-color: #93c47d
+
+.box_11000-VerdeOscuro
+  background-color: #38761d
+
+.box_11000-Agua
+  background-color: #83ddff
+
+.box_11000-AzulCielo
+  background-color: #d0e0e3
+
+.box_11000-AzulPetroleo
+  background-color: #134f5c
+
+.box_11000-AzulMarino
+  background-color: #120a8f
+
+.box_11000-Azul
+  background-color: #1717ff
+
+.box_11000-Celeste
+  background-color: #cfe2f3
+
+.box_11000-AzulAcero
+  background-color: #6fa8dc
+
+.box_11000-AzulOscuro
+  background-color: #0b5394
+
+.box_11000-VioletaOscuro
+  background-color: #7600ff
+
+.box_11000-Lavanda
+  background-color: #d9d2e9
+
+.box_11000-Lila
+  background-color: #8e7cc3
+
+.box_11000-Violeta
+  background-color: #351c75
+
+.box_11000-Fucsia
+  background-color: #e828ff
+
+.box_11000-Salmon
+  background-color: #ead1dc
+
+.box_11000-FucsiaOscuro
+  background-color: #c27ba0
+
+.box_11000-Purpura
+  background-color: #741b47
+
+.box_11000-Negro
+  background-color: #000
+
+.box_11000-Plateado
+  background-color: #ccc
+
+.box_11000-Gris
+  background-color: #666
+
+.box_11000-Blanco
+  background-color: #fff
+
+.box_069ea81
+  background-color: white
+
+.box_4b4a968
+  background-color: #e828ff
+
+.box_5ca665e
+  background-color: black
+
+.box_227dee1
+  background-color: #f4cccc
+
+.box_9b3294d
+  background-color: #1717ff
+
+.box_ee2fde8
+  background-color: #666
+
+.box_a0d820c
+  background-color: #351c75
+
+.box_bca95f6
+  background-color: #f00
+
+.box_4afc38c
+  background-color: #ccc
+
+.box_9518026
+  background-color: #e06666
+
+.box_39d4abf
+  background-color: #f90
+
+.box_ff4ec68
+  background-color: #fff2cc
+
+.box_3b78fc7
+  background-color: #0b5394
+
+.box_4691b74
+  background-color: #c27ba0
+
+.box_766f5b5
+  background-color: #ff0
+
+.box_8affb30
+  background-color: #643200
+
+.box_5d94916
+  background-color: #d0e0e3
+
+.box_9119583
+  background-color: #741b47
+
+.box_dbd2203
+  background-color: #93c47d
+
+.box_f83ff3c
+  background-color: #d9ead3
+
+.box_fceb8f5
+  background-color: #8e7cc3
+
+.box_10295e4
+  background-color: #120a8f
+
+.box_24b1258
+  background-color: #cfe2f3
+
+.box_315ad5e
+  background-color: #0c9800
+
+.box_558e1df
+  background-color: #50021b
+
+.box_6d7c130
+  background-color: #7600ff
+
+.box_75231a3
+  background-color: #d9d2e9
+
+.box_7a41f13
+  background-color: #134f5c
+
+.box_beb18d4
+  background-color: #6fa8dc
+
+.box_c639833
+  background-color: #bf9000
+
+.box_97eb811
+  background-color: #83ddff
+
+.box_902be5b
+  background-color: #fce5cd
+
+.box_342528c
+  background-color: #ffd966
+
+.box_17c2e56
+  background-color: #f6b26b
+
+.box_0081517
+  background-color: #ead1dc
+
+.box_2558516
+  background-color: #38761d
+
+.box_9e5d70b
+  background-color: black
+
+.box_64926b5
+  background-color: white
+
+.box_535b836
+  background-color: #1717ff
+
+.box_48bab54
+  background-color: #666
+
+.box_cc7580e
+  background-color: #f00
+
+.box_a27816f
+  background-color: #ff0
+
+.box_6e09ad8
+  background-color: #0c9800
+
+.box_9c20328
+  background-color: #0b5394
+
+.box_47cfc86
+  background-color: #f90
+
+.box_ffe7bdc
+  background-color: #a52a2a
+
+.box_18b8342
+  background-color: #ccc
+
+.box_1d020b3
+  background-color: #83ddff
+
+.box_e1965bb
+  background-color: #e828ff
+
+.box_2779117
+  background-color: #7600ff
+
+.box_d0a6b31
+  background-color: #6fa8dc
+
+.box_ee2c094
+  background-color: #93c47d
+
+.box_ff9612a
+  background-color: #50021b
+
+.box_161b4d8
+  background-color: #fce5cd
+
+.box_ef5b0b0
+  background-color: #38761d
+
+.box_338982b
+  background-color: #fff2cc
+
+.box_1aa4904
+  background-color: #134f5c
+
+.box_ad32ad0
+  background-color: #e06666
+
+.box_040b51a
+  background-color: #741b47
+
+.box_1980ced
+  background-color: #f6b26b
+
+.box_5299c90
+  background-color: #120a8f
+
+.box_7729846
+  background-color: #cfe2f3
+
+.box_c8d33b6
+  background-color: #d9ead3
+
+.box_6514216
+  background-color: #ffd966
+
+.box_6de1c94
+  background-color: #f4cccc
+
+.box_5b231d4
+  background-color: #bf9000
+
+.box_0f61b44
+  background-color: #d0e0e3
+
+.box_1e65b29
+  background-color: #8e7cc3
+
+.box_af37c69
+  background-color: #d9d2e9
+
+.box_49d56b8
+  background-color: #ead1dc
+
+.box_ed0195c
+  background-color: #c27ba0
+
+.mclics-bottom
+  color: #666
+  position: relative
+  a
+    color: #666
+    text-decoration: none
+
+.price-filter__value
+  -webkit-border-radius: 2px
+  border-radius: 2px
+  border: solid 1px #999
+  text-align: center
+  font-size: 13px
+  -webkit-border-radius: 4px
+  border-radius: 4px
+  &:focus
+    border-color: #3483fa
+    margin: 0
+    padding: 0
+  margin: 0
+  padding: 0
+
+.no-js .price-filter__action-link
+  display: none
+
+.filters__price .currency-filter
+  input
+    display: none
+  label
+    color: #bbb
+
+.modal-size-filter .qcat-filter, .filters .size-filter .filters__group__option
+  display: inline-block
+  margin-right: 10px
+  padding: 0
+
+.modal-size-filter .qcat-filter
+  .ui-tooltip, a.qcat-truncate
+    -webkit-border-radius: 12px
+    border-radius: 12px
+    cursor: pointer
+
+.filters .size-filter .filters__group__option
+  .ui-tooltip
+    -webkit-border-radius: 12px
+    border-radius: 12px
+    cursor: pointer
+  a.qcat-truncate
+    -webkit-border-radius: 12px
+    border-radius: 12px
+    cursor: pointer
+    &.qcat
+      border: 1px solid #999
+      -webkit-box-sizing: border-box
+      box-sizing: border-box
+      display: block
+      height: 24px
+      min-width: 24px
+      padding: 0 8px
+      text-align: center
+      line-height: 22px
+
+.modal-size-filter .qcat-truncate
+  -webkit-border-radius: 12px
+  border-radius: 12px
+  color: #666
+  display: block
+  font-size: 12px
+  font-weight: 500
+  text-decoration: none
+  width: auto
+
+.filters .size-filter
+  dd a.qcat-truncate
+    -webkit-border-radius: 12px
+    border-radius: 12px
+    color: #666
+    display: block
+    font-size: 12px
+    font-weight: 500
+    text-decoration: none
+    width: auto
+  .modal-size-filter dd a.qcat-truncate
+    pointer-events: all
+
+.filters__group.size-filter.variation-filter
+  max-width: 100%
+
+.filters__color
+  .ui-tooltip
+    cursor: pointer
+  .modal-color-filter dd a.qcat-truncate
+    pointer-events: all
+
+.modal-overlay, .modal-label
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  align-items: center
+  -webkit-box-pack: center
+  -webkit-justify-content: center
+  -ms-flex-pack: center
+  justify-content: center
+  z-index: -1
+  visibility: hidden
+  opacity: 0
+
+.modal-overlay
+  .modal-label
+    background: rgba(0, 0, 0, 0.6)
+    z-index: 1050
+  .modal-container
+    background: #fff
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -webkit-flex-direction: column
+    -ms-flex-direction: column
+    flex-direction: column
+    -webkit-justify-content: space-around
+    -ms-flex-pack: distribute
+    justify-content: space-around
+    -webkit-box-align: center
+    -webkit-align-items: center
+    -ms-flex-align: center
+    align-items: center
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    max-height: 95%
+    width: 100%
+    z-index: 1060
+  .modal-content
+    width: 100%
+
+.modal-trigger
+  &:checked
+    + .modal-overlay
+      z-index: 1024
+    ~ .modal-close
+      display: block
+    + .modal-overlay
+      visibility: visible
+      opacity: 1
+      .modal-label
+        visibility: visible
+        opacity: 1
+  display: none
+
+body
+  &[class*='ie-'] .modal-overlay .modal-container
+    overflow: hidden
+  &.hasProductHeader ol.item-list.list-items.mosaic
+    padding-top: 0
+
+.product-header-section
+  position: relative
+  min-height: 156px
+  padding: 0
+  background: #f0f0f0
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  a.product-header-container
+    cursor: cursor
+  .product-header-container
+    text-decoration: none
+    padding: 24px 16px
+    display: block
+    &:active, &:hover, &:visited
+      text-decoration: none
+  .product-image
+    display: inline-block
+    height: 105px
+    width: 105px
+    vertical-align: middle
+    padding: 10px
+    background: #fff
+    -webkit-border-radius: 4px
+    border-radius: 4px
+    overflow: hidden
+    img
+      max-width: 105px
+  .product-info-container
+    display: inline-block
+    vertical-align: middle
+    height: 125px
+    padding-left: 141px
+    .product-brand
+      line-height: 17px
+      font-weight: 600
+      font-size: 16px
+      color: #333
+      text-transform: uppercase
+    .product-name
+      display: -webkit-box
+      color: #333
+      font-size: 24px
+      line-height: 26px
+      margin-bottom: 9px
+      -webkit-line-clamp: 2
+      -webkit-box-orient: vertical
+      overflow: hidden
+      max-height: 48px
+      font-weight: 300
+    .reviews
+      line-height: 14px
+      &:hover, .review-average:hover
+        text-decoration: none
+      .review-stars .star-icon
+        position: relative
+        width: auto
+        height: auto
+        margin: 0
+      .review-average, .review-number
+        font-size: 18px
+        line-height: 17px
+        font-weight: 300
+        color: #333
+      .review-average
+        margin-left: 5px
+        vertical-align: middle
+      .review-number, .review-number-no-link
+        font-weight: 300
+        display: block
+        pointer-events: none
+  .product-header_line-container
+    display: none
+
+.billboards .billboard
+  .item__bookmark
+    background-color: #fff
+    background-color: rgba(255, 255, 255, 0.7)
+    -webkit-border-radius: 50%
+    border-radius: 50%
+    display: none
+  .item__bookmark-form .favorite.selected .item__bookmark
+    display: block
+
+.images-viewer
+  &:hover
+    .ch-carousel-prev, .ch-carousel-next
+      visibility: visible
+  .carousel
+    position: relative
+  .ch-carousel
+    overflow: auto
+    position: relative
+    -webkit-transform: translateZ(0)
+    transform: translateZ(0)
+  .ch-carousel-mask
+    overflow: hidden
+    position: relative
+    margin: 0
+  .ch-carousel > ul, .ch-carousel-list
+    -webkit-box-align: center
+    -webkit-align-items: center
+    -ms-flex-align: center
+    align-items: center
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    height: 100%
+    overflow: hidden
+    -webkit-transition: all .8s ease
+    transition: all .8s ease
+    width: -webkit-max-content
+    width: -moz-max-content
+    width: max-content
+    margin: 0
+    padding: 0
+    list-style: none
+    will-change: transform
+  .ch-carousel
+    ul.ch-carousel-nofx
+      -webkit-transition: none
+      transition: none
+    > ul > li
+      display: inline-block
+      float: left
+      -webkit-box-sizing: border-box
+      box-sizing: border-box
+      width: 284px
+  .ch-carousel-item
+    display: inline-block
+    float: left
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
+    width: 284px
+  .ch-carousel > ul > li img, .ch-carousel-item img
+    margin: 0 auto
+  .ch-carousel-prev, .ch-carousel-next
+    visibility: hidden
+    cursor: pointer
+    position: absolute
+    z-index: 2
+    width: 47px
+    height: 80px
+    font-size: 2em
+    line-height: 3.3em
+    color: #eee
+    top: 45%
+    margin: -40px 0 0 0
+    background: transparent
+  .ch-carousel-prev
+    left: 0
+  .ch-carousel-next
+    right: 0
+  .ch-carousel-prev:after, .ch-carousel-next:after, .ch-carousel-prev:before, .ch-carousel-next:before
+    font-family: 'search-icons'
+    content: "\e902"
+    font-size: 24px
+    position: absolute
+    width: 12px
+  .ch-carousel-prev
+    &:after
+      left: 17px
+    &:before
+      left: 17px
+      top: 1px
+  .ch-carousel-next:before, .ch-carousel-prev:before
+    color: #fff
+  .ch-carousel-next:after, .ch-carousel-prev:after
+    color: #3483fa
+  .ch-carousel-next:hover:after, .ch-carousel-prev:hover:after
+    color: #1259c3
+  .ch-carousel-next
+    &:after
+      right: 17px
+    &:before
+      right: 17px
+      top: 1px
+  .ch-carousel-prev
+    &:before, &:after
+      -webkit-transform: rotate(180deg)
+      -ms-transform: rotate(180deg)
+      transform: rotate(180deg)
+    &:hover
+      visibility: visible
+  .ch-carousel-next:hover
+    visibility: visible
+  .ch-carousel-disabled, .ch-carousel-prev:hover .ch-carousel-disabled, .ch-carousel-next:hover .ch-carousel-disabled
+    display: inline
+    opacity: 0 !important
+  .ch-carousel-pages
+    font-size: 0
+    line-height: 0
+    margin: 0 auto
+    text-align: center
+    width: 100%
+    position: absolute
+    bottom: 0
+    background: rgba(0, 0, 255, 0.5)
+    display: none
+    span
+      -webkit-border-radius: 100%
+      border-radius: 100%
+      cursor: pointer
+      display: inline-block
+      height: 10px
+      margin: 10px 5px
+      overflow: hidden
+      text-indent: -99px
+      width: 10px
+      border: 0
+      -webkit-box-shadow: none
+      box-shadow: none
+      background-color: #d1d1d1
+    .ch-carousel-selected
+      background-color: #999
+
+@media (min-width: 1024px) and (max-width: 1164px), (min-width: 720px) and (max-width: 861px)
+  .images-viewer
+    .ch-carousel > ul > li, .ch-carousel-item
+      width: 240px
+
+.aps-is-hidden
+  display: none !important
+
+.aps-is-visible
+  display: block !important
+
+.aps-container
+  background: #f0f0f0
+  -webkit-border-radius: 4px
+  border-radius: 4px
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  .ui-loading__mask
+    -webkit-border-radius: 4px
+    border-radius: 4px
+
+.reviews-filter__stars
+  display: block
+
+.reviews-filter__star
+  display: inline-block
+  margin-right: -2px
+  position: relative
+  &:after, &.star-icon-half:before
+    font-family: "search-icons"
+    height: 14px
+    width: 14px
+  &:after
+    content: "\e90a"
+    color: #ddd
+    font-size: 14px
+  &.star-icon-full:after
+    color: #3483fa
+  &.star-icon-half:before
+    color: #3483fa
+    content: "\e907"
+    font-size: 13px
+    left: 0
+    position: absolute
+    top: 0
+
+.images-viewer
+  -webkit-border-top-left-radius: 4px
+  border-top-left-radius: 4px
+  -webkit-border-top-right-radius: 4px
+  border-top-right-radius: 4px
+  overflow: hidden
+
+.item-loading__status-bar
+  display: block
+  position: relative
+  margin-bottom: -1px
+  margin-top: -1px
+  height: 1px
+  width: 100%
+  &:before
+    content: ''
+    height: 1px
+    position: absolute
+    -webkit-animation: animation-indeterminate
+    animation: animation-indeterminate
+    -webkit-animation-duration: 1s
+    animation-duration: 1s
+    -webkit-animation-iteration-count: infinite
+    animation-iteration-count: infinite
+    -webkit-animation-timing-function: linear
+    animation-timing-function: linear
+    -webkit-transform: scaleX(1)
+    -ms-transform: scaleX(1)
+    transform: scaleX(1)
+  &:after
+    content: ''
+    height: 1px
+    position: absolute
+    -webkit-animation: animation-indeterminate
+    animation: animation-indeterminate
+    -webkit-animation-duration: 1s
+    animation-duration: 1s
+    -webkit-animation-iteration-count: infinite
+    animation-iteration-count: infinite
+    -webkit-animation-timing-function: linear
+    animation-timing-function: linear
+    -webkit-transform: scaleX(1)
+    -ms-transform: scaleX(1)
+    transform: scaleX(1)
+    background-color: #999
+  &:before
+    background-color: rgba(255, 255, 255, 0.6)
+    top: -1px
+
+.item-loading__hide
+  opacity: 0
+  -webkit-transition: all .15s
+  transition: all .15s
+  -webkit-animation-play-state: paused
+  animation-play-state: paused
+  &:before, &:after
+    opacity: 0
+    -webkit-transition: all .15s
+    transition: all .15s
+    -webkit-animation-play-state: paused
+    animation-play-state: paused
+
+@-webkit-keyframes animation-indeterminate
+  0%
+    left: 0
+    width: 5%
+
+  50%
+    left: 15%
+    width: 60%
+
+  100%
+    left: 101%
+    width: 0
+
+
+@keyframes animation-indeterminate
+  0%
+    left: 0
+    width: 5%
+
+  50%
+    left: 15%
+    width: 60%
+
+  100%
+    left: 101%
+    width: 0
+
+
+body
+  background-color: #f5f5f5
+
+main
+  font-family: "Proxima Nova",Helvetica,Arial,sans-serif
+
+.item-list
+  background-color: #eee
+  overflow: hidden
+
+noscript
+  position: absolute
+  margin: 0
+  left: 0
+  right: 0
+  height: 100%
+  z-index: 9
+
+.ui-button
+  display: inline-block
+  width: auto
+  padding: 12px 24px
+
+.ui-dropdown
+  position: relative
+  display: inline-block
+
+.ui-dropdown__content
+  min-width: 264px
+  position: absolute
+  z-index: 10
+  background-color: #fff
+  margin: auto
+  display: inline-block
+  -webkit-border-radius: 4px
+  border-radius: 4px
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3)
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3)
+  right: 0
+
+.ui-dropdown__link
+  font-size: 18px
+  font-weight: inherit
+  color: inherit
+  &:link
+    color: inherit
+  .ui-dropdown__indicator .ui-icon
+    stroke: #3483fa
+    stroke-width: 5px
+    width: 11px
+    position: relative
+
+.ui-modal-bg
+  background-color: rgba(0, 0, 0, 0.6)
+
+.ui-modal-dialog__button-close
+  position: relative
+  width: 16px
+  height: 16px
+  cursor: pointer
+  position: absolute
+  left: auto
+  right: 32px
+  top: 36px
+  padding: 0
+  &:after
+    position: absolute
+    left: 8px
+    top: 0
+    content: ''
+    height: 16px
+    width: 2px
+    background-color: #3483fa
+    cursor: pointer
+  &:before
+    position: absolute
+    left: 8px
+    top: 0
+    content: ''
+    height: 16px
+    width: 2px
+    background-color: #3483fa
+    cursor: pointer
+    -webkit-transform: rotate(45deg)
+    -ms-transform: rotate(45deg)
+    transform: rotate(45deg)
+  &:after
+    -webkit-transform: rotate(-45deg)
+    -ms-transform: rotate(-45deg)
+    transform: rotate(-45deg)
+  &:before, &:after
+    opacity: 1
+
+.ui-modal-dialog__container
+  position: relative
+  max-width: 544px
+  max-height: none
+
+.ui-modal-dialog__content-box
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3)
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3)
+
+.ui-modal-dialog--is-open
+  header[role='banner'], main[role='main']
+    -webkit-filter: none
+    filter: none
+
+.ui-modal-dialog .ui-modal-link
+  color: #fff
+
+.ui-list__form
+  padding: 32px
+
+.ui-list__item:hover
+  background-color: #f5f5f5
+  overflow: hidden
+  position: relative
+  &:after
+    border-left: 5px solid rgba(52, 131, 250, 0.25)
+    content: ''
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+
+.ui-list__item--unselectable:hover
+  background-color: inherit
+  overflow: inherit
+  position: inherit
+  &:after
+    content: none
+
+.ui-list__item-option
+  padding: 32px
+
+.ui-list--modal .ui-list__header-title
+  text-align: left
+  padding-left: 32px
+
+.ui-tooltip
+  position: relative
+
+.ui-tooltip__data
+  background-color: #fff
+  -webkit-border-radius: 2px
+  border-radius: 2px
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 rgba(0, 0, 0, 0.05)
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 rgba(0, 0, 0, 0.05)
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  display: none
+  left: 50%
+  margin-top: 8px
+  min-width: 100px
+  padding: 6px 8px
+  position: absolute
+  -webkit-transform: translate(-50%, 0)
+  -ms-transform: translate(-50%, 0)
+  transform: translate(-50%, 0)
+  text-align: center
+  z-index: 2
+
+.ui-tooltip:hover .ui-tooltip__data
+  display: block
+
+.ui-tooltip__data::after
+  border: 5px solid transparent
+  border-bottom-color: #fff
+  border-style: solid
+  border-width: 5px
+  bottom: 100%
+  content: ''
+  left: 50%
+  margin-top: -5px
+  position: absolute
+  -webkit-transform: translate(-50%, 0)
+  -ms-transform: translate(-50%, 0)
+  transform: translate(-50%, 0)
+
+.ui-tooltip__title, .ui-tooltip__text
+  font-size: 12px
+  font-weight: 300
+
+.ui-tooltip__title
+  color: #333
+  margin: 0
+  padding: 0
+
+.ui-tooltip__text
+  color: #666
+  white-space: nowrap
+
+.ui-tooltip--bottom-left .ui-tooltip__data:after, .ui-tooltip--bottom-right .ui-tooltip__data:after, .ui-tooltip--bottom-center .ui-tooltip__data:after, .ui-tooltip--left-top .ui-tooltip__data:after, .ui-tooltip--left-center .ui-tooltip__data:after, .ui-tooltip--left-bottom .ui-tooltip__data:after, .ui-tooltip--right-top .ui-tooltip__data:after, .ui-tooltip--right-center .ui-tooltip__data:after, .ui-tooltip--right-bottom .ui-tooltip__data:after
+  border-bottom-color: transparent
+
+.ui-tooltip--top-left .ui-tooltip__data
+  -webkit-transform: translate(-15px, 0)
+  -ms-transform: translate(-15px, 0)
+  transform: translate(-15px, 0)
+
+.ui-tooltip--top-right .ui-tooltip__data
+  -webkit-transform: translate(15px, 0)
+  -ms-transform: translate(15px, 0)
+  transform: translate(15px, 0)
+
+.ui-tooltip--bottom-left .ui-tooltip__data, .ui-tooltip--bottom-center .ui-tooltip__data, .ui-tooltip--bottom-right .ui-tooltip__data
+  top: -100%
+  margin-top: 12px
+
+.ui-tooltip--bottom-left .ui-tooltip__data
+  -webkit-transform: translate(-15px, -100%)
+  -ms-transform: translate(-15px, -100%)
+  transform: translate(-15px, -100%)
+
+.ui-tooltip--bottom-right .ui-tooltip__data
+  -webkit-transform: translate(15px, -100%)
+  -ms-transform: translate(15px, -100%)
+  transform: translate(15px, -100%)
+
+.ui-tooltip--bottom-center .ui-tooltip__data
+  -webkit-transform: translate(-50%, -100%)
+  -ms-transform: translate(-50%, -100%)
+  transform: translate(-50%, -100%)
+
+.ui-tooltip--bottom-left .ui-tooltip__data::after, .ui-tooltip--bottom-center .ui-tooltip__data::after, .ui-tooltip--bottom-right .ui-tooltip__data::after
+  border-top-color: #fff
+  bottom: auto
+  margin-top: 0
+  top: 100%
+
+.ui-tooltip--top-left .ui-tooltip__data, .ui-tooltip--bottom-left .ui-tooltip__data
+  left: 100%
+
+.ui-tooltip--top-right .ui-tooltip__data, .ui-tooltip--bottom-right .ui-tooltip__data
+  left: auto
+  right: 100%
+
+.ui-tooltip--top-left .ui-tooltip__data::after, .ui-tooltip--top-right .ui-tooltip__data::after, .ui-tooltip--bottom-left .ui-tooltip__data::after, .ui-tooltip--bottom-right .ui-tooltip__data::after
+  -webkit-transform: none
+  -ms-transform: none
+  transform: none
+
+.ui-tooltip--top-left .ui-tooltip__data::after, .ui-tooltip--bottom-left .ui-tooltip__data::after
+  left: 5px
+
+.ui-tooltip--top-right .ui-tooltip__data::after, .ui-tooltip--bottom-right .ui-tooltip__data::after
+  left: auto
+  right: 5px
+
+.ui-tooltip--left-top .ui-tooltip__data, .ui-tooltip--left-center .ui-tooltip__data, .ui-tooltip--left-bottom .ui-tooltip__data
+  left: -10px
+  margin: 0
+
+.ui-tooltip--left-top .ui-tooltip__data
+  -webkit-transform: translate(-100%, -25%)
+  -ms-transform: translate(-100%, -25%)
+  transform: translate(-100%, -25%)
+
+.ui-tooltip--left-center .ui-tooltip__data
+  top: 45%
+  -webkit-transform: translate(-100%, -50%)
+  -ms-transform: translate(-100%, -50%)
+  transform: translate(-100%, -50%)
+
+.ui-tooltip--left-bottom .ui-tooltip__data
+  -webkit-transform: translate(-100%, -75%)
+  -ms-transform: translate(-100%, -75%)
+  transform: translate(-100%, -75%)
+
+.ui-tooltip--left-top .ui-tooltip__data::after, .ui-tooltip--left-center .ui-tooltip__data::after, .ui-tooltip--left-bottom .ui-tooltip__data::after
+  border-left-color: #fff
+  left: 100%
+
+.ui-tooltip--right-top .ui-tooltip__data, .ui-tooltip--right-center .ui-tooltip__data, .ui-tooltip--right-bottom .ui-tooltip__data
+  left: auto
+  margin: 0
+  right: -10px
+
+.ui-tooltip--right-top .ui-tooltip__data
+  -webkit-transform: translate(100%, -25%)
+  -ms-transform: translate(100%, -25%)
+  transform: translate(100%, -25%)
+
+.ui-tooltip--right-center .ui-tooltip__data
+  top: 45%
+  -webkit-transform: translate(100%, -50%)
+  -ms-transform: translate(100%, -50%)
+  transform: translate(100%, -50%)
+
+.ui-tooltip--right-bottom .ui-tooltip__data
+  -webkit-transform: translate(100%, -75%)
+  -ms-transform: translate(100%, -75%)
+  transform: translate(100%, -75%)
+
+.ui-tooltip--right-top .ui-tooltip__data::after, .ui-tooltip--right-center .ui-tooltip__data::after, .ui-tooltip--right-bottom .ui-tooltip__data::after
+  border-right-color: #fff
+  left: auto
+  right: 100%
+
+.ui-tooltip--left-top .ui-tooltip__data, .ui-tooltip--left-bottom .ui-tooltip__data, .ui-tooltip--right-top .ui-tooltip__data, .ui-tooltip--right-bottom .ui-tooltip__data
+  top: 50%
+
+.ui-tooltip--left-top .ui-tooltip__data::after, .ui-tooltip--left-bottom .ui-tooltip__data::after, .ui-tooltip--right-top .ui-tooltip__data::after, .ui-tooltip--right-bottom .ui-tooltip__data::after
+  -webkit-transform: translate(0)
+  -ms-transform: translate(0)
+  transform: translate(0)
+
+.ui-tooltip--left-top .ui-tooltip__data::after, .ui-tooltip--right-top .ui-tooltip__data::after
+  top: 5px
+
+.ui-tooltip--right-center .ui-tooltip__data::after, .ui-tooltip--left-center .ui-tooltip__data::after
+  bottom: 50%
+  margin-top: 0
+  -webkit-transform: translate(0, 50%)
+  -ms-transform: translate(0, 50%)
+  transform: translate(0, 50%)
+
+.ui-tooltip--right-bottom .ui-tooltip__data::after, .ui-tooltip--left-bottom .ui-tooltip__data::after
+  bottom: 5px
+  top: auto
+
+.filters
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  min-width: 170px
+  .filters__group
+    padding-right: 15px
+    margin-bottom: 32px
+    .free-shipping-icon
+      display: inline-block
+      margin-left: 0
+      margin-right: 4px
+      .icon:after
+        height: 10px
+        font-family: "search-icons"
+        content: '\e900'
+        color: #39b54a
+        font-size: 12px
+    .see-more-filter
+      display: table
+      color: #3483fa
+      line-height: 1.29
+      font-size: 14px
+      cursor: pointer
+      &:hover
+        color: #1259c3
+    .dt-title
+      font-weight: 600
+      font-size: 16px
+      margin: 0 0 12px
+      line-height: 1.25
+      color: #333
+    dd
+      display: table
+      font-size: 14px
+      font-weight: 300
+      margin: 0 0 10px
+      h3
+        display: inline-block
+        margin: 0
+        font-size: 14px
+      a
+        color: #666
+        font-weight: 400
+        font-size: 14px
+        &:hover
+          color: #262626
+          cursor: pointer
+          text-decoration: none
+        &:focus, &:visited
+          text-decoration: none
+      label.adults__label
+        color: #666
+        font-weight: 400
+        font-size: 14px
+        &:hover
+          color: #262626
+          cursor: pointer
+      span
+        font-weight: 300
+        color: #999
+        font-size: 14px
+        margin-left: 2px
+    .ui-tooltip .ui-tooltip__data .ui-tooltip__text
+      margin-top: 5px
+  .applied__filters
+    padding-right: 15px
+    padding-bottom: 30px
+    width: 100%
+    dl
+      dt
+        font-size: 14px
+        padding-bottom: 11px
+      dd
+        width: 98%
+        height: 32px
+        -webkit-border-radius: 4px
+        border-radius: 4px
+        background-color: #eee
+        margin-left: -4px
+        position: relative
+        margin-bottom: 6px
+        h2
+          display: inline-block
+          margin: 0
+          position: absolute
+          left: 11px
+          font-size: 14px
+          top: 6px
+        a
+          display: inline-block
+          position: absolute
+          right: 12px
+          top: 9px
+
+.filters__group
+  &.variation-filter
+    max-width: 200px
+    .filter--complete
+      display: none
+    dd
+      display: inline-block
+      margin-right: 12px
+      margin-bottom: 12px
+    .qcat-truncate
+      display: block
+    .see-more-filter
+      display: table
+      color: #3483fa
+      line-height: 1.29
+      font-size: 14px
+      cursor: pointer
+      &:hover
+        color: #1259c3
+  &.filters__color
+    dd:hover .box-color
+      &.box_52055, &.box_92028, &.box_82061
+        border: solid 1px rgba(51, 51, 51, 0.15)
+        -webkit-box-shadow: 0 0 0 3px #fff, 0 6px 6px 0 rgba(0, 0, 0, 0.4), 0 -3px 1px 0 rgba(0, 0, 0, 0.3)
+        box-shadow: 0 0 0 3px #fff, 0 6px 6px 0 rgba(0, 0, 0, 0.4), 0 -3px 1px 0 rgba(0, 0, 0, 0.3)
+        height: 24px
+        margin: 0
+        width: 24px
+      border: 3px solid #fff
+      margin: -3px
+      width: 30px
+      height: 30px
+      -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4), 0 0 1px 0 rgba(0, 0, 0, 0.3)
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4), 0 0 1px 0 rgba(0, 0, 0, 0.3)
+    .box-color
+      width: 100%
+      display: block
+      height: 100%
+      -webkit-border-radius: 50%
+      border-radius: 50%
+      height: 24px
+      width: 24px
+      border: solid 1px rgba(51, 51, 51, 0.15)
+      -webkit-box-sizing: border-box
+      box-sizing: border-box
+  &.filters__official_store
+    dd
+      display: inline-block
+      width: 64px
+      margin-right: 14px
+      height: 48px
+      -webkit-border-radius: 2px
+      border-radius: 2px
+    .filter--complete
+      display: none
+    dd .filter--basic
+      cursor: pointer
+      &:hover a
+        -webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3), 0 5px 5px 0 rgba(0, 0, 0, 0.25)
+        box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3), 0 5px 5px 0 rgba(0, 0, 0, 0.25)
+    a
+      display: block
+      height: 48px
+      padding: 4px
+      background-color: #fff
+      -webkit-box-sizing: border-box
+      box-sizing: border-box
+      -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 rgba(0, 0, 0, 0.05)
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 rgba(0, 0, 0, 0.05)
+      -webkit-border-radius: 2px
+      border-radius: 2px
+    img
+      -webkit-border-radius: 2px
+      border-radius: 2px
+      width: 56px
+      height: 100%
+  &.filters__average_review
+    a
+      text-decoration: none
+      display: block
+      margin-bottom: 8px
+    .svg-reviews-star
+      width: 12px
+      height: 12px
+
+.related-searches
+  font-size: 13px
+  padding-top: 16px
+  padding-bottom: 12px
+  margin: 0
+  overflow: hidden
+  text-overflow: ellipsis
+  white-space: nowrap
+  a:hover
+    color: #262626
+    text-decoration: none
+  p
+    display: inline
+  ul
+    display: inline
+    li
+      display: inline
+      .separator
+        margin: 0 5px
+
+.deep-links-list li p
+  margin-right: 0
+
+p.deep-links
+  display: none
+
+.related-searches .deep-links-list
+  display: inline-block
+
+.search-results
+  .results-item
+    z-index: 1
+    &:hover
+      z-index: 2
+    *
+      -webkit-box-sizing: border-box
+      box-sizing: border-box
+  .item
+    .item__info
+      padding: 24px
+    .product-header-link
+      font-size: 14px
+      color: #3483fa
+      text-decoration: none
+    .price-old
+      font-size: 14px
+      line-height: 1.5
+      color: #999
+      position: absolute
+      top: 8px
+      left: 25px
+    .item__info
+      border-top: 1px solid rgba(51, 51, 51, 0.1)
+    .item__info-link
+      text-decoration: none
+      display: block
+      &:visited .item__title
+        color: #666
+    .item__brand, .item__car-dealer
+      font-size: 14px
+      font-weight: 300
+      line-height: 1.3
+      color: #999
+      margin-top: 2px
+      display: block
+    .item__price
+      color: #333
+      font-size: 24px
+      line-height: 1.2
+      vertical-align: middle
+    .item__title
+      color: #333
+      font-size: 14px
+      font-weight: 300
+      line-height: 1.29
+      .main-title
+        overflow: hidden
+        text-overflow: ellipsis
+        display: -webkit-box
+        -webkit-line-clamp: 2
+        -webkit-box-orient: vertical
+    .item__discount
+      font-size: 14px
+      line-height: 1.0
+      vertical-align: middle
+      padding-left: 5px
+    .item__shipping
+      width: 36px
+      height: 36px
+      top: -17px
+      right: 16px
+      display: -webkit-box
+      display: -webkit-flex
+      display: -ms-flexbox
+      display: flex
+      -webkit-box-pack: center
+      -webkit-justify-content: center
+      -ms-flex-pack: center
+      justify-content: center
+      .stack-item-info
+        display: none
+      &:after
+        content: '\e900'
+        color: #39b54a
+        font-family: "search-icons"
+        position: relative
+        top: 9px
+        left: 1px
+      &.icon-promise:after
+        content: '\e915'
+        left: 0
+      &.item__free-shipping-disabled:after
+        color: #666
+      &.icon-plane-small:after
+        content: '\e90c'
+    .item-installments
+      display: block
+      font-size: 14px
+      padding-top: 2px
+      line-height: 1.29
+      color: #333
+      .svg-installments
+        display: none
+    .item__bookmark
+      width: 36px
+      height: 36px
+      top: 16px
+      right: 16px
+    .item__bookmark-form
+      height: 0
+    .item__bookmark
+      &:hover .icon:after
+        color: #1259c3
+      .icon
+        position: relative
+    .bookmarks
+      .icon:after
+        font-family: "search-icons"
+        content: '\e908'
+        position: absolute
+        color: #3483fa
+        left: 9px
+        top: 11px
+      &.selected .icon:after
+        content: '\e906'
+    .variation-picker
+      height: 52px
+    .item__image
+      a
+        display: block
+      img
+        -o-object-fit: contain
+        object-fit: contain
+        display: none
+        &[src]
+          display: inline-block
+      .carousel, img[src]
+        background-color: #fff
+    .item__reviews
+      display: block
+      .star, .stars
+        display: inline-block
+      .star
+        width: 14px
+        &:after
+          font-family: "search-icons"
+          content: '\e90a'
+          color: #ddd
+        &.star-icon-full:after
+          color: #3483fa
+        &.star-icon-half
+          width: 14px
+          position: relative
+          &:before
+            content: '\e90a'
+            font-family: "search-icons"
+            color: #ddd
+          &:after
+            color: #3483fa
+            content: '\e90a'
+            position: absolute
+            left: 0
+            top: 0
+            overflow: hidden
+            width: 8px
+      .stars
+        vertical-align: middle
+        margin-right: 3px
+      .item__reviews-total
+        display: inline-block
+        font-size: 12px
+        font-weight: 300
+        line-height: 1.0
+        color: #333
+        vertical-align: middle
+    .item__pad
+      font-size: 12px
+      font-weight: 300
+      line-height: 1.5
+      a
+        color: #999
+        text-decoration: none
+    .item__condition
+      font-size: 12px
+      font-weight: 300
+      line-height: 1.5
+      letter-spacing: .4px
+      color: #999
+
+.item .variation-picker
+  ul
+    height: 100%
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: start
+    -webkit-justify-content: flex-start
+    -ms-flex-pack: start
+    justify-content: flex-start
+    -webkit-box-align: center
+    -webkit-align-items: center
+    -ms-flex-align: center
+    align-items: center
+    padding-left: 24px
+  .attrBox
+    width: 36px
+    height: 36px
+    margin-right: 8px
+    border: 1px solid #eee
+    cursor: pointer
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
+    position: relative
+    .variation-picker__img
+      -webkit-transition: opacity .3s ease-out
+      transition: opacity .3s ease-out
+      opacity: .4
+      &:hover
+        opacity: 1
+    &.selected-option
+      pointer-events: none
+      .variation-picker__img
+        opacity: 1
+      .picker
+        width: 100%
+        height: 100%
+        border-bottom: 3px solid #3483fa
+        &.color-two
+          border: 0
+          height: 52px
+          top: 3px
+  .picker
+    position: relative
+    width: 100%
+    height: 100%
+    display: block
+    overflow: hidden
+    &.color-two
+      top: 3px
+      left: 13px
+      position: absolute
+      width: 36px
+      height: 52px
+      -webkit-transform: rotate(45deg)
+      -ms-transform: rotate(45deg)
+      transform: rotate(45deg)
+
+body.ipad .search-results .item .item__bookmark
+  cursor: pointer
+  display: block
+
+.ipad .search-results .results-item .item .variation-picker
+  display: none !important
+
+.lt-ie10 .search-results .item .item__shipping:after
+  left: 8px
+
+.quantity-results
+  margin-bottom: 8px
+  float: left
+
+.sort-by
+  float: left
+  padding-bottom: 8px
+  position: relative
+  .ui-dropdown__display
+    float: left
+  .ui-dropdown__link
+    color: #666
+    cursor: pointer
+    font-size: 14px
+    &:hover
+      color: #333
+  .ui-dropdown__indicator
+    display: inline-block
+    height: 12px
+    left: 3px
+    position: relative
+    top: 2px
+    &:after
+      position: relative
+      top: 0
+      left: 4px
+      font-size: 12px
+  &.range-filter .ui-dropdown__indicator:after
+    font-size: 10px
+    left: 5px
+    font-weight: 600
+  .ui-dropdown__content
+    min-width: 134px
+    margin-top: 8px
+    right: -2px
+  .ui-list
+    width: 134px
+    -webkit-border-radius: 4px
+    border-radius: 4px
+  .ui-menu-wrapper
+    position: static
+  .ui-menu
+    top: 22px
+    display: none
+  .ui-dropdown__content
+    display: none
+  .ui-list__item
+    a
+      text-decoration: none
+    &:hover
+      background-color: #eee
+    &.ui-list__item--selected
+      &:hover
+        background-color: #fff
+      &:first-child:before
+        -webkit-border-top-left-radius: 4px
+        border-top-left-radius: 4px
+      &:last-child:before
+        -webkit-border-bottom-left-radius: 4px
+        border-bottom-left-radius: 4px
+        bottom: -2px
+
+.view-options
+  display: inline-block
+  width: 100%
+  padding-right: 15px
+  margin-bottom: 24px
+  margin-top: 46px
+  position: relative
+  dt
+    font-weight: 700
+    font-size: 16px
+    margin: 0 0 12px
+    color: #333
+  .view-options-buttons
+    float: left
+    &:before
+      color: #999
+      content: "\007C"
+      float: left
+      font-size: 20px
+      margin: 0 0 0 8px
+    li
+      float: left
+      margin: 2px 0 0 8px
+      a
+        height: 15px
+        display: inline-block
+        width: 15px
+      .ico
+        height: 15px
+        display: inline-block
+        width: 15px
+        padding-left: 2px
+        opacity: .5
+        -webkit-transition: opacity .2s ease-out
+        transition: opacity .2s ease-out
+        &:hover
+          opacity: 1
+      a
+        padding: 0
+      .ico:after
+        font-family: "search-icons"
+        color: #333
+        font-size: 14px
+        -webkit-font-smoothing: none
+      .view-option-stack:after
+        content: '\e90f'
+      .view-option-mosaic:after
+        content: '\e910'
+      .view-option-grid:after
+        content: '\e90e'
+      .ico.selected
+        opacity: 1
+    .ico.view-option-stack.selected
+      padding-left: 4px
+      margin-right: -4px
+  .view-options-tooltip-input:checked + .view-options-tooltip
+    display: block
+  .view-options-tooltip
+    display: none
+    width: 273px
+    height: auto
+    background-color: #3483fa
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 rgba(0, 0, 0, 0.05)
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 rgba(0, 0, 0, 0.05)
+    -webkit-border-radius: 2px
+    border-radius: 2px
+    position: absolute
+    left: 68%
+    top: 25%
+    z-index: 3
+    will-change: opacity
+    .wrapper
+      position: relative
+      height: 100%
+      padding: 16px
+    .tooltip-close
+      position: absolute
+      top: 16px
+      right: 16px
+      cursor: pointer
+      &:after
+        font-family: "search-icons"
+        content: '\e905'
+        color: #b3cdf4
+        font-size: 13px
+    .title
+      font-size: 13px
+      font-weight: 600
+      line-height: 1.23
+      color: #fff
+      margin-bottom: 8px
+      max-width: 218px
+    .description
+      font-size: 13px
+      font-weight: 400
+      line-height: 1.23
+      color: #f5f5f5
+    &:before
+      content: ''
+      display: block
+      width: 0
+      height: 0
+      position: absolute
+      border-top: 8px solid transparent
+      border-bottom: 8px solid transparent
+      border-right: 8px solid #3483fa
+      left: -8px
+      top: 17px
+    &.visible
+      display: block
+      -webkit-animation: showTooltip .2s ease-out
+      animation: showTooltip .2s ease-out
+
+@-webkit-keyframes showTooltip
+  0%
+    opacity: 0
+
+  50%
+    opacity: .5
+
+  100%
+    opacity: 1
+
+
+@keyframes showTooltip
+  0%
+    opacity: 0
+
+  50%
+    opacity: .5
+
+  100%
+    opacity: 1
+
+
+.applied-filters
+  clear: both
+  display: block
+  margin-top: -4px
+  padding-right: 15px
+  width: 100%
+  dt
+    margin: 0 0 12px 0
+  a
+    line-height: 10px
+    margin: 8px 0
+    overflow: hidden
+    text-decoration: none
+    img
+      padding-top: 8px
+  dd
+    float: left
+    margin: 4px 12px 8px 0
+    position: relative
+    h2
+      vertical-align: middle
+      display: inline-block
+      font-size: 14px
+      font-weight: 300
+      line-height: 26px
+      padding-right: 16px
+    .close__icon
+      vertical-align: middle
+      display: inline-block
+      &:after
+        font-family: "search-icons"
+        content: '\e905'
+        color: #ccc
+        font-size: 10px
+    &:hover .close__icon:after
+      color: #666
+
+.breadcrumb
+  padding-top: 7px
+
+.breadcrumb__path
+  display: inline
+  font-size: 14px
+  font-weight: 400
+  margin: 0 0 2px
+  line-height: 1.45
+  a
+    color: #666
+    &:hover
+      color: #333
+      text-decoration: none
+  &:last-child::after
+    display: none
+
+.breadcrumb-chevron
+  display: inline-block
+  color: #666
+  margin-left: 2px
+  margin-right: 2px
+  &:after
+    font-family: "search-icons"
+    content: '\e902'
+    font-size: 11px
+
+.breadcrumb__title
+  color: #333
+  display: block
+  font-size: 26px
+  font-weight: 600
+  line-height: 30px
+  margin: 16px 0 8px
+  &.uncapitalized:first-letter
+    text-transform: inherit
+  &:first-letter
+    text-transform: capitalize
+
+.breadcrumb__title__multiple__neighborhood
+  display: -webkit-box
+  -webkit-line-clamp: 2
+  -webkit-box-orient: vertical
+  overflow: hidden
+  max-height: 60px
+
+.results
+  .mclics
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
+    height: 32px
+    padding: 7px 0
+    overflow: hidden
+    position: relative
+    -webkit-border-radius: 4px
+    border-radius: 4px
+    background-color: #f0f0f0
+    max-width: 584px
+    .advertise
+      border-right: 1px solid #ccc
+      color: #999
+      float: left
+      line-height: 20px
+      font-size: 12px
+      padding-left: 16px
+      padding-right: 16px
+      margin-right: 16px
+      display: block !important
+      a
+        text-decoration: none
+        color: #999
+    .top-ad-description
+      display: inline-block
+      width: 70%
+      &.truncate
+        width: 54%
+    .img-brand-insert
+      display: inline-block
+      max-width: 100%
+      min-width: 40%
+      overflow: hidden
+      text-overflow: ellipsis
+      white-space: nowrap
+      line-height: 20px
+      font-size: 12px
+      color: #666
+      vertical-align: middle
+    .url
+      color: #333
+    .adHere
+      display: none !important
+    img
+      display: inline-block
+      position: absolute
+      right: 0
+      top: 9px
+  &.grid .mclics, &.stack .mclics
+    margin-left: 9px
+    margin-bottom: 16px
+  &.mosaic .mclics
+    margin-left: 8px
+    margin-bottom: 16px
+  &.stack .mclics
+    max-width: 100%
+
+@media (max-width: 719px)
+  .results
+    &.grid .mclics, &.mosaic .mclics
+      max-width: 283px
+    &.grid .mclics .mbrand, &.mosaic .mclics .mbrand
+      display: none
+    &.stack .mclics
+      max-width: 100%
+      .top-ad-description
+        max-width: 100px
+
+@media (min-width: 720px) and (max-width: 861px)
+  .results
+    &.grid .mclics, &.mosaic .mclics
+      margin-left: 5px
+      max-width: 490px
+    &.stack .mclics
+      max-width: 100%
+      .top-ad-description
+        max-width: 200px
+
+@media (min-width: 862px) and (max-width: 1023px)
+  .results
+    &.grid .mclics, &.mosaic .mclics
+      max-width: 584px
+
+@media (min-width: 1024px) and (max-width: 1164px)
+  .results
+    &.grid .mclics, &.mosaic .mclics
+      margin-left: 6px
+      max-width: 744px
+    &.stack .mclics
+      max-width: 100%
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)
+  .results .mclics .top-ad-description.truncate
+    width: 64%
+
+.merch-mclics
+  max-width: 100%
+  position: relative
+  margin-top: 60px
+  a:hover
+    text-decoration: none
+  .advertise
+    font-size: 12px
+    color: #333
+    background: #f5f5f5
+    padding-right: 10px
+    position: absolute
+    top: -10px
+  .url, .description
+    font-weight: 300
+  .url
+    margin-top: 2px
+    margin-bottom: 3px
+    overflow: hidden
+    text-overflow: ellipsis
+  ol
+    border-top: solid 1px #dedede
+    &.without-image
+      padding-top: 32px
+  #pAdsVertical
+    position: relative
+    height: 160px
+    margin-bottom: 32px
+    border-bottom: solid 1px #dedede
+    a
+      display: -webkit-box
+      display: -webkit-flex
+      display: -ms-flexbox
+      display: flex
+      height: 100%
+      -webkit-box-pack: start
+      -webkit-justify-content: flex-start
+      -ms-flex-pack: start
+      justify-content: flex-start
+      -webkit-box-align: center
+      -webkit-align-items: center
+      -ms-flex-align: center
+      align-items: center
+      img
+        width: 80px
+        height: 80px
+        -webkit-box-ordinal-group: 1
+        -webkit-order: 0
+        -ms-flex-order: 0
+        order: 0
+    .pAdsTradeMark
+      position: absolute
+      bottom: 20px
+      right: 67px
+      img
+        width: auto
+        height: auto
+    a
+      .pAdsTitle
+        width: 100%
+        line-height: 1.3
+        font-size: 14px
+        color: #666
+        text-decoration: none
+        -webkit-box-ordinal-group: 2
+        -webkit-order: 1
+        -ms-flex-order: 1
+        order: 1
+        font-weight: 300
+        overflow: hidden
+        text-overflow: ellipsis
+        display: -webkit-box
+        -webkit-line-clamp: 2
+        -webkit-box-orient: vertical
+      .pAdsprice
+        display: inline-block
+        width: 100%
+        font-size: 20px
+        line-height: 1.2
+        color: #333
+        -webkit-box-ordinal-group: 1
+        -webkit-order: 0
+        -ms-flex-order: 0
+        order: 0
+        padding-bottom: 10px
+        font-weight: 300
+        sup
+          vertical-align: super
+          font-size: 14px
+          color: #666
+    .ad__info
+      -webkit-box-ordinal-group: 2
+      -webkit-order: 1
+      -ms-flex-order: 1
+      order: 1
+      padding-left: 21px
+      display: -webkit-box
+      display: -webkit-flex
+      display: -ms-flexbox
+      display: flex
+      -webkit-box-orient: vertical
+      -webkit-box-direction: normal
+      -webkit-flex-direction: column
+      -ms-flex-direction: column
+      flex-direction: column
+      width: 55%
+    &:hover .pAdsTitle
+      color: #333
+    &.pAdsVertical.with-trademark
+      height: 173px
+      .ad__info
+        position: relative
+        top: -8px
+      .pAdsTradeMark
+        bottom: 36px
+  #imageAd
+    border-bottom: 1px solid #dedede
+    padding: 32px 0 32px
+    .image-pAds
+      margin-bottom: 10px
+      width: 80px
+      height: 80px
+  li
+    margin-bottom: 30px
+    a
+      max-width: 268px
+      text-decoration: none
+      span
+        font-size: 14px
+        line-height: 1.36
+        color: #666
+        display: block
+      .title
+        color: #333
+      .mbrand
+        margin-top: 8px
+    &:hover
+      .description, .url
+        color: #333
+  .adHere
+    p:last-of-type
+      font-size: 14px
+      border-top: 1px solid #dedede
+      width: 100%
+      color: #3483fa
+      height: 30px
+      padding-top: 13px
+    a
+      color: #3483fa
+      &:hover
+        color: #1259c3
+
+.few-results .mclics.merch-mclics
+  display: none
+
+.mclics-bottom
+  height: 250px
+  clear: both
+  .advertise
+    top: 35px
+    position: absolute
+    right: 0
+    color: #999
+    font-size: 12px
+  li
+    font-size: 14px
+    padding-bottom: 30px
+    &:hover
+      .description, .url
+        color: #333
+  .title
+    color: #333
+    line-height: 1.36
+    padding-right: 6px
+    font-weight: 400
+  .url::before
+    content: ''
+    display: block
+  ol
+    padding-top: 35px
+    border-top: solid 1px #dedede
+    border-bottom: solid 1px #dedede
+  .description, .url
+    font-weight: 300
+  .adHere a
+    color: #3483fa
+    text-decoration: none
+    font-size: 14px
+    &:hover
+      color: #1259c3
+
+.price-filter__value
+  &::-webkit-outer-spin-button, &::-webkit-inner-spin-button
+    -webkit-appearance: none
+    margin: 0
+
+input[type=number]
+  -moz-appearance: textfield
+
+.price-filter__fieldset, .price-filter__actions
+  float: left
+
+.price-filter__column
+  float: left
+  &:first-child::after
+    color: #999
+    content: "\2014"
+    font-size: 12px
+    margin: 0 6px 0 2px
+
+.price-filter__actions
+  margin-left: 8px
+
+.filters
+  .filters__price
+    position: relative
+    dt.dt-title
+      display: inline-block
+    .currency-filter
+      margin: 0 0 12px
+      line-height: 1.25
+      display: inline-block
+      span
+        color: #999
+        margin-right: 12px
+      input:checked + label
+        color: #333
+      label
+        margin-right: 8px
+        cursor: pointer
+        font-weight: 600
+      &:before
+        color: #999
+        content: "\007C"
+        margin: 0 8px 0 12px
+    input.price-filter__value
+      -webkit-border-radius: 4px
+      border-radius: 4px
+      border: solid 1px #999
+      height: 24px
+      width: 52px
+      text-align: left
+      padding: 0 4px
+      &:focus
+        border: solid 2px #3483fa
+        border-width: 2px
+        height: 22px
+        width: 50px
+  .size-filter .filters__group__option:hover a.qcat-truncate
+    border-color: #333
+    color: #333
+
+.modal-size-filter .qcat-filter .size-filter:hover
+  border-color: #333
+  color: #333
+
+.range-filter__actions
+  float: left
+  margin-left: 8px
+  margin-top: -3px
+
+.filter-action-btn
+  background-color: #3483fa
+  -webkit-border-radius: 50%
+  border-radius: 50%
+  cursor: pointer
+  display: block
+  height: 24px
+  line-height: 24px
+  position: relative
+  text-align: center
+  width: 24px
+  padding-top: 0
+  &:after
+    content: "\e902"
+    color: #fff
+    font-family: "search-icons"
+    font-size: 12px
+    height: 100%
+    left: 0
+    position: absolute
+    top: 0
+    width: 100%
+
+.filter-action-btn__disabled
+  background-color: #e0e0e0
+  pointer-events: none
+
+.filter-action-btn__no-js
+  background-color: #e0e0e0
+  &:hover
+    background-color: #3483fa
+
+.modal-overlay, .modal-label
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  align-items: center
+  -webkit-box-pack: center
+  -webkit-justify-content: center
+  -ms-flex-pack: center
+  justify-content: center
+  z-index: 1040
+  visibility: hidden
+  opacity: 0
+  -webkit-transition: all .3s linear
+  transition: all .3s linear
+
+.modal-overlay
+  .modal-container
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
+    position: relative
+    width: 816px
+    max-height: 550px
+    -webkit-border-radius: 4px
+    border-radius: 4px
+    -webkit-box-pack: justify
+    -webkit-justify-content: space-between
+    -ms-flex-pack: justify
+    justify-content: space-between
+    padding-top: 0
+    &.scrolled .modal-header
+      -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15)
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15)
+  .modal-container_expandable .filters___expandable_list
+    padding-bottom: 40px
+    -webkit-column-count: 3
+    -moz-column-count: 3
+    column-count: 3
+    dd
+      display: inline-block
+      text-align: left
+      margin: 0
+      margin-bottom: 20px
+      width: 180px
+  .modal-content
+    overflow-y: auto
+    padding-bottom: 32px
+    min-height: 180px
+    padding: 0 64px 12px
+    width: 84%
+  .container
+    padding-bottom: 40px
+  .modal-content
+    &:after
+      position: absolute
+      bottom: 0
+      height: 85px
+      width: 100%
+      content: ""
+      background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, white), color-stop(80%, rgba(255, 255, 255, 0)))
+      background: -webkit-linear-gradient(bottom, white 20%, rgba(255, 255, 255, 0) 80%)
+      background: linear-gradient(to top, white 20%, rgba(255, 255, 255, 0) 80%)
+      pointer-events: none
+      left: 0
+      -webkit-border-radius: 4px
+      border-radius: 4px
+    &.modal-content_expandable
+      min-height: 200px
+      overflow: auto
+  .modal-header
+    width: 100%
+    padding: 39px 0
+    text-align: left
+    width: 100%
+  .modal__title
+    display: inline-block
+    vertical-align: middle
+    font-size: 20px
+    font-weight: 600
+    line-height: 1.2
+    color: #333
+    padding-left: 64px
+  .ic-close
+    float: right
+    position: relative
+    right: 64px
+    top: 4px
+    cursor: pointer
+    .icon:after
+      font-family: "search-icons"
+      content: '\e905'
+      color: #3483fa
+  .name
+    font-size: 20px
+  .social-sharing
+    margin-top: 15px
+  .pending-action
+    min-width: 328px
+
+.ipad .modal-overlay .modal-content
+  overflow-y: scroll
+  &.modal-content_expandable
+    overflow: scroll
+
+.modal-color-filter.modal-overlay .modal-container
+  .box-color, .box-size
+    width: 40px
+    height: 40px
+    border-style: solid
+    border-width: 1px
+    -webkit-border-radius: 50%
+    border-radius: 50%
+    display: inline-block
+    margin-right: 16px
+    vertical-align: middle
+
+.modal-size-filter.modal-overlay .modal-container
+  .box-color, .box-size
+    width: 40px
+    height: 40px
+    border-style: solid
+    border-width: 1px
+    -webkit-border-radius: 50%
+    border-radius: 50%
+    display: inline-block
+    margin-right: 16px
+    vertical-align: middle
+
+.modal-color-filter.modal-overlay .modal-container .box-color
+  vertical-align: top
+
+.modal-size-filter.modal-overlay
+  .modal-container .box-color
+    vertical-align: top
+  .modal-content
+    width: 87%
+    padding-right: 40px
+  .container
+    min-width: 700px
+  .modal-container
+    text-align: left
+    .filters__group__option
+      -webkit-box-sizing: border-box
+      box-sizing: border-box
+      margin: 0 20px 30px 0
+      width: 155px
+      &:hover
+        .filter__name
+          color: #333
+        .box-size
+          color: #333
+          border-color: #333
+    .size-filter
+      display: none
+    .filter--complete
+      display: block
+    .box-size
+      border-color: #999
+      font-size: 14px
+      line-height: 40px
+      text-align: center
+      vertical-align: top
+    .filter__info
+      display: inline-block
+      margin: 3px 0
+      .filter__name, .filter__results
+        font-size: 14px
+        line-height: 1.29
+      .filter__name
+        color: #666
+      .filter__results
+        color: #999
+
+.modal-color-filter.modal-overlay .modal-container
+  .modal-content
+    padding-top: 4px
+  .color-filter.filter--basic
+    display: none
+  .box-color
+    border-color: rgba(51, 51, 51, 0.15)
+  .filter--complete
+    display: block
+  dd
+    width: 158px
+    margin-bottom: 32px
+    &:hover
+      a
+        text-decoration: none
+        .box-color
+          height: 40px
+          margin: -3px 13px -3px -3px
+          width: 40px
+          -webkit-box-sizing: content-box
+          box-sizing: content-box
+          &.box_92028, &.box_52055, &.box_82061
+            height: 38px
+            margin: 0 16px 0 0
+            width: 38px
+      .filter__name
+        color: #333
+  .container
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    -webkit-flex-wrap: wrap
+    -ms-flex-wrap: wrap
+    flex-wrap: wrap
+    min-width: 685px
+  .qcat-truncate
+    width: 100%
+    max-width: 150px !important
+    text-align: left
+    height: 45px
+  .filter__info
+    display: inline-block
+    vertical-align: middle
+    max-width: 90px
+  .filter__name
+    color: #666
+    font-size: 14px
+    line-height: 1.29
+  .filter__results
+    font-size: 14px
+    line-height: 1.29
+    color: #878787
+  &.scrolled .modal-header
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15)
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15)
+
+.modal-official-filter.modal-overlay .modal-container
+  .filter--complete
+    display: block
+    text-align: left
+  a
+    display: inline-block
+    vertical-align: middle
+    margin-right: 12px
+    height: 48px
+  .filter__info
+    display: inline-block
+    vertical-align: middle
+    max-width: 116px
+  .filter__name
+    font-size: 14px
+    line-height: 1.29
+    color: #333
+    display: block
+  .filter__results
+    font-size: 14px
+    line-height: 1.29
+    color: #333
+    display: block
+    color: #878787
+  dd
+    width: 210px
+    margin-bottom: 38px
+  .filter--basic
+    display: none
+  .container
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    -webkit-flex-wrap: wrap
+    -ms-flex-wrap: wrap
+    flex-wrap: wrap
+    min-width: 700px
+  .modal-content
+    padding-top: 4px
+
+.modal-location-filter
+  .modal-header
+    padding-bottom: 24px
+  .modal-container
+    padding-bottom: 0
+    .input-filter-container
+      width: 816px
+      text-align: left
+      padding-bottom: 16px
+      position: relative
+      input[type=text]
+        width: 688px
+        padding: 0 21px
+        -webkit-box-sizing: border-box
+        box-sizing: border-box
+        font-size: 20px
+        height: 52px
+        line-height: 52px
+        color: #666
+        -webkit-border-radius: 4px
+        border-radius: 4px
+        border: 1px solid #ddd
+        margin: auto
+        display: block
+        font-family: "Proxima Nova",Helvetica,Arial,sans-serif
+        &:focus
+          border: solid 2px #3483fa
+          padding: 0 20px
+      &:after
+        content: "\e909"
+        color: #999
+        font-family: "search-icons"
+        font-size: 16px
+        height: 16px
+        position: absolute
+        right: 90px
+        top: 17px
+        width: 16px
+    .submit-container
+      width: 816px
+      text-align: left
+      input[type=submit]
+        float: left
+        width: 160px
+        font-weight: 400
+      -webkit-box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, 0.15)
+      box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, 0.15)
+      padding: 16px 64px
+      -webkit-box-sizing: border-box
+      box-sizing: border-box
+      opacity: 0
+      -webkit-transition: all .3s linear
+      transition: all .3s linear
+      bottom: 0
+      background: white
+      -webkit-border-radius: 0 0 4px 4px
+      border-radius: 0 0 4px 4px
+      position: absolute
+    .input-filter-container.scrolled
+      -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15)
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15)
+    .modal-content
+      padding-bottom: 64px
+      padding-left: 35px
+      overflow-x: hidden
+      width: 88%
+      height: 500px
+    .modal-content-not-found
+      display: none
+      height: 255px
+      padding-bottom: 64px
+      height: 500px
+      -webkit-box-pack: center
+      -webkit-justify-content: center
+      -ms-flex-pack: center
+      justify-content: center
+      -webkit-box-align: center
+      -webkit-align-items: center
+      -ms-flex-align: center
+      align-items: center
+      -webkit-box-orient: vertical
+      -webkit-box-direction: normal
+      -webkit-flex-direction: column
+      -ms-flex-direction: column
+      flex-direction: column
+      p
+        font-size: 24px
+        text-align: center
+        padding: 0 180px
+      .svg-zrp-search
+        display: block
+        margin: 0 auto
+        margin-bottom: 27px
+  .group
+    .filter_group
+      float: left
+      text-transform: uppercase
+      font-weight: 700
+      font-size: 18px
+      padding-top: 33px
+      width: 6%
+    .filters
+      border-bottom: 1px #e6e6e6 solid
+      float: left
+      padding: 30px 0
+      padding-left: 4px
+      color: #333
+      width: 94%
+      -webkit-column-count: 3
+      -moz-column-count: 3
+      column-count: 3
+      font-size: 14px
+      .location_filter
+        width: 220px
+        text-align: left
+        a
+          color: #666
+          text-decoration: none
+        &:hover a
+          color: #333
+        span
+          color: #878787
+          font-size: 13px
+        .location_filter_inner
+          padding: 5px 15px 8px 0
+          display: inline-block
+
+.modal-neighborhood-filter .modal-container
+  .modal-content
+    padding-bottom: 80px
+    &.checked
+      padding-bottom: 0
+      margin-bottom: 80px
+    &.cheked:after
+      background: 0
+  .modal-content-not-found
+    padding-bottom: 80px
+
+iframe#modal-iframe
+  background-image: none !important
+
+.chs-popover.chs-modal.chs-box-lite.chs-modal-frameless
+  .chs-popover-content
+    margin: 0
+  .chs-close
+    border: 0
+    background: 0
+    font-size: 14px
+    position: absolute
+    top: 49px
+    right: 70px
+    &:before
+      font-family: "search-icons"
+      content: '\e905'
+      color: #3483fa
+    &:hover
+      color: #3483fa
+      text-shadow: none
+
+.no-js .modal-location-filter .input-filter-container
+  display: none
+
+.lt-ie10
+  .modal-overlay
+    .modal-container
+      margin-top: 10%
+      margin-right: auto
+      margin-bottom: 0
+      margin-left: auto
+      display: block
+    .modal-content
+      height: 500px
+  .modal-location-filter .modal-container .modal-content
+    height: 400px
+
+body
+  &.layout-officialStore
+    .results
+      &.stack .search-results__top-distance
+        height: 1px
+      &.grid .search-results__top-distance
+        height: 0
+      &.mosaic .search-results__top-distance
+        height: 2px
+    .inner-main
+      margin-top: 0
+    .filters
+      padding-top: 65px
+    .results
+      &.grid, &.mosaic, &.stack
+        margin-top: -48px
+    .nav-main-content
+      max-width: none
+      margin: 0
+      padding: 0
+    .os__header
+      height: 180px
+      background-repeat: no-repeat
+      -webkit-background-size: cover
+      background-size: cover
+    .os__header__container
+      position: relative
+      height: 100%
+      margin: 0 auto
+      max-width: 1200px
+    .os__link
+      position: absolute
+      bottom: -50px
+    .os__avatar
+      width: 122px
+      height: 90px
+      padding: 4px
+      position: relative
+      top: 2px
+      -webkit-border-radius: 4px
+      border-radius: 4px
+      background-color: #fff
+      -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 -1px 2px 0 rgba(0, 0, 0, 0.1)
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 -1px 2px 0 rgba(0, 0, 0, 0.1)
+    .brand-logo
+      -webkit-border-radius: 4px
+      border-radius: 4px
+      width: 100%
+      height: 100%
+    .facebook-button, .twitter-button
+      background: #000
+      -webkit-border-radius: 50%
+      border-radius: 50%
+      width: 32px
+      height: 32px
+      color: #fff
+    .toolbar
+      display: none
+      padding-bottom: 38px
+    &.ipad .os__link
+      padding: 0 25px
+  &.layout-deal
+    .nav-main-content
+      max-width: none
+      margin: 0
+      padding: 0
+    .ml-main
+      max-width: 1200px
+      margin: 0 auto
+    .deals-header
+      min-height: 242px
+      width: 100%
+      display: block
+      margin: 0
+      background-repeat: no-repeat
+      background-position: center center
+      .toolbar
+        display: none
+    .results
+      &.grid, &.mosaic
+        margin-top: 22px
+    .filters
+      padding-top: 24px
+    &.with-countdown .filters
+      padding-top: 37px
+
+.deal-countdown
+  max-width: 585px
+  margin: 0
+  margin-left: 9px
+  margin-bottom: 32px
+  height: 59px
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  line-height: 59px
+  .countdown
+    float: right
+  .content-countdown-extra, .countdown, .dealEndTime, p, .description, .hours, .minutes, .seconds
+    display: inline-block
+  .countdown-days.card.zero-days
+    .days, .alt
+      opacity: .1
+  .content-countdown-extra
+    width: 35%
+    text-align: right
+  .card
+    display: inline-block
+    width: 59px
+    height: 59px
+    -webkit-border-radius: 4px
+    border-radius: 4px
+    background-color: #fff
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1)
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1)
+    vertical-align: middle
+    text-align: center
+    font-size: 29px
+    color: #333
+    line-height: 1
+    .clock-part
+      padding-top: 10px
+  .separator
+    padding-right: 4px
+  .hours.card, .minutes.card
+    margin-right: 4px
+  .alt
+    font-size: 11px
+  .days
+    padding-top: 8px
+    font-weight: 700
+  .alt
+    font-weight: 700
+
+@media (min-width: 720px) and (max-width: 861px)
+  .deal-countdown
+    max-width: 490px !important
+
+@media (min-width: 1220px)
+  .deal-countdown
+    max-width: 884px
+    .content-countdown-extra
+      width: 62%
+
+.item
+  &.item--grid .variation-picker img.variation-picker__img, &.item--mosaic .variation-picker img.variation-picker__img
+    -webkit-border-radius: 0
+    border-radius: 0
+    height: 100%
+    -o-object-fit: cover
+    object-fit: cover
+    -o-object-position: top
+    object-position: top
+    width: 100%
+    z-index: 1
+  &.item--grid .variation-picker .selected-option img.variation-picker__img, &.item--mosaic .variation-picker .selected-option img.variation-picker__img
+    border-bottom: 2px solid #3483fa
+    padding-bottom: 0
+
+.variation-picker__more-imgs-info
+  background: rgba(255, 255, 255, 0.9)
+  bottom: 0
+  color: #3483fa
+  font-size: 18px
+  font-weight: 500
+  height: 100%
+  left: 0
+  line-height: 34px
+  position: absolute
+  right: 0
+  text-align: center
+  top: 0
+  z-index: 2
+
+.item .variation-picker .variation-picker__sekeleton li.attrBox
+  border: 0
+
+.variation-picker .attrBox
+  &.skeleton__box--0
+    background: #eee
+    background: -webkit-linear-gradient(left, #eee 0, #f2f2f2 100%)
+    background: -webkit-gradient(linear, left top, right top, from(#eee), to(#f2f2f2))
+    background: linear-gradient(to right, #eee 0, #f2f2f2 100%)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee',endColorstr='#f2f2f2',GradientType=1)
+  &.skeleton__box--1
+    background: #f2f2f2
+    background: -webkit-linear-gradient(left, #f2f2f2 0, #f6f6f6 100%)
+    background: -webkit-gradient(linear, left top, right top, from(#f2f2f2), to(#f6f6f6))
+    background: linear-gradient(to right, #f2f2f2 0, #f6f6f6 100%)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f2f2',endColorstr='#f6f6f6',GradientType=1)
+  &.skeleton__box--2
+    background: #f6f6f6
+    background: -webkit-linear-gradient(left, #f6f6f6 0, #fafafa 100%)
+    background: -webkit-gradient(linear, left top, right top, from(#f6f6f6), to(#fafafa))
+    background: linear-gradient(to right, #f6f6f6 0, #fafafa 100%)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6',endColorstr='#fafafa',GradientType=1)
+  &.skeleton__box--3
+    background: #fafafa
+    background: -webkit-linear-gradient(left, #fafafa 0, #fefefe 100%)
+    background: -webkit-gradient(linear, left top, right top, from(#fafafa), to(#fefefe))
+    background: linear-gradient(to right, #fafafa 0, #fefefe 100%)
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa',endColorstr='#fefefe',GradientType=1)
+
+.adults__input:checked + .adults__container
+  display: none
+
+.adults__container
+  height: 58px
+  background-color: #5c95ff
+  margin-left: 9px
+  margin-bottom: 16px
+  max-width: 884px
+  -webkit-border-radius: 3px
+  border-radius: 3px
+  color: #fff
+  line-height: 58px
+  .adults__label, .adults__results, .adults__info
+    display: inline-block
+    font-size: 14px
+  .adults__message-close
+    float: right
+    margin-right: 24px
+    position: relative
+    top: 2px
+    cursor: pointer
+  .adults__label
+    cursor: pointer
+  .adults__info
+    width: 16px
+    height: 16px
+    background-color: #0061f4
+    vertical-align: middle
+    position: relative
+    -webkit-border-radius: 50%
+    border-radius: 50%
+    margin-left: 24px
+    margin-right: 10px
+    svg
+      position: absolute
+      top: 3px
+      left: 3px
+
+.modal-adults-content
+  .modal-content p
+    font-size: 16px
+    font-weight: 300
+    line-height: 1.38
+    color: #333
+    text-align: left
+  .adultsLink
+    color: #3483fa
+    text-decoration: none
+    cursor: pointer
+  .adults__link
+    width: 142px
+    height: 36px
+    -webkit-border-radius: 4px
+    border-radius: 4px
+    background-color: #3483fa
+    border: 0
+    font-size: 14px
+    color: #fff
+    cursor: pointer
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
+    display: inline-block
+    text-align: center
+    font-weight: normal
+    padding: 8px 6px 3px
+    text-decoration: none
+  .adults__modal-close
+    font-size: 14px
+    color: #3483fa
+    margin-left: 20px
+    cursor: pointer
+  .actions
+    margin-top: 34px
+
+.product-header-section
+  display: block
+  min-height: 208px
+  max-width: 884px
+  width: 284px
+  -webkit-border-radius: 4px
+  border-radius: 4px
+  background-color: #f0f0f0
+  margin: 0 0 16px 9px
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1)
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1)
+  .link-to-reviews
+    text-decoration: none
+    display: block
+  .product-header-container
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-align: center
+    -webkit-align-items: center
+    -ms-flex-align: center
+    align-items: center
+    -webkit-box-pack: start
+    -webkit-justify-content: flex-start
+    -ms-flex-pack: start
+    justify-content: flex-start
+    padding: 0
+    height: 208px
+    padding-left: 24px
+  .product-image
+    height: 160px
+    width: 160px
+    -webkit-border-radius: 4px
+    border-radius: 4px
+    padding: 0
+    img
+      max-width: 160px
+  .product-info-container
+    height: 160px
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
+    padding-top: 34px
+    padding-left: 28px
+    .product-name
+      font-size: 24px
+      margin-top: 4px
+      margin-bottom: 10px
+    .reviews
+      font-size: 14px
+      margin-top: 18px
+      max-width: 172px
+      .review-stars
+        display: inline-block
+        vertical-align: middle
+        .star-icon
+          display: inline-block
+          height: 20px
+          width: 18px
+          margin: 0
+      .star-icon
+        .icon:after
+          font-family: "search-icons"
+          color: #d0d0d0
+          content: '\e90a'
+          font-size: 20px
+        &.star-icon-half .icon:before
+          font-family: "search-icons"
+          content: '\e907'
+          color: #3483fa
+          font-size: 19px
+          position: absolute
+          left: .5px
+        .icon.full:after
+          color: #3483fa
+      .review-number
+        color: #666
+        text-decoration: none
+        margin-left: 5px
+      .svg-reviews-star, .svg-reviews-halfstar
+        height: 20px
+        width: 21px
+      .review-number-no-link, .review-number
+        display: inline-block
+      .review-number-no-link
+        display: inline-block
+        vertical-align: middle
+      .review-number
+        pointer-events: all
+        cursor: pointer
+      &:hover .review-number
+        color: #333
+  &.stack
+    width: 99%
+
+@media (min-width: 720px) and (max-width: 840px)
+  .product-header-section
+    width: 488px
+
+@media (min-width: 861px) and (max-width: 1023px)
+  .product-header-section
+    width: 581px
+
+@media (min-width: 1024px) and (max-width: 1164px)
+  .product-header-section
+    width: 740px
+
+@media (min-width: 1165px)
+  .product-header-section
+    width: 100%
+
+@media (max-width: 915px)
+  .product-header-section .product-info-container
+    width: 50%
+
+.billboards
+  height: 360px
+  max-width: 884px
+  overflow: hidden
+  margin: 0 0 16px 9px
+  -webkit-border-radius: 4px
+  border-radius: 4px
+  position: relative
+  -webkit-transition: all .4s ease-in-out
+  transition: all .4s ease-in-out
+  .billboards__info-bg
+    width: 320px
+    height: 286px
+    position: absolute
+    top: 37px
+    left: 54px
+    background-color: rgba(0, 0, 0, 0.5)
+    z-index: 1
+    -webkit-transition: all .4s ease
+    transition: all .4s ease
+  .billboards__container
+    width: 4420px
+    -webkit-transition: all .6s ease-in-out
+    transition: all .6s ease-in-out
+    .billboards__button-prev, .billboards__button-next, .billboards__button-collapse
+      position: absolute
+      width: 20px
+      height: 32px
+      z-index: 1
+      cursor: pointer
+    .billboards__button-prev:after, .billboards__button-next:after, .billboards__button-collapse:after
+      content: '\e903'
+      font-family: "search-icons"
+      color: #fff
+      font-size: 20px
+      -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5)
+      text-shadow: 0 0 4px black
+    div[class*=billboards__button-].hide
+      display: none
+    .billboards__button-prev
+      left: 5px
+      top: 166px
+      width: 36px
+      -webkit-transform: rotate(90deg)
+      -ms-transform: rotate(90deg)
+      transform: rotate(90deg)
+    .billboards__button-next
+      -webkit-transform: rotate(-90deg)
+      -ms-transform: rotate(-90deg)
+      transform: rotate(-90deg)
+      width: 36px
+      right: 4px
+      top: 164px
+    .billboards__button-collapse
+      right: 16px
+      bottom: 30px
+      width: 31px
+      height: 20px
+      -webkit-transform: rotate(180deg)
+      -ms-transform: rotate(180deg)
+      transform: rotate(180deg)
+      &:after
+        font-size: 18px
+      &.rotated
+        -webkit-transform: rotate(0deg)
+        -ms-transform: rotate(0deg)
+        transform: rotate(0deg)
+    .billboard
+      display: inline-block
+      width: 884px
+      height: 360px
+      overflow: hidden
+      float: left
+      .billboard__image
+        width: 884px
+        height: 360px
+        -webkit-border-radius: 4px
+        border-radius: 4px
+        overflow: hidden
+        background-position: center
+        -webkit-background-size: 100% 100%
+        background-size: 100%
+      .billboards__info
+        width: 320px
+        height: 286px
+        padding: 28px
+        -webkit-box-sizing: border-box
+        box-sizing: border-box
+        position: absolute
+        top: 37px
+        left: 54px
+        z-index: 2
+        -webkit-transition: all .4s ease
+        transition: all .4s ease
+        &.billboards__info-hide
+          opacity: 0
+          display: none
+        .billboards__info-container
+          -webkit-transition: all .2s
+          transition: all .2s
+          .billboard__button
+            width: 100%
+            .ui-button
+              font-size: 14px
+              width: 147px
+              -webkit-box-sizing: border-box
+              box-sizing: border-box
+              text-decoration: none
+              font-weight: 400
+        .info__header
+          width: 100%
+          height: 70px
+          padding-bottom: 16px
+          .info__name
+            width: 160px
+            height: 70px
+            float: left
+            color: #fff
+            margin: 8px 0 0 16px
+            span
+              font-size: 11px
+              display: block
+              padding-bottom: 6px
+            a
+              font-size: 18px
+              color: #fff
+              line-height: 21px
+              overflow: hidden
+              text-overflow: ellipsis
+              display: -webkit-box
+              -webkit-line-clamp: 2
+              -webkit-box-orient: vertical
+              height: 45px
+          .info__logo
+            width: 70px
+            height: 70px
+            float: left
+        .info__price
+          color: #fff
+          height: 54px
+          span
+            font-size: 11px
+            display: block
+            margin-bottom: 6px
+          p
+            font-size: 24px
+        .billboard__info-attributes
+          width: 100%
+          float: left
+          height: 52px
+          li
+            float: left
+            width: 76px
+            margin-right: 16px
+            color: #fff
+            span
+              font-size: 12px
+              display: block
+              &.label
+                margin-bottom: 8px
+              &.attribute
+                font-size: 14px
+                margin-bottom: 12px
+            &:last-of-type
+              margin-right: 0
+      button
+        width: 36px
+        height: 36px
+      .item__bookmark-form
+        display: none
+        position: absolute
+        top: 16px
+        right: 16px
+      .item__bookmark
+        width: 36px
+        height: 36px
+        top: 16px
+        right: 16px
+      .item__bookmark-form
+        height: 0
+      .item__bookmark .icon
+        position: relative
+      .bookmarks
+        .icon:after
+          font-family: "search-icons"
+          content: '\e908'
+          position: absolute
+          color: #3483fa
+          left: 9px
+          top: 11px
+        &.selected .icon:after
+          content: '\e906'
+  &.collapsed
+    height: 104px
+    .billboards__container
+      .billboards__button-prev, .billboards__button-next
+        display: none
+      .billboards__button-collapse
+        bottom: 10px
+      .billboards__info-bg, .billboard .billboards__info
+        top: -10px
+
+body.ipad .billboards .billboards__button-collapse
+  width: 55px
+  height: 37px
+  right: 6px
+  bottom: 20px
+  &:after
+    position: relative
+    top: 8px
+    left: 11px
+
+@media (max-width: 719px)
+  .billboards
+    display: none
+
+@media (min-width: 720px) and (max-width: 861px)
+  body.ipad .stack .billboards, .stack .billboards
+    margin-left: 6px
+    max-width: 490px
+  .grid .billboards
+    max-width: 488px
+
+@media (min-width: 862px) and (max-width: 1023px)
+  body.ipad .stack .billboards, .stack .billboards
+    max-width: 663px
+  .grid .billboards, .mosaic .billboards
+    max-width: 584px
+
+@media (min-width: 1024px) and (max-width: 1164px)
+  .billboards
+    margin-left: 6px
+    max-width: 744px
+
+.no-js section.billboards, .lt-ie10 section.billboards
+  display: none
+
+.aps-container
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1)
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1)
+  margin: 52px 0 0 -16px
+  max-width: 248px
+  padding: 16px
+  position: relative
+
+.aps-heading
+  font-size: 16px
+  font-weight: 600
+  line-height: 1.25
+  margin-bottom: 8px
+
+.aps-list-item
+  background: rgba(255, 255, 255, 0.4)
+  border: 1px solid #ccc
+  -webkit-border-radius: 4px
+  border-radius: 4px
+  height: 30px
+  margin-bottom: 8px
+  overflow: hidden
+  position: relative
+  width: 100%
+  &::after
+    color: #3483fa
+    content: '\e904'
+    font-family: "search-icons"
+    font-size: 14px
+    pointer-events: none
+    position: absolute
+    right: 10px
+    -webkit-transform: rotate(90deg)
+    -ms-transform: rotate(90deg)
+    transform: rotate(90deg)
+    top: 9px
+
+.aps-select
+  -webkit-appearance: none
+  -moz-appearance: none
+  appearance: none
+  border: 0
+  background: transparent
+  cursor: pointer
+  font-family: "Proxima Nova",Helvetica,Arial,sans-serif
+  font-size: 14px
+  height: 30px
+  line-height: 30px
+  padding: 0 20% 0 8px
+  width: 110%
+
+.aps-actions
+  margin-top: 16px
+
+a
+  &.asp-link
+    font-size: 14px
+    height: 26px
+    line-height: 26px
+  &.aps-button
+    font-size: 14px
+    height: 26px
+    line-height: 26px
+    background-color: #3483fa
+    -webkit-border-radius: 4px
+    border-radius: 4px
+    color: #fff
+    display: inline-block
+    padding: 0 8px
+    text-align: center
+    text-decoration: none
+    &.ch-btn-disabled
+      background-color: #ddd
+      cursor: not-allowed
+  &.asp-link
+    color: #3483fa
+    margin-left: 12px
+
+.aps-loading
+  background: #fff
+  -webkit-border-radius: 4px
+  border-radius: 4px
+  opacity: .8
+  position: absolute
+  top: 0
+  bottom: 0
+  right: 0
+  left: 0
+
+.ui-loading__spinner
+  height: 60px
+  width: 60px
+
+.no-js .aps-container, .lt-ie10 .aps-container
+  display: none
+
+body[class*='ie'] .aps-select
+  width: 130%
+
+.reviews-filter__results
+  display: inline-block
+  font-size: 14px
+  line-height: 1.29
+  color: #333
+  margin-left: 4px
+  span
+    color: #999
+
+.top__message-input:checked + .top__message-container
+  display: none
+
+.top__message
+  position: relative
+
+.top__message-container
+  min-height: 58px
+  background-color: #5c95ff
+  margin-left: 9px
+  margin-bottom: 16px
+  max-width: 884px
+  -webkit-border-radius: 3px
+  border-radius: 3px
+  color: #fff
+  font-size: 14px
+  padding-top: 20px
+  padding-bottom: 20px
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  position: relative
+  .top__message-container-icon
+    display: inline-block
+    font-size: 14px
+    width: 16px
+    height: 16px
+    background-color: #0061f4
+    .icon
+      width: 100%
+      height: 100%
+      position: relative
+      &:after
+        position: absolute
+        font-family: "search-icons"
+        content: '\e911'
+        font-size: 10px
+        top: 3px
+        left: 3.5px
+  .top__message-close
+    margin-right: 24px
+    cursor: pointer
+    position: absolute
+    right: 6px
+    top: 36%
+    .icon:after
+      content: '\e905'
+      font-family: "search-icons"
+  .top__message-container-icon
+    width: 16px
+    height: 16px
+    vertical-align: middle
+    position: relative
+    -webkit-border-radius: 50%
+    border-radius: 50%
+    margin-left: 24px
+    margin-right: 10px
+    display: inline-block
+    &.--without-icon
+      margin: 0
+  .text__container
+    display: inline-block
+    width: 75%
+    vertical-align: middle
+  .nav-search-zrp-msg a
+    color: #fff
+    font-weight: 600
+    text-decoration: underline
+  .zipcodeModal
+    color: #fff
+    text-decoration: none
+    font-weight: 600
+    border-bottom: 1px solid #fff
+  .message
+    display: inline-block
+  .message__link
+    color: #fff
+    text-decoration: none
+    font-weight: 600
+    border-bottom: 1px solid #fff
+    margin-left: 5px
+    &.without-link
+      display: none
+
+.top__message.few-items-official .link
+  color: #fff
+  font-weight: 600
+  text-decoration: underline
+
+@media (max-width: 719px)
+  .results
+    &.grid .top__message-container, &.mosaic .top__message-container
+      max-width: 284px
+  .top__message-container .text__container
+    width: 58%
+
+@media (min-width: 1000px)
+  .top__message-container .text__container
+    width: 82%
+
+@media (min-width: 1220px)
+  .top__message-container .text__container
+    width: 86%
+
+@media (min-width: 720px) and (max-width: 861px)
+  .results
+    &.grid .top__message-container, &.mosaic .top__message-container
+      margin-left: 5px
+      max-width: 490px
+
+@media (min-width: 862px) and (max-width: 1023px)
+  .results
+    &.grid .top__message-container, &.mosaic .top__message-container
+      max-width: 584px
+
+@media (min-width: 1024px) and (max-width: 1164px)
+  .results
+    &.grid .top__message-container, &.mosaic .top__message-container
+      margin-left: 6px
+      max-width: 744px
+
+.eshop-header
+  max-width: 874px
+  width: 100%
+  min-height: 138px
+  -webkit-border-radius: 4px
+  border-radius: 4px
+  background-color: #f0f0f0
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1)
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1)
+  margin-bottom: 16px
+  margin-left: 9px
+  padding: 24px
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  .brand
+    width: 150px
+    height: 90px
+    -webkit-border-radius: 4px
+    border-radius: 4px
+    background-color: #fff
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1)
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1)
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-pack: center
+    -webkit-justify-content: center
+    -ms-flex-pack: center
+    justify-content: center
+    -webkit-box-align: center
+    -webkit-align-items: center
+    -ms-flex-align: center
+    align-items: center
+    #eshopLogo
+      max-height: 90px
+  .reputation-scale
+    color: #555
+    display: block
+    overflow: hidden
+    position: relative
+    font-size: 1em
+    margin-top: 14px
+    margin-bottom: 9px
+    li
+      display: block
+      float: left
+      text-indent: -9999px
+      margin-right: 4px
+  .level-1, .level-2, .level-3, .level-4
+    width: 36px
+    height: 8px
+    opacity: .36
+  .level-1
+    -webkit-border-top-left-radius: 4px
+    border-top-left-radius: 4px
+    -webkit-border-bottom-left-radius: 4px
+    border-bottom-left-radius: 4px
+    background-color: #ff605a
+  .level-2
+    background-color: #ffb656
+  .level-3
+    background-color: #fff044
+  .level-4
+    background-color: #bbff1f
+  .level-5
+    width: 36px
+    height: 8px
+    opacity: .9
+    -webkit-border-top-right-radius: 4px
+    border-top-right-radius: 4px
+    -webkit-border-bottom-right-radius: 4px
+    border-bottom-right-radius: 4px
+    background-color: #31b93c
+  .eshop-logo
+    display: inline-block
+    margin-right: 32px
+    .brand
+      -webkit-box-sizing: border-box
+      box-sizing: border-box
+  .eshop-seller
+    display: inline-block
+    vertical-align: top
+    h2
+      font-size: 14px
+      font-weight: 600
+  .eshop-califications
+    display: inline-block
+    margin-right: 1%
+    position: relative
+    top: 23px
+    font-size: 14px
+    line-height: 1.57
+    opacity: .9
+    color: #333
+    width: 260px
+    padding-bottom: 20px
+  .seller-info-more
+    font-size: 14px
+    line-height: 1.29
+    color: #3483fa
+    text-decoration: none
+    position: relative
+    top: 10px
+  .eshop-experience
+    display: inline-block
+    margin-right: 1%
+    position: relative
+    top: 17px
+    font-size: 14px
+    line-height: 1.4
+    opacity: .9
+    color: #333
+    width: 260px
+    padding-bottom: 20px
+
+@media (min-width: 1072px)
+  .eshop-header
+    .eshop-califications, .eshop-experience
+      float: right
+      padding-bottom: 0
+
+.voc-section
+  margin-top: 30px
+  .show__voc-label
+    text-align: center
+    display: block
+    font-size: 16px
+    color: #3483fa
+    &:hover
+      color: #1259c3
+  .feedback__message
+    display: none
+  .modal-container.modal-container_expandable
+    min-height: 508px
+  .modal-content.modal-content_expandable
+    position: relative
+    min-height: 400px
+    &:after
+      display: none
+  .help-content
+    position: absolute
+    bottom: 18px
+    font-size: 14px
+    color: #999
+    a
+      text-decoration: none
+      color: #3483fa
+      &:hover
+        color: #1259c3
+  .ask-opinion
+    width: 681px
+    height: 200px
+    max-width: 681px
+    max-height: 200px
+    margin-top: 15px
+    font-family: "Proxima Nova",Helvetica,Arial,sans-serif
+    border-color: #ddd
+    resize: none
+    font-size: 16px !important
+    color: #333
+  .voc-content
+    margin-bottom: 40px
+  .ask-opinion-content
+    margin-top: 15px
+    font-family: "Proxima Nova",Helvetica,Arial,sans-serif
+    label
+      color: #333
+  .ask-select
+    height: 30px
+    width: 100%
+    -webkit-border-radius: 0
+    border-radius: 0
+    background: white
+    outline-offset: -1px
+    border: 0
+    outline: 1px solid #ddd
+    background-color: #fff
+  .form__submit-btn
+    margin-top: 20px
+    margin-top: 20px
+    width: 160px
+    font-weight: 400
+    padding: 12px 24px
+    background: #3483fa
+    -webkit-border-radius: 4px
+    border-radius: 4px
+    border: 0
+    font-size: 18px
+    cursor: pointer
+    color: #fff
+    font-family: "Proxima Nova",Helvetica,Arial,sans-serif
+    position: absolute
+    bottom: 58px
+  .voc-feedback
+    height: 360px
+    text-align: center
+    .voc-wrapper
+      height: 100%
+      display: -webkit-box
+      display: -webkit-flex
+      display: -ms-flexbox
+      display: flex
+      -webkit-box-orient: vertical
+      -webkit-box-direction: normal
+      -webkit-flex-direction: column
+      -ms-flex-direction: column
+      flex-direction: column
+      -webkit-box-pack: center
+      -webkit-justify-content: center
+      -ms-flex-pack: center
+      justify-content: center
+      -webkit-box-align: center
+      -webkit-align-items: center
+      -ms-flex-align: center
+      align-items: center
+    h3
+      font-size: 20px
+      margin-bottom: 10px
+
+.search_alerts
+  &.search_alerts_filter
+    .search_alerts_button
+      text-decoration: none
+      &:after
+        content: "\e912"
+        font-family: "search-icons"
+        font-size: 24px
+        color: #3483fa
+        line-height: 22px
+      &.saved:after
+        content: "\e913"
+      + .search-alert-saved
+        display: none
+    &:before
+      color: #999
+      content: "\007C"
+      font-size: 20px
+      margin: 0 0 0 8px
+      float: left
+  .search_alerts_wrapper
+    float: left
+    position: relative
+    margin-left: 16px
+  .search-alert-saved
+    position: relative
+    float: left
+  .ui-loading__container_search_alerts
+    display: none
+    .ui-loading__spinner
+      width: 20px
+      height: 20px
+  .ui-tooltip__data
+    padding: 12px
+    margin-top: 4px
+    .ui-tooltip__text
+      color: #333
+      a
+        color: #3483fa
+  input:checked + .ui-tooltip__data
+    display: block
+  .ui-tooltip__close:after
+    content: '\e905'
+    font-family: "search-icons"
+    color: #666
+    font-size: 9px
+    margin-left: 8px
+    cursor: pointer
+  &.search_alerts_filter
+    float: left
+  &.search_alerts_footer
+    margin: auto
+    margin-top: 30px
+    margin-bottom: 60px
+    .ui-loading__container_search_alerts
+      margin: auto
+      width: 20px
+    p
+      text-align: center
+      color: #535353
+      font-size: 13px
+      a
+        color: #3483fa
+        span
+          color: #535353
+    .search-alert-saved
+      display: none
+      float: none
+    .search_alerts_wrapper
+      float: none
+    .search_alerts_button
+      text-decoration: none
+      &:before
+        content: "\e912"
+        font-family: "search-icons"
+        font-size: 24px
+        color: #3483fa
+        line-height: 22px
+        position: relative
+        top: 6px
+      &.saved:before
+        content: "\e913"
+      + .search-alert-saved
+        display: none
+
+.search-alerts-message
+  display: none
+  opacity: 0
+  -webkit-transition: opacity .2s ease-in
+  transition: opacity .2s ease-in
+  margin-left: 8%
+  &.ui-snackbar--success .ui-snackbar__action:after
+    font-family: "search-icons"
+    content: '\e905'
+    color: #fff
+    font-size: 17px
+  &.show
+    display: table
+    opacity: 1
+  #ui-snackbar__action__search_alerts_retry
+    text-transform: uppercase
+
+.search-alerts-tooltip-input:checked + .search-alerts-tooltip
+  display: block
+
+.search-alerts-tooltip
+  display: none
+  width: 256px
+  height: auto
+  background-color: #3483fa
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 rgba(0, 0, 0, 0.05)
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25), 0 -1px 0 0 rgba(0, 0, 0, 0.05)
+  -webkit-border-radius: 2px
+  border-radius: 2px
+  position: absolute
+  left: 150%
+  top: -60%
+  z-index: 3
+  will-change: opacity
+  .wrapper
+    position: relative
+    height: 100%
+    padding: 16px
+  .tooltip-close
+    position: absolute
+    top: 16px
+    right: 16px
+    cursor: pointer
+    &:after
+      font-family: "search-icons"
+      content: '\e905'
+      color: #b3cdf4
+      font-size: 13px
+  .title
+    font-size: 13px
+    font-weight: 600
+    line-height: 1.23
+    color: #fff
+    margin-bottom: 8px
+    max-width: 218px
+  .description
+    font-size: 13px
+    font-weight: 300
+    line-height: 1.23
+    color: #fff
+  &:before
+    content: ''
+    display: block
+    width: 0
+    height: 0
+    position: absolute
+    border-top: 8px solid transparent
+    border-bottom: 8px solid transparent
+    border-right: 8px solid #3483fa
+    left: -8px
+    top: 17px
+  &.visible
+    display: block
+    -webkit-animation: showTooltip .2s ease-out
+    animation: showTooltip .2s ease-out
+
+.main-content, .nav-main-content, .ml-main, .inner-main
+  *zoom: 1
+
+.main-content
+  &:before, &:after
+    content: ' '
+    display: table
+
+.nav-main-content
+  &:before, &:after
+    content: ' '
+    display: table
+
+.ml-main
+  &:before, &:after
+    content: ' '
+    display: table
+
+.inner-main
+  &:before, &:after
+    content: ' '
+    display: table
+
+.main-content:after, .nav-main-content:after, .ml-main:after, .inner-main:after
+  clear: both
+
+.nav-main-content
+  max-width: 1200px
+  margin: 0 auto
+  padding-left: 10px
+  padding-right: 10px
+
+.filters
+  float: left
+  width: 25%
+  padding-right: 22px
+
+.results
+  display: table
+  float: left
+  width: 75%
+  overflow: hidden
+  margin-bottom: 60px
+  .pagination__container
+    display: block
+    max-width: 900px
+    margin-top: 32px
+    margin-bottom: 10px
+  .search-results__top-distance
+    display: table-row
+    height: 40px
+    width: 100%
+    &.without-top-ad
+      height: 12px
+  .search-results
+    &:before
+      content: ' '
+      display: table
+    &:after
+      content: ' '
+      display: table
+      clear: both
+
+body
+  &.ipad .pagination
+    margin: auto
+  &.with-banner
+    .nav-main-content
+      max-width: none
+      margin: 0
+      padding: 0
+    .ml-main
+      max-width: 1200px
+      margin: 0 auto
+      padding-left: 10px
+      padding-right: 10px
+
+.ui-tooltip__title
+  font-weight: 600
+  letter-spacing: .2px
+
+.ui-tooltip__text
+  color: #999
+
+.inner-main
+  margin-top: 45px
+
+body
+  &.with-related-searches .inner-main
+    margin-top: 0
+  &.layout-deal
+    .inner-main
+      margin-top: 8px
+    .ml-main
+      padding-left: 10px
+      padding-right: 10px
+  &.layout-officialStore .ml-main
+    max-width: 1200px
+    margin: 0 auto
+    padding-left: 10px
+    padding-right: 10px
+  &.ipad
+    overflow-x: hidden
+    overflow-y: scroll
+
+@media (max-width: 719px)
+  .filters
+    &.grid, &.mosaic
+      width: 38%
+      padding-right: 5px
+  .results
+    &.grid, &.mosaic
+      width: 62%
+
+@media (max-width: 768px)
+  div.banner-container
+    height: 0
+
+@media (max-width: 815px)
+  .filters.stack
+    width: 27%
+    padding-right: 0
+
+@media (min-width: 720px) and (max-width: 861px)
+  .filters
+    &.grid, &.mosaic
+      width: 28%
+      padding-right: 5px
+  .results
+    &.grid, &.mosaic
+      width: 72%
+    &.grid
+      .pagination__container, .voc-section
+        max-width: 500px
+    &.mosaic
+      .pagination__container, .voc-section
+        max-width: 500px
+
+@media (min-width: 862px) and (max-width: 863px)
+  .filters
+    &.grid, &.mosaic
+      width: 26%
+  .results
+    &.grid, &.mosaic
+      width: 73%
+
+@media (min-width: 864px) and (max-width: 1023px)
+  .results
+    &.grid
+      .pagination__container, .voc-section
+        max-width: 595px
+    &.mosaic
+      .pagination__container, .voc-section
+        max-width: 595px
+
+@media (min-width: 720px) and (max-width: 1024px)
+  .sort-by .ui-dropdown__content
+    right: -25px
+
+@media (min-width: 1024px) and (max-width: 1164px)
+  .filters
+    &.grid, &.mosaic
+      width: 23%
+  .results
+    &.grid, &.mosaic
+      width: 77%
+    &.grid
+      .pagination__container, .voc-section
+        max-width: 756px
+    &.mosaic
+      .pagination__container, .voc-section
+        max-width: 756px
+
+@media (min-width: 1024px) and (max-width: 1047px)
+  .filters
+    &.grid, &.mosaic
+      width: 23%
+      padding-right: 5px
+  .results
+    &.grid, &.mosaic
+      width: 77%
+
+@media (min-width: 1165px) and (max-width: 1220px)
+  .filters
+    &.grid, &.mosaic
+      width: 20%
+  .results
+    &.grid, &.mosaic
+      width: 80%
+
+@media (min-width: 768px) and (max-width: 1200px)
+  .ml-main
+    padding-left: 20px
+  body
+    &.layout-deal .ml-main, &.with-banner .ml-main
+      padding-left: 30px
+    &.layout-officialStore
+      .ml-main
+        padding-left: 30px
+      .os__link
+        left: 31px
+
+.installments-disclaimer
+  text-align: center
+  font-size: 12px
+  margin-top: 24px
+  color: #999
+  font-size: 14px
+  padding-bottom: 4px
+
+.search-results .item
+  .item__bookmark
+    cursor: pointer
+  &:hover .item__bookmark
+    display: block
+  &:after
+    content: ''
+    position: absolute
+    z-index: -1
+    top: 0
+    width: 100%
+    height: 100%
+    opacity: 0
+    -webkit-border-radius: 5px
+    border-radius: 5px
+    -webkit-box-shadow: 0 25px 20px 0 rgba(0, 0, 0, 0.16), 0 -1px 2px 0 rgba(0, 0, 0, 0.1)
+    box-shadow: 0 25px 20px 0 rgba(0, 0, 0, 0.16), 0 -1px 2px 0 rgba(0, 0, 0, 0.1)
+    -webkit-transition: opacity .2s ease-out
+    transition: opacity .2s ease-out
+  &:hover:after
+    opacity: 1
+
+.pagination
+  margin: 0 auto
+
+@media (min-width: 1100px)
+  .results .mclics
+    .top-ad-description
+      width: 75%
+      &.truncate
+        width: 70%
+    .img-brand-insert
+      max-width: 100%
+
+@media (min-width: 1165px)
+  .results .mclics
+    max-width: 884px
+    img
+      right: 16px
+
+@media (min-width: 1200px)
+  .results .mclics .top-ad-description
+    width: 86%
+
+.price-filter__fieldset, .price-filter__actions, .price-filter__column, .price-filter__label
+  float: left
+
+.price-filter__actions
+  margin-left: 8px
+
+.price-filter__column:first-child::after
+  color: #999
+  content: "\2014"
+  float: left
+  font-size: 12px
+  line-height: 2px
+  margin: 0 4px
+  padding: 12px 0
+
+.price-filter__action-btn.price-filter__action-link-focused
+  pointer-events: all
+
+.price-filter__action-link:focus
+  background-color: #3065b5
+
+@media (min-height: 900px)
+  .modal-overlay .modal-container
+    max-height: 650px
+
+.billboards .billboard
+  .item__bookmark
+    cursor: pointer
+  &:hover
+    .item__bookmark
+      display: block
+    -webkit-box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.16)
+    box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.16)
+    -webkit-transition: -webkit-box-shadow .2s ease-out
+    transition: box-shadow .2s ease-out
+
+body
+  min-width: 100%
+  max-width: 1200px
+
+noscript
+  position: initial
+
+.item.item--stack
+  -webkit-box-shadow: none
+  box-shadow: none
+  height: 100%
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  align-items: center
+  .product-header-link
+    text-overflow: ellipsis
+    display: -webkit-box
+    -webkit-line-clamp: 1
+    -webkit-box-orient: vertical
+    max-width: 154px
+    overflow: hidden
+    height: 21px
+    padding-top: 5px
+    font-weight: 300
+  .item__bookmark
+    left: 143px
+    top: 30px
+  .stack_colum_right
+    display: inline-block
+    vertical-align: inherit
+    position: relative
+    bottom: 0
+  .item__condition
+    position: static
+    display: block
+    font-size: 14px
+    line-height: 1
+    font-weight: 400
+    margin-top: 7px
+    letter-spacing: .2px
+    color: #666
+  #bookmarkForm button.bookmarks
+    position: absolute
+    top: 13px
+    right: 5px
+  .item__image
+    -webkit-border-radius: 4px
+    border-radius: 4px
+    display: inline-block
+    height: 160px
+    margin: 24px
+    min-width: 160px
+    overflow: hidden
+    width: 160px
+  .item__info
+    display: inline-block
+    -webkit-box-flex: 1
+    -webkit-flex-grow: 1
+    -ms-flex-positive: 1
+    flex-grow: 1
+    height: 166px
+    padding: 0
+    border-top: 0
+    width: 100%
+    .item__shipping, .item-installments
+      position: static
+      width: 100%
+      top: inherit
+      right: inherit
+      border: 0
+      background: 0
+      display: table-cell
+      height: auto
+    .item__shipping:after, .item-installments:after
+      color: #39b54a
+      font-family: 'search-icons'
+      position: absolute
+      top: 0
+      left: 0
+      line-height: 18px
+    .item__shipping.icon-truck-small:after, .item-installments.icon-truck-small:after
+      content: '\e900'
+      font-size: 14.5px
+    .item__shipping.icon-truck-small.icon-promise:after, .item-installments.icon-truck-small.icon-promise:after
+      content: '\e915'
+      font-size: 14.5px
+      left: -3px
+    .item__shipping.icon-plane-small:after, .item-installments.icon-plane-small:after
+      content: '\e90c'
+      font-size: 17px
+    .item__shipping.item__free-shipping-disabled:after
+      color: #666
+    .item-installments
+      &.item__free-shipping-disabled:after
+        color: #666
+      &:after
+        content: '\e90b'
+      &.showInterest:after
+        color: #666
+        font-family: 'search-icons'
+        position: absolute
+        top: 0
+        left: 0
+        line-height: 18px
+    .item__attributes
+      color: #666
+      font-size: 14px
+  &:hover:after
+    -webkit-box-shadow: none
+    box-shadow: none
+    opacity: 0
+  .images-viewer, .image-content
+    width: 160px
+    height: 160px
+  .figure.item-image
+    margin: 0 auto
+    width: 160px
+    height: 100%
+    display: block
+    text-align: center
+  img
+    width: 160px
+    height: 160px
+    -o-object-fit: contain
+    object-fit: contain
+    -webkit-border-radius: 4px
+    border-radius: 4px
+  .item__price
+    display: inline-block
+    line-height: 1.1
+    margin-top: 16px
+    margin-bottom: 14px
+    &.item__price-discount
+      margin-top: 0
+  .price__container
+    position: relative
+  .item__stack_column__info
+    margin-bottom: 18px
+  .item__discount
+    display: inline-block
+    margin-top: -15px
+  .price-old
+    top: 0
+    left: 0
+    position: relative
+    display: block
+    margin-top: 12px
+  .item__title
+    color: #333
+    font-size: 20px
+    line-height: 1.2
+    min-height: inherit
+    max-width: 95%
+    a
+      display: block
+    .item__brand:hover
+      color: #666
+  .item__brand, .item__car-dealer
+    color: #666
+    margin-top: 0
+    display: inline-block
+    clear: both
+    text-decoration: none
+  .item__info__auction
+    font-size: 14px
+    color: #666
+    span
+      font-weight: bold
+      color: #333
+  .list-view-item-brand
+    font-size: 14px
+    font-weight: 300
+    line-height: 1.3
+    color: #999
+    margin-top: 2px
+  .item-installments
+    position: absolute
+    top: 36px
+    left: 29px
+    font-size: 14px
+    color: #666
+    font-weight: 400
+    padding: 0
+    &.shipping
+      color: #39b54a
+  .item__reviews
+    position: static
+    display: block
+    margin-bottom: 11px
+    .star
+      width: 13px
+      &.star-icon-half
+        &:before, &:after
+          font-size: 14px
+      &.star-icon-full:after, &:after
+        font-size: 14px
+      &.star-icon-half:after
+        top: 0
+        width: 8px
+    .item__reviews-total
+      font-size: 13px
+      vertical-align: baseline
+  .item__info-container
+    width: 70%
+    -webkit-align-self: flex-start
+    -ms-flex-item-align: start
+    align-self: flex-start
+    margin-top: 18px
+
+.ie9 .item.item--stack .item__info-container
+  position: relative
+  float: right
+
+.item.item--stack
+  .item__info-title
+    color: #333
+    text-decoration: none
+  .item__stack_column
+    width: 49%
+    display: inline-block
+    vertical-align: inherit
+    .stack_column_item
+      position: relative
+      min-height: 20px
+      padding-left: 25px
+      margin-bottom: 5px
+      &.status
+        padding-left: 0
+      .stack-svg, .stack-item-info
+        display: inline-block
+        vertical-align: middle
+      .stack-svg
+        height: 20px
+        margin-right: 9px
+        display: inline-block
+        font-family: "search-icons"
+        font-size: 14px
+        font-style: normal
+        color: #39b54a
+        &:before
+          height: 20px
+          display: inline-block
+          padding: 3px 0
+      .stack-item-info
+        font-size: 14px
+        font-weight: 400
+        line-height: 1.3
+        color: #39b54a
+        position: static
+        &.item__free-shipping-disabled
+          color: #666
+      .svg-installments:before
+        content: "\e912"
+
+.site-MLA .item.item--stack .item__info-container
+  margin-top: 22px
+
+.search-results
+  &.stack
+    &.search-results-srv .item.item--stack
+      .item__image
+        margin-right: 32px
+      .item__title
+        font-weight: 400
+        margin: 10px 0
+      .item__price
+        display: block
+        margin-bottom: 18px
+        margin-top: 3px
+      .price-text, .price-symbol, .price-fraction
+        font-weight: 300
+        font-size: 18px
+      .stack_column_item
+        padding-left: 0
+        font-size: 14px
+        color: #666
+    &.search-results-res .item.item--stack
+      .item__image
+        margin-right: 32px
+      .item__title
+        position: absolute
+        top: 133px
+        font-size: 14px
+      .item__price
+        position: absolute
+        top: 67px
+        margin-top: 9px
+      .item__attrs
+        position: absolute
+        top: 112px
+        color: #333
+        font-size: 14px
+      .item_subtitle
+        position: absolute
+        top: 5px
+        font-size: 12px
+        color: #333
+        font-weight: 500
+        span
+          margin-top: 2px
+          display: inline-block
+          font-size: 20px
+      .price__since
+        position: absolute
+        top: 54px
+        font-size: 12px
+        color: #333
+        span
+          font-size: 20px
+      &:hover .item_subtitle
+        color: #000
+    &.search-results-mot .item.item--stack
+      .item__image
+        margin-right: 32px
+      .item__attrs
+        margin-bottom: 10px
+        color: #333
+        font-size: 14px
+      .item__location
+        color: #666
+        font-size: 14px
+      img
+        -o-object-fit: cover
+        object-fit: cover
+      &:hover .item_subtitle
+        color: #000
+    &.search-results-srv .item.item--stack img
+      -o-object-fit: cover
+      object-fit: cover
+    &.search-results-res .item.item--stack
+      img
+        -o-object-fit: cover
+        object-fit: cover
+      .item__info-title-link
+        color: #333
+        text-decoration: none
+        &:visited
+          .item_subtitle, .item__info-title
+            color: #666
+    &.search-results-mot .item.item--stack
+      img
+        -o-object-fit: cover
+        object-fit: cover
+      .item__info-title:visited .item__title
+        color: #666
+  .item.item--stack .item__pad
+    right: 26px
+    bottom: 20px
+    position: absolute
+
+.item-without-installmets .item.item--stack .item__info-container
+  margin-top: 31px
+
+@media (min-width: 768px) and (max-width: 915px)
+  .item.item--stack .item__info
+    width: 95%
+
+@media (min-width: 600px)
+  .item.item--stack .item__title
+    max-width: 79%
+
+@media (min-width: 769px)
+  .item.item--stack .stack_colum_right
+    bottom: 32px
+    vertical-align: top
+    &.without-reviews
+      .product-header-link
+        padding-top: 0
+        margin-top: 33px
+        height: 16px
+      &.with-attributes
+        .item__attributes
+          margin-top: 33px
+        .product-header-link
+          padding-top: 5px
+          margin-top: 6px
+          height: 18px
+    &.with-reviews.with-attributes
+      .item__attributes
+        margin-top: 16px
+      .product-header-link
+        margin-top: 6px
+
+@media (min-width: 820px)
+  .item.item--stack .item__title
+    max-width: 85%
+
+@media (min-width: 1000px)
+  .item.item--stack .item__title
+    max-width: 95%
+
+@media (min-width: 1114px)
+  .item.item--stack
+    .item__stack_column
+      vertical-align: top
+    #bookmarkForm button.bookmarks
+      top: 9px
+    .stack_colum_right
+      vertical-align: inherit
+  .search-results.stack .item .item__title .main-title
+    -webkit-line-clamp: 1
+  .item-without-installmets .item.item--stack #bookmarkForm button.bookmarks
+    top: 21px
+
+@media (max-width: 768px)
+  .item.item--stack .item__stack_column
+    width: 90%
+
+@media (min-width: 680px)
+  .item.item--stack .product-header-link
+    max-width: 180px
+
+@media (min-width: 768px)
+  .item.item--stack .product-header-link
+    max-width: 240px
+
+@media (min-width: 769px)
+  .item.item--stack .product-header-link
+    max-width: 129px
+
+@media (min-width: 954px)
+  .item.item--stack .product-header-link
+    max-width: 180px
+
+@media (min-width: 1024px)
+  .item.item--stack .product-header-link
+    max-width: 210px
+
+@media (min-width: 1200px)
+  .item.item--stack .product-header-link
+    max-width: 280px
+
+@media (min-width: 1216px)
+  .item.item--stack .product-header-link
+    max-width: 300px
+
+.search-results.stack
+  max-width: 884px
+  margin-left: 9px
+  li
+    position: relative
+    height: 300px
+    .item
+      -webkit-border-radius: 0
+      border-radius: 0
+    &:first-child .item
+      -webkit-border-top-left-radius: 4px
+      border-top-left-radius: 4px
+      -webkit-border-top-right-radius: 4px
+      border-top-right-radius: 4px
+    &:last-child
+      .item
+        -webkit-border-bottom-left-radius: 4px
+        border-bottom-left-radius: 4px
+        -webkit-border-bottom-right-radius: 4px
+        border-bottom-right-radius: 4px
+      &:after
+        display: none
+    &:after
+      content: ""
+      position: absolute
+      left: 24px
+      bottom: 0
+      height: 1px
+      width: 94.5%
+      border-bottom: 1px solid #eee
+
+@media (min-width: 600px) and (max-width: 767px)
+  .results.stack
+    width: 68%
+
+@media (min-width: 768px) and (max-width: 915px)
+  .results.stack
+    width: 68%
+
+@media (min-width: 916px) and (max-width: 1219px)
+  .results.stack
+    width: 72%
+
+@media (min-width: 1220px)
+  .results.stack
+    width: 75%
+    max-width: 884px
+
+@media (min-width: 795px)
+  .search-results.stack li
+    height: 268px
+
+@media (min-width: 1114px)
+  .search-results.stack li
+    height: 214px
+
+@media (max-width: 1113px)
+  .item.item--stack .item__info-container
+    -webkit-align-self: center
+    -ms-flex-item-align: center
+    align-self: center
+    margin-top: 0
+  .item-without-installmets .item.item--stack .item__info-container
+    margin-top: 0
+
+.item
+  &.item--stack
+    .item__brand:hover
+      color: #333
+    .item__info-title:hover, .item__title .main-title:hover
+      color: #000
+    .item__brand:hover
+      color: #333
+    .item__info-title:hover
+      color: #000
+    .product-header-link:hover
+      color: #1259c3
+  &.item--grid
+    width: 284px
+    &.to-item .item__title .main-title
+      min-height: 18px
+    .item__shipping.icon-plane-small:after
+      font-size: 20px
+      left: 0
+      top: 8px
+    .item__title
+      max-width: 236px
+      margin-top: 12px
+      .main-title
+        max-height: 36px
+        min-height: 36px
+      .item__brand, .item__car-dealer
+        display: none
+      .item__brand:hover
+        color: #666
+    .item__condition
+      font-size: 13px
+      color: #333
+      display: inline-block
+      overflow: hidden
+      text-overflow: ellipsis
+      display: -webkit-box
+      -webkit-line-clamp: 1
+      -webkit-box-orient: vertical
+    .item__info__auction
+      font-size: 14px
+      color: #666
+      margin-top: 8px
+      span
+        font-weight: bold
+        color: #333
+    button.bookmarks
+      position: absolute
+      top: 16px
+      right: 10px
+    .item__price
+      display: inline-block
+      display: inline
+    .item__discount
+      display: inline-block
+    .item-installments
+      padding: 0
+      margin-top: 2px
+    .item__pad
+      text-align: right
+      margin-top: 5px
+      color: #666
+      display: none
+    .item__info
+      height: 174px
+      padding-top: 25px
+      padding-bottom: 19px
+    .item__shipping-promise
+      display: none
+      font-size: 14px
+      font-weight: 400
+      line-height: 1.3
+      color: #39b54a
+      margin-top: 12px
+    .item__image
+      width: 284px
+      height: 284px
+      background: #fff
+      -webkit-border-radius: 4px 4px 0 0
+      border-radius: 4px 4px 0 0
+      overflow: hidden
+    img
+      width: 284px
+      height: 284px
+      -webkit-border-radius: 4px 4px 0 0
+      border-radius: 4px 4px 0 0
+      margin: 0 auto
+      display: block
+    .item__reviews
+      display: none
+      margin-top: 15px
+    .item__status
+      margin-top: 14px
+      overflow: hidden
+    .product-header-link
+      display: none
+      margin-top: 15px
+
+.ipad
+  .search-results.grid .results-item.item-info-height-109
+    height: 430px !important
+  .results-item.item-info-height-109 .item__info
+    height: 145px !important
+  .search-results.grid .results-item.item-info-height-133
+    height: 437px !important
+  .results-item.item-info-height-133 .item__info
+    height: 153px !important
+  .search-results.grid .results-item.item-info-height-139
+    height: 447px !important
+  .results-item.item-info-height-139 .item__info
+    height: 163px !important
+  .search-results.grid .results-item.item-info-height-163
+    height: 447px !important
+  .results-item.item-info-height-163 .item__info
+    height: 163px !important
+
+.results-item.grid
+  &.item-info-height-109 .item__info
+    height: 117px
+  &.item-info-height-133 .item__info
+    height: 133px
+  &.item-info-height-139 .item__info
+    height: 139px
+  &.item-info-height-163 .item__info
+    height: 163px
+
+.search-results.grid .results-item
+  &.item-info-height-109
+    height: 401px
+  &.item-info-height-133
+    height: 417px
+  &.item-info-height-139
+    height: 423px
+  &.item-info-height-163
+    height: 447px
+
+.layout-base .search-results.grid.search-results-mot .results-item, .layout-deal .search-results.grid.search-results-mot .results-item, .layout-officialStore .search-results.grid.search-results-mot .results-item, .layout-base .search-results.grid.search-results-mot .item.item--grid, .layout-deal .search-results.grid.search-results-mot .item.item--grid, .layout-officialStore .search-results.grid.search-results-mot .item.item--grid
+  height: 384px
+
+.layout-base .search-results.grid.search-results-mot .item.item--grid
+  .item__image, img
+    height: 213px
+    -o-object-fit: cover
+    object-fit: cover
+
+.layout-deal .search-results.grid.search-results-mot .item.item--grid
+  .item__image, img
+    height: 213px
+    -o-object-fit: cover
+    object-fit: cover
+
+.layout-officialStore .search-results.grid.search-results-mot .item.item--grid
+  .item__image, img
+    height: 213px
+    -o-object-fit: cover
+    object-fit: cover
+
+.layout-base .search-results.grid.search-results-mot .item.item--grid .item__info-link:visited .item__title, .layout-deal .search-results.grid.search-results-mot .item.item--grid .item__info-link:visited .item__title, .layout-officialStore .search-results.grid.search-results-mot .item.item--grid .item__info-link:visited .item__title
+  color: #666
+
+.layout-base .search-results.grid.search-results-mot .item.item--grid .item__info, .layout-deal .search-results.grid.search-results-mot .item.item--grid .item__info, .layout-officialStore .search-results.grid.search-results-mot .item.item--grid .item__info
+  height: 171px
+
+.layout-base .search-results.grid.search-results-mot .item.item--grid .item__info .item__title, .layout-deal .search-results.grid.search-results-mot .item.item--grid .item__info .item__title, .layout-officialStore .search-results.grid.search-results-mot .item.item--grid .item__info .item__title
+  position: static
+  margin-top: 0
+
+.layout-base .search-results.grid.search-results-mot .item.item--grid .item__info .item__attrs, .layout-deal .search-results.grid.search-results-mot .item.item--grid .item__info .item__attrs, .layout-officialStore .search-results.grid.search-results-mot .item.item--grid .item__info .item__attrs
+  font-size: 14px
+  color: #333
+  padding-bottom: 15px
+
+.layout-base .search-results.grid.search-results-mot .item.item--grid .item__info .item__price, .layout-deal .search-results.grid.search-results-mot .item.item--grid .item__info .item__price, .layout-officialStore .search-results.grid.search-results-mot .item.item--grid .item__info .item__price
+  margin-bottom: 6px
+
+.layout-base .search-results.grid.search-results-mot .item.item--grid .item__info .item__location, .layout-deal .search-results.grid.search-results-mot .item.item--grid .item__info .item__location, .layout-officialStore .search-results.grid.search-results-mot .item.item--grid .item__info .item__location
+  margin-top: 15px
+  bottom: 25px
+  font-size: 14px
+  color: #999
+
+.layout-base .search-results.grid.search-results-res .results-item, .layout-deal .search-results.grid.search-results-res .results-item, .layout-officialStore .search-results.grid.search-results-res .results-item
+  height: 498px
+
+.layout-base .search-results.grid.search-results-res .item.item--grid, .layout-deal .search-results.grid.search-results-res .item.item--grid, .layout-officialStore .search-results.grid.search-results-res .item.item--grid
+  min-height: 498px
+  height: 498px
+
+.layout-base .search-results.grid.search-results-res .item.item--grid
+  .item__image, .item__attrs
+    font-size: 14px
+    color: #333
+    padding-bottom: 16px
+
+.layout-deal .search-results.grid.search-results-res .item.item--grid
+  .item__image, .item__attrs
+    font-size: 14px
+    color: #333
+    padding-bottom: 16px
+
+.layout-officialStore .search-results.grid.search-results-res .item.item--grid
+  .item__image, .item__attrs
+    font-size: 14px
+    color: #333
+    padding-bottom: 16px
+
+.layout-base .search-results.grid.search-results-res .item.item--grid .item__image, .layout-deal .search-results.grid.search-results-res .item.item--grid .item__image, .layout-officialStore .search-results.grid.search-results-res .item.item--grid .item__image
+  padding-bottom: 0
+
+.layout-base .search-results.grid.search-results-res .item.item--grid .item__image img, .layout-deal .search-results.grid.search-results-res .item.item--grid .item__image img, .layout-officialStore .search-results.grid.search-results-res .item.item--grid .item__image img
+  -o-object-fit: cover
+  object-fit: cover
+
+.layout-base .search-results.grid.search-results-res .item.item--grid .item__info-link:visited
+  .item_subtitle, .item__info-title
+    color: #666
+
+.layout-deal .search-results.grid.search-results-res .item.item--grid .item__info-link:visited
+  .item_subtitle, .item__info-title
+    color: #666
+
+.layout-officialStore .search-results.grid.search-results-res .item.item--grid .item__info-link:visited
+  .item_subtitle, .item__info-title
+    color: #666
+
+.layout-base .search-results.grid.search-results-res .item.item--grid .item__info, .layout-deal .search-results.grid.search-results-res .item.item--grid .item__info, .layout-officialStore .search-results.grid.search-results-res .item.item--grid .item__info
+  min-height: 216px
+  height: 216px
+  padding-top: 34px
+  overflow: hidden
+
+.layout-base .search-results.grid.search-results-res .item.item--grid .item__info .item_subtitle, .layout-deal .search-results.grid.search-results-res .item.item--grid .item__info .item_subtitle, .layout-officialStore .search-results.grid.search-results-res .item.item--grid .item__info .item_subtitle
+  color: #333
+  font-size: 12px
+  max-height: 54px
+  overflow: hidden
+  font-weight: 500
+
+.layout-base .search-results.grid.search-results-res .item.item--grid .item__info .item_subtitle span, .layout-deal .search-results.grid.search-results-res .item.item--grid .item__info .item_subtitle span, .layout-officialStore .search-results.grid.search-results-res .item.item--grid .item__info .item_subtitle span
+  font-size: 18px
+  margin-top: 4px
+  display: inline-block
+
+.layout-base .search-results.grid.search-results-res .item.item--grid .item__info .price__since, .layout-deal .search-results.grid.search-results-res .item.item--grid .item__info .price__since, .layout-officialStore .search-results.grid.search-results-res .item.item--grid .item__info .price__since
+  position: absolute
+  top: 21px
+  color: #333
+  font-size: 12px
+
+.layout-base .search-results.grid.search-results-res .item.item--grid .item__info .delivery__date, .layout-deal .search-results.grid.search-results-res .item.item--grid .item__info .delivery__date, .layout-officialStore .search-results.grid.search-results-res .item.item--grid .item__info .delivery__date
+  color: #333
+  font-size: 12px
+  display: none
+  position: static
+  margin-top: 16px
+
+.layout-base .search-results.grid.search-results-res .item.item--grid .item__info .item__title, .layout-deal .search-results.grid.search-results-res .item.item--grid .item__info .item__title, .layout-officialStore .search-results.grid.search-results-res .item.item--grid .item__info .item__title
+  position: static
+  margin-top: 15px
+  overflow: hidden
+  margin-bottom: 0
+  overflow: hidden
+  text-overflow: ellipsis
+  display: -webkit-box
+  -webkit-line-clamp: 2
+  -webkit-box-orient: vertical
+
+.layout-base .search-results.grid.search-results-res .item.item--grid .item__price, .layout-deal .search-results.grid.search-results-res .item.item--grid .item__price, .layout-officialStore .search-results.grid.search-results-res .item.item--grid .item__price
+  margin-bottom: 6px
+
+.layout-base .search-results.grid.search-results-srv .results-item, .layout-deal .search-results.grid.search-results-srv .results-item, .layout-officialStore .search-results.grid.search-results-srv .results-item, .layout-base .search-results.grid.search-results-srv .item.item--grid, .layout-deal .search-results.grid.search-results-srv .item.item--grid, .layout-officialStore .search-results.grid.search-results-srv .item.item--grid
+  height: 412px
+
+.layout-base .search-results.grid.search-results-srv .item.item--grid
+  .item__image, img
+    height: 213px
+    -o-object-fit: cover
+    object-fit: cover
+
+.layout-deal .search-results.grid.search-results-srv .item.item--grid
+  .item__image, img
+    height: 213px
+    -o-object-fit: cover
+    object-fit: cover
+
+.layout-officialStore .search-results.grid.search-results-srv .item.item--grid
+  .item__image, img
+    height: 213px
+    -o-object-fit: cover
+    object-fit: cover
+
+.layout-base .search-results.grid.search-results-srv .item.item--grid .item__info, .layout-deal .search-results.grid.search-results-srv .item.item--grid .item__info, .layout-officialStore .search-results.grid.search-results-srv .item.item--grid .item__info
+  height: 199px
+  padding-top: 4px
+
+.layout-base .search-results.grid.search-results-srv .item.item--grid .item__info .item__title, .layout-deal .search-results.grid.search-results-srv .item.item--grid .item__info .item__title, .layout-officialStore .search-results.grid.search-results-srv .item.item--grid .item__info .item__title
+  position: static
+  font-size: 20px
+  margin-bottom: 14px
+  max-height: 52px
+  overflow: hidden
+  color: #333
+  font-weight: 400
+
+.layout-base .search-results.grid.search-results-srv .item.item--grid .item__info .item__title .main-title, .layout-deal .search-results.grid.search-results-srv .item.item--grid .item__info .item__title .main-title, .layout-officialStore .search-results.grid.search-results-srv .item.item--grid .item__info .item__title .main-title
+  max-height: none
+
+.layout-base .search-results.grid.search-results-srv .item.item--grid .item__info .item__attrs, .layout-deal .search-results.grid.search-results-srv .item.item--grid .item__info .item__attrs, .layout-officialStore .search-results.grid.search-results-srv .item.item--grid .item__info .item__attrs
+  font-size: 14px
+  color: #333
+  padding-bottom: 24px
+
+.layout-base .search-results.grid.search-results-srv .item.item--grid .item__info .item__price, .layout-deal .search-results.grid.search-results-srv .item.item--grid .item__info .item__price, .layout-officialStore .search-results.grid.search-results-srv .item.item--grid .item__info .item__price
+  font-size: 18px
+  height: 18px
+  margin-bottom: 20px
+  font-weight: 300
+
+.layout-base .search-results.grid.search-results-srv .item.item--grid .item__info .item__location, .layout-deal .search-results.grid.search-results-srv .item.item--grid .item__info .item__location, .layout-officialStore .search-results.grid.search-results-srv .item.item--grid .item__info .item__location
+  font-size: 14px
+  color: #999
+  height: 18px
+  margin-bottom: 18px
+  margin-top: 17px
+  position: static
+
+.layout-base .search-results.grid.search-results-srv .item.item--grid .item__info:hover .item__title, .layout-deal .search-results.grid.search-results-srv .item.item--grid .item__info:hover .item__title, .layout-officialStore .search-results.grid.search-results-srv .item.item--grid .item__info:hover .item__title
+  max-height: none
+
+.layout-base .search-results.grid.search-results-srv .item.item--grid .item__info:hover .main-title, .layout-deal .search-results.grid.search-results-srv .item.item--grid .item__info:hover .main-title, .layout-officialStore .search-results.grid.search-results-srv .item.item--grid .item__info:hover .main-title
+  max-height: none
+  overflow: inherit
+  text-overflow: inherit
+  display: block
+
+.layout-base .search-results.grid.search-results-srv .item.item--grid:hover, .layout-deal .search-results.grid.search-results-srv .item.item--grid:hover, .layout-officialStore .search-results.grid.search-results-srv .item.item--grid:hover
+  height: auto
+  min-height: 412px
+
+.layout-base .search-results.grid.search-results-srv .item.item--grid:hover .item__info, .layout-deal .search-results.grid.search-results-srv .item.item--grid:hover .item__info, .layout-officialStore .search-results.grid.search-results-srv .item.item--grid:hover .item__info
+  height: auto
+  min-height: 199px
+
+.layout-base .search-results.grid.search-results-srv .item.item--grid:hover .item__info .item__title, .layout-deal .search-results.grid.search-results-srv .item.item--grid:hover .item__info .item__title, .layout-officialStore .search-results.grid.search-results-srv .item.item--grid:hover .item__info .item__title
+  max-height: 120px
+
+.layout-base .search-results.grid.search-results-srv .item.item--grid .item__reviews, .layout-deal .search-results.grid.search-results-srv .item.item--grid .item__reviews, .layout-officialStore .search-results.grid.search-results-srv .item.item--grid .item__reviews
+  display: block
+  position: static
+
+@media (min-width: 1024px) and (max-width: 1164px), (min-width: 720px) and (max-width: 861px)
+  .item.item--grid
+    width: 240px
+    .item__image, img
+      width: 240px
+      height: 240px
+  .search-results.grid .results-item
+    &.item-info-height-109
+      height: 360px
+    &.item-info-height-133
+      height: 375px
+    &.item-info-height-139
+      height: 385px
+    &.item-info-height-163
+      height: 405px
+  .layout-base .search-results.grid.search-results-mot .results-item, .layout-deal .search-results.grid.search-results-mot .results-item, .layout-officialStore .search-results.grid.search-results-mot .results-item, .layout-base .search-results.grid.search-results-mot .item.item--grid, .layout-deal .search-results.grid.search-results-mot .item.item--grid, .layout-officialStore .search-results.grid.search-results-mot .item.item--grid
+    height: 351px
+  .layout-base .search-results.grid.search-results-mot .item.item--grid
+    .item__image, img
+      height: 180px
+  .layout-deal .search-results.grid.search-results-mot .item.item--grid
+    .item__image, img
+      height: 180px
+  .layout-officialStore .search-results.grid.search-results-mot .item.item--grid
+    .item__image, img
+      height: 180px
+  .layout-base .search-results.grid.search-results-res .results-item, .layout-deal .search-results.grid.search-results-res .results-item, .layout-officialStore .search-results.grid.search-results-res .results-item
+    height: 451px
+  .layout-base .search-results.grid.search-results-res .item.item--grid, .layout-deal .search-results.grid.search-results-res .item.item--grid, .layout-officialStore .search-results.grid.search-results-res .item.item--grid
+    min-height: 451px
+    height: 451px
+  .layout-base .search-results.grid.search-results-res .item.item--grid .item__info, .layout-deal .search-results.grid.search-results-res .item.item--grid .item__info, .layout-officialStore .search-results.grid.search-results-res .item.item--grid .item__info
+    min-height: 222px
+    height: 222px
+  .layout-base .search-results.grid.search-results-srv .results-item, .layout-deal .search-results.grid.search-results-srv .results-item, .layout-officialStore .search-results.grid.search-results-srv .results-item, .layout-base .search-results.grid.search-results-srv .item.item--grid, .layout-deal .search-results.grid.search-results-srv .item.item--grid, .layout-officialStore .search-results.grid.search-results-srv .item.item--grid
+    height: 379px
+  .layout-base .search-results.grid.search-results-srv .item.item--grid
+    .item__image, img
+      height: 180px
+  .layout-deal .search-results.grid.search-results-srv .item.item--grid
+    .item__image, img
+      height: 180px
+  .layout-officialStore .search-results.grid.search-results-srv .item.item--grid
+    .item__image, img
+      height: 180px
+
+.no-js .item.item--grid
+  .item__title .item__brand, .product-header-link
+    display: none !important
+
+.results.grid
+  padding-bottom: 88px
+  margin-bottom: 35px
+
+.search-results.grid
+  min-height: 370px
+  padding-bottom: 32px
+  padding-top: 2px
+  overflow: visible
+  list-style: none
+  .results-item
+    width: 282px
+    height: 458px
+    float: left
+    margin: 0 9px 15px
+    position: relative
+
+@media (min-width: 1024px) and (max-width: 1164px), (min-width: 720px) and (max-width: 861px)
+  .search-results.grid .results-item
+    width: 240px
+    height: 415px
+    margin: 0 6px 11px
+
+.item.item--grid
+  &.new.to-item .item__title .item__brand
+    display: block
+  .item__status, .item__pad
+    display: none
+  .product-header-link:hover
+    color: #1259c3
+  &:hover
+    .item__reviews, .item__shipping-promise, .item__status, .item__brand, .item__car-dealer, .item__pad
+      display: block
+    .item__info
+      height: auto !important
+    .item__info--with-reviews .main-title
+      min-height: 18px
+    .product-header-link
+      text-overflow: ellipsis
+      display: -webkit-box
+      -webkit-line-clamp: 1
+      -webkit-box-orient: vertical
+      max-width: 100%
+      overflow: hidden
+      height: 16px
+
+.layout-base .search-results.grid.search-results-res .item.item--grid:hover, .layout-deal .search-results.grid.search-results-res .item.item--grid:hover, .layout-officialStore .search-results.grid.search-results-res .item.item--grid:hover, .layout-base .search-results.grid.search-results-res .item.item--grid:hover .item__info, .layout-deal .search-results.grid.search-results-res .item.item--grid:hover .item__info, .layout-officialStore .search-results.grid.search-results-res .item.item--grid:hover .item__info
+  height: auto
+
+.layout-base .search-results.grid.search-results-res .item.item--grid:hover .item__info .item__title, .layout-deal .search-results.grid.search-results-res .item.item--grid:hover .item__info .item__title, .layout-officialStore .search-results.grid.search-results-res .item.item--grid:hover .item__info .item__title, .layout-base .search-results.grid.search-results-res .item.item--grid:hover .item__info .item_subtitle, .layout-deal .search-results.grid.search-results-res .item.item--grid:hover .item__info .item_subtitle, .layout-officialStore .search-results.grid.search-results-res .item.item--grid:hover .item__info .item_subtitle
+  max-height: 500px
+
+.layout-base .search-results.grid.search-results-res .item.item--grid:hover .delivery__date, .layout-deal .search-results.grid.search-results-res .item.item--grid:hover .delivery__date, .layout-officialStore .search-results.grid.search-results-res .item.item--grid:hover .delivery__date
+  display: block
+
+.search-results .results-item .item--mosaic
+  margin: 0 8px 16px 8px
+  width: 284px
+  float: left
+  &.to-item .item__title .main-title
+    min-height: 18px
+  .item__shipping.icon-plane-small:after
+    font-size: 20px
+    left: 0
+    top: 8px
+  &:nth-child(3n)
+    margin-right: 0
+  &.item-hide
+    opacity: 0
+  &.item-show
+    -webkit-animation: fade-in 300ms ease-out both
+    animation: fade-in 300ms ease-out both
+  img
+    display: block
+  .carousel .carousel__item a
+    display: block
+    position: relative
+    top: 50%
+    -webkit-transform: translateY(-50%)
+    -ms-transform: translateY(-50%)
+    transform: translateY(-50%)
+  .item__image img
+    visibility: hidden
+    &[src]
+      display: block
+      visibility: visible
+  .figure
+    display: block
+  .item__title
+    max-width: 236px
+    margin-top: 12px
+    .main-title
+      max-height: 36px
+      min-height: 36px
+    .item__brand
+      display: none
+      &:hover
+        color: #666
+  .item__discount
+    display: inline-block
+  .item__price
+    display: inline-block
+    display: inline
+  .item__reviews, .product-header-link
+    display: none
+    margin-top: 15px
+  .item__condition
+    font-size: 13px
+    color: #333
+    display: inline-block
+  .item__status
+    margin-top: 14px
+    overflow: hidden
+  button.bookmarks
+    position: absolute
+    top: 16px
+    right: 10px
+  .item__pad
+    float: right
+    color: #666
+  .item__info
+    height: 174px
+    padding-top: 25px
+    padding-bottom: 19px
+  .item__shipping-promise
+    display: none
+    font-size: 14px
+    font-weight: 400
+    line-height: 1.3
+    color: #39b54a
+    margin-top: 12px
+
+.ipad .results-item.mosaic
+  &.item-info-height-109 .item__info
+    height: 145px !important
+  &.item-info-height-133 .item__info
+    height: 153px !important
+  &.item-info-height-139 .item__info
+    height: 159px !important
+  &.item-info-height-163 .item__info
+    height: 163px !important
+
+.results-item.mosaic
+  &.item-info-height-109 .item__info
+    height: 117px
+  &.item-info-height-133 .item__info
+    height: 133px
+  &.item-info-height-139 .item__info
+    height: 139px
+  &.item-info-height-163 .item__info
+    height: 163px
+
+.no-js .item.item--mosaic
+  .item__title .item__brand, .product-header-link
+    display: none !important
+
+.results.mosaic
+  padding-bottom: 88px
+  margin-bottom: 35px
+
+@-webkit-keyframes fade-in
+  0%
+    opacity: 0
+
+  to
+    opacity: 1
+
+
+@keyframes fade-in
+  0%
+    opacity: 0
+
+  to
+    opacity: 1
+
+
+.search-results .results-item .item--mosaic
+  &.new.to-item
+    .item__title .item__brand, &:hover .item__status
+      display: block
+  &.used:hover .item__title .item__brand
+    display: block
+  &.new.to-item .item__status, &.used .item__title .item__brand, .item__status, .item__pad
+    display: none
+  &:hover
+    .item__reviews, .item__status, .item__shipping-promise, .item__brand, .item__car-dealer, .item__pad
+      display: block
+    .item__info
+      min-height: 174px
+      height: auto
+    .item__info--with-reviews .main-title
+      min-height: 18px
